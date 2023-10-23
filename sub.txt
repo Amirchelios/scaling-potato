@@ -1,12 +1,9 @@
 ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=@109.201.152.181:443#%F0%9F%87%B3%F0%9F%87%B1wifi
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.18.107:443#%F0%9F%87%AB%F0%9F%87%B7wifi
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.84.198:443#%F0%9F%87%AB%F0%9F%87%B7wifi
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.59.160:443#%F0%9F%87%AB%F0%9F%87%B7wifi
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@146.59.71.220:443#%F0%9F%87%AB%F0%9F%87%B7wifi
 ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@198.244.231.27:443#%F0%9F%87%AC%F0%9F%87%A7wifi
 ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.59.165:443#%F0%9F%87%AB%F0%9F%87%B7sim
 ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.170.225:443#%F0%9F%87%A9%F0%9F%87%AAsim
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.83.13:443#%F0%9F%87%AB%F0%9F%87%B7sim
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.59.163:443#%F0%9F%87%AB%F0%9F%87%B7sim
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.204.77:443#%F0%9F%87%AB%F0%9F%87%B7sim
-ss://YWVzLTI1Ni1jZmI6YXNkS2thc2tKS2Zuc2E=@162.19.59.169:443#%F0%9F%87%AB%F0%9F%87%B7sim
+trojan://telegram-id-directvpn@3.79.77.105:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#%F0%9F%87%A9%F0%9F%87%AAwifi
+trojan://c33883045c@198.244.252.93:443?security=tls&sni=uk1.connecton.surf&type=tcp#%F0%9F%87%AC%F0%9F%87%A7wifi
+trojan://telegram-id-directvpn@13.53.223.100:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#%F0%9F%87%B8%F0%9F%87%AAwifi
+trojan://telegram-id-privatevpns@52.215.175.112:22222?security=tls&sni=trj.rollingnext.co.uk&type=tcp#%F0%9F%87%AE%F0%9F%87%AAwifi
+vmess://eyJhZGQiOiI5MS4xMDcuMTkxLjIyNSIsImFpZCI6IjAiLCJob3N0Ijoic3BlZWR0ZXN0Lm5ldCIsImlkIjoiYzhjM2E5MWEtNzNjMi00OTk3LWEzYWItMTBjNTg5ZGIwODAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIzNTY5NCIsInBzIjoid2lmaSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiYXV0byIsInYiOiIyIn0=
