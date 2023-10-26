@@ -1,10 +1,11 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash
-# 创建时间：25-10-2023 20:54:51
+# 客户端：Clash.Meta
+# 创建时间：26-10-2023 18:46:41
 # 使用模版：V2RaySE 默认模版
-# 节点数量：1
+# 节点数量：26
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -85,46 +86,221 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣","type":"vmess","server":"172.232.148.56","port":8442,"cipher":"auto","uuid":"ece77c52-330e-4805-b8f5-704563f13ac8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣","type":"vless","server":"95.216.204.122","port":80,"uuid":"fbd132f1-7f21-477b-cf1b-13cb45606d05","network":"tcp"}
+  - {"name":"رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣","type":"vmess","server":"135.125.135.241","port":443,"cipher":"auto","uuid":"b20b983c-329d-4fe2-a749-f9748d547c5f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣","type":"vmess","server":"sw-141.95.75.148.nip.io","port":443,"cipher":"auto","uuid":"ce76d32e-3bc7-4a4f-bf2c-abddb893bed7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣","type":"vless","server":"188.34.158.166","port":443,"udp":true,"uuid":"ItsDgNmt","tls":true,"servername":"mihanyas.ir","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tOt48g55z8PSSTaPsb8xE_HvfKL9lkvozIpwpwZucTc","short-id":"d2af3f25"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣","type":"vless","server":"188.34.158.166","port":443,"udp":true,"uuid":"ItsDgNmt","tls":true,"servername":"mihanyas.ir","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"tOt48g55z8PSSTaPsb8xE_HvfKL9lkvozIpwpwZucTc","short-id":"d2af3f25"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣","type":"ss","server":"ak1802.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣","type":"vless","server":"104.248.33.161","port":2566,"udp":true,"uuid":"c0a5453e-fcb3-47bb-a00f-ebd3e1d08f80","tls":true,"servername":"www.sovrn.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4FrUU-xUEW07hK15lua0w7WML-czQ-N-xBLVM3Du8BU","short-id":"c5dce9b439679390"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣","type":"vless","server":"134.209.250.67","port":2567,"udp":true,"uuid":"c0a5453e-fcb3-47bb-a00f-ebd3e1d08f80","tls":true,"servername":"legal.hubspot.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4FrUU-xUEW07hK15lua0w7WML-czQ-N-xBLVM3Du8BU","short-id":"c5dce9b439679390"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣","type":"vless","server":"[","port":null,"udp":true,"uuid":"3b98048b-e573-44e0-bc48-ec9a5c07bdce","tls":true,"servername":"canva.com","network":"tcp","reality-opts":{"public-key":"pTj7XyvnzpUEx7oPtBgN8q4cP5w6iosy_Ts7obpAvB4","short-id":"a0862038"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣","type":"vless","server":"[","port":null,"udp":true,"uuid":"77239301-8431-4440-9c42-8ac098094cdf","tls":true,"servername":"ftp.debian.org","network":"tcp","reality-opts":{"public-key":"cy9FTlz7K_ZzNITkar9nze1B4zG6kueoVq6oT_in-Uo","short-id":"ecc37fb0"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣","type":"vless","server":"[","port":null,"udp":true,"uuid":"f7356c70-0cf4-485c-bde5-bede0306bbdf","tls":true,"servername":"sourceforge.net","network":"tcp","reality-opts":{"public-key":"Ty8nckFcmCP4AuZwePTNC7x0M7z_C_L2DcKASfmd4kU","short-id":"97b64057"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣","type":"trojan","server":"5.104.107.143","port":443,"udp":true,"password":"3ed4d5f3-68e9-42fc-978a-22afc2523e5a","sni":"de1.xn--mes358a9urctx.com","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣","type":"vless","server":"65.108.144.131","port":34667,"udp":true,"uuid":"57ded56a-daba-4a97-b8a1-f3b25ebed964","tls":true,"servername":"sourceforge.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"CnJJ9UHNl1vAN3zY41Wi3CVcMtHHErirgtWg7ztpZyQ","short-id":"9e4562bc"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣","type":"trojan","server":"52.47.53.27","port":22222,"udp":true,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"network":"tcp","alpn":["http/1.1"]}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣","type":"vless","server":"128.199.49.135","port":2568,"udp":true,"uuid":"c0a5453e-fcb3-47bb-a00f-ebd3e1d08f80","tls":true,"servername":"wrs.se","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4FrUU-xUEW07hK15lua0w7WML-czQ-N-xBLVM3Du8BU"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣","type":"vless","server":"95.216.149.88","port":19895,"udp":true,"uuid":"781f8635-c153-432c-e8ec-c0484b2748b0","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣","type":"vless","server":"209.250.244.245","port":443,"udp":true,"uuid":"01596265-168b-46a7-bcb7-25662c7a9546","tls":true,"servername":"dweb.link","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"OpqpQzXN7zSlM-P4YhdjProDaYJt0KzzpdsCMUqQmm0","short-id":"7519cb"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣","type":"vless","server":"91.107.200.123","port":443,"udp":true,"uuid":"134ddf97-e0cc-449e-9458-66095a7d805b","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Jdc7gbTnU-hGxBPtRRTNsvlfMaM3EyFM57ILUOksegw","short-id":"40a874dd"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣","type":"vless","server":"93.177.103.242","port":20520,"udp":true,"uuid":"463388bb-0ebc-470c-e54b-59b89dfcb99a","tls":true,"servername":"icloud.cdn-apple.com","network":"tcp","reality-opts":{"public-key":"rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣","type":"vless","server":"80.209.237.227","port":443,"udp":true,"uuid":"8e27d88b-26fa-445c-b412-4ab6269ebdb9","tls":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IlPuQVJZ-1QHbh17Hgk-WY3o10atmHNXyMaEbMOPyHE","short-id":"196d88608583a1b4"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣","type":"vless","server":"5.75.254.127","port":443,"udp":true,"uuid":"8802124a-e0e1-4f5e-9d1f-910f2ce331f2","tls":true,"servername":"pt.m.wikipedia.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"MmjAzMw3332GVSrhDya8XULqFCM8tPT4brVTLhFqZxU","short-id":"0493a3d4"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣","type":"vless","server":"168.119.100.141","port":443,"udp":true,"uuid":"269c47da-e5c7-4566-bada-4df95b6be8b0","tls":true,"servername":"www.speedtest.net","network":"grpc","reality-opts":{"public-key":"KuZOpuz0L4H-VNikILS8NP9oA6Ra9uTGEZLHH0FODFM","short-id":"83cdb009"},"client-fingerprint":"firefox"}
+  - {"name":"رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣","type":"vless","server":"206.189.12.230","port":32427,"udp":true,"uuid":"a0d96ec8-56da-4eb0-acbe-9d98ab23f0f3","tls":true,"servername":"www.google.com","network":"grpc","reality-opts":{"public-key":"x1-7qy87aSbn7k_UiCze6qtUPuF9iho3y_hJZaPbnxE","short-id":"64bc4fd4"},"client-fingerprint":"firefox"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣","type":"vless","server":"195.201.46.160","port":8443,"udp":true,"uuid":"50e2a82b-06c8-453e-b17a-b304a277434c","tls":true,"servername":"www.speedtest.net","network":"grpc","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4","short-id":"11"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣","type":"vless","server":"185.125.171.13","port":443,"udp":true,"uuid":"a09373e2-e120-457d-9ec9-ea7fe8bedb52","tls":true,"servername":"partner.g2.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"},"client-fingerprint":"chrome"}
+  - {"name":"رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣","type":"vless","server":"168.119.64.208","port":443,"udp":true,"uuid":"942e2849-9e3a-48fd-e73c-7ce89053cedf","tls":true,"servername":"ftp.debian.org","network":"grpc","reality-opts":{"public-key":"K0ARbeebhZwGShodx5oK2ZB2GGRru17tGo5V4ihTmyY","short-id":"6f6c091e30"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,7 +323,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - رایگان | VMESS | @oneclickvpnkeys | SE🇸🇪 | 0️⃣2️⃣
+      - رایگان | VLESS | @v2rayNG_Matsuri | FI🇫🇮 | 0️⃣3️⃣
+      - رایگان | VMESS | @DeamNet_Proxy | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | VMESS | @oneclickvpnkeys | BY🇧🇾 | 0️⃣2️⃣
+      - رایگان | REALITY | @v2rayNG_Matsuri | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 1️⃣4️⃣
+      - رایگان+|+SS+|+@DeamNet_Proxy+|+PL🇵🇱+|+0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 4️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 0️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 6️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | US🇺🇸 | 3️⃣0️⃣
+      - رایگان | TROJAN | @iP_CF | DE🇩🇪 | 0️⃣1️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 1️⃣9️⃣
+      - رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 5️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | FI🇫🇮 | 4️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NL🇳🇱 | 0️⃣4️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 7️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | TR🇹🇷 | 1️⃣0️⃣8️⃣
+      - رایگان | REALITY | @azadi_az_inja_migzare | LT🇱🇹 | 0️⃣3️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 6️⃣6️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 3️⃣6️⃣
+      - رایگان | REALITY | @ProxyForOpeta | NL🇳🇱 | 0️⃣2️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 0️⃣5️⃣
+      - رایگان | REALITY | @V2Hub | Donated | NO🇳🇴 | 2️⃣7️⃣
+      - رایگان | REALITY | @V2Hub | Donated | DE🇩🇪 | 8️⃣1️⃣
 
 rules:
 # 本地/局域网地址
