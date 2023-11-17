@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "proxyDns",
-        "address": "8.8.8.8",
+        "address": "1.1.1.1",
         "detour": "select"
       },
       {
@@ -75,7 +75,7 @@
       "stack": "system",
       "auto_route": true,
       "inet4_address": "172.19.0.1/30",
-      "mtu": 9000,
+      "mtu": 1280,
       "sniff": true,
       "strict_route": true,
       "type": "tun",
