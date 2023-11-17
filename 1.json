@@ -75,7 +75,7 @@
       "stack": "system",
       "auto_route": true,
       "inet4_address": "172.19.0.1/30",
-      "mtu": 1280,
+      "mtu": 1460,
       "sniff": true,
       "strict_route": true,
       "type": "tun",
