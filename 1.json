@@ -108,415 +108,169 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA-134.195.196.178-10843 | 1",
-                "🇫🇷FR-149.202.82.172-2952 | 2",
-                "🇩🇪DE-145.239.1.100-2863 | 3",
-                "🇩🇪DE-145.239.1.100-2876 | 4",
-                "🇩🇪DE-3.71.92.131-6228 | 5",
-                "🇫🇷FR-149.202.82.172-0837 | 6",
-                "🇩🇪DE-217.182.198.219-6232 | 7",
-                "🇫🇷FR-54.36.174.181-2268 | 8",
-                "🇫🇷FR-145.239.6.202-2885 | 9",
-                "🇫🇷FR-149.202.82.172-2904 | 10",
-                "🇫🇷FR-149.202.82.172-2977 | 11",
-                "🇩🇪DE-145.239.1.100-2912 | 12",
-                "🇩🇪DE-145.239.1.100-2872 | 13",
-                "🇫🇷FR-149.202.82.172-2937 | 14",
-                "🇫🇷FR-149.202.82.172-2901 | 15",
-                "🇫🇷FR-149.202.82.172-2905 | 16",
-                "🇬🇧GB-51.68.206.229-2831 | 17",
-                "🇫🇷FR-54.36.174.181-1556 | 18",
-                "🇫🇷FR-54.36.174.181-2836 | 19",
-                "🇫🇷FR-54.36.174.181-2848 | 20",
-                "🇸🇪SE-51.20.228.116-1992 | 21",
-                "🇸🇪SE-16.16.153.200-1988 | 22",
-                "🇫🇷FR-13.36.121.210-10235 | 23",
-                "🇫🇷FR-15.188.224.58-10056 | 24",
-                "🇩🇪DE-18.198.62.12-0105 | 25",
-                "🇬🇧GB-18.169.247.68-0687 | 26",
-                "🇬🇧GB-18.132.92.245-0110 | 27",
-                "🏁RELAY-172.67.229.25-1117 | 28",
-                "🏁RELAY-172.67.81.238-1447 | 29",
-                "🏁RELAY-104.21.75.246-1101 | 30",
-                "🏁RELAY-104.21.36.26-1098 | 31",
-                "🏁RELAY-172.67.184.53-1072 | 32",
-                "🏁RELAY-104.31.16.120-1090 | 33",
-                "🏁RELAY-188.114.96.7-0210 | 34",
-                "🏁RELAY-188.114.96.3-1487 | 35",
-                "🏁RELAY-188.114.99.0-1139 | 36",
-                "🏁RELAY-104.21.4.29-3728 | 37",
-                "🏁RELAY-162.159.134.234-1227 | 38",
-                "🇺🇸US-172.233.194.102-0610 | 39",
-                "🏁RELAY-104.27.97.42-1125 | 40",
-                "🏁RELAY-172.67.183.110-1540 | 41",
-                "🏁RELAY-162.159.130.234-1337 | 42",
-                "🏁RELAY-188.114.99.0-1557 | 43",
-                "🇺🇸US-80.92.205.112-0238 | 44",
-                "🇺🇸US-172.233.194.102-0611 | 45",
-                "REALITY|@v2ray1_ng|🇩🇪|95.13 | 46",
-                "REALITY|@vpn_xw|🇹🇷|unavailable | 47",
-                "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 48",
-                "REALITY|@kiava|🇸🇪|164.76 | 49",
-                "@AlienVPN402|🇫🇷|87.63 | 50",
-                "🇫🇷|@oneclickvpnkeys|81.03 | 51",
-                "🇬🇧|@oneclickvpnkeys|98.34 | 52",
-                "🇬🇧|@PrivateVPNs|75.96 | 53",
-                "🇬🇧|@oneclickvpnkeys|92.59 | 54",
-                "🇨🇦|@DirectVPN|19.02 | 55",
-                "🇸🇪|@DirectVPN|163.57 | 56",
-                "🇸🇪|@DirectVPN|105 | 57",
-                "@azadi_az_inja_migzare|🇺🇸|28.01 | 58",
-                "@ConfigsHUB|🚩|2.15 | 59",
-                "REALITY|@vpn_xw|🇹🇷|unavailable | 60",
-                "@MsV2ray|🇷🇺|33.02 | 61",
-                "@VlessConfig|🇬🇧|97.58 | 62",
-                "@azadi_az_inja_migzare|🚩|7.98 | 63",
-                "@bright_vpn|🇳🇱|2.12 | 64",
-                "@customv2ray|🚩|54.56 | 65",
-                "@vmessorg|🚩|1.76 | 66",
-                "@prrofile_purple|🚩|2.07 | 67",
-                "@prrofile_purple|🇺🇸|20.74 | 68",
-                "@Proxy_PJ|🚩|20.07 | 69",
-                "@proxystore11|🚩|1.39 | 70",
-                "@v2rayngvpn|🇺🇸|1.54 | 71",
-                "REALITY|@v2ray1_ng|🇩🇪|95.13 | 72",
-                "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 73",
-                "@vmess_vless_v2rayng|🚩|1.44 | 74",
-                "@v2rayngvpn|🚩|1.45 | 75",
-                "@ServerNett|🚩|2.23 | 76",
-                "@vpn_tehran|🇳🇱|8.2 | 77",
-                "@VmessProtocol|🇳🇱|275.9 | 78",
-                "@VmessProtocol|🇳🇱|325.18 | 79",
-                "@FalconPolV2rayNG|🚩|20.45 | 80",
-                "@VmessProtocol|🇳🇱|168.36 | 81",
-                "@proxy_kafee|🚩|1.75 | 82",
-                "@azadi_az_inja_migzare|🚩|10.07 | 83",
-                "@VlessConfig|🇬🇧|78.01 | 84",
-                "@vmessorg|🚩|86.55 | 85",
-                "@vpn_ioss|🚩|2.09 | 86",
-                "@vpnfail_v2ray|🇺🇸|2.21 | 87",
-                "@v2ray1_ng|🇺🇸|26.85 | 88",
-                "@free4allVPN|🇩🇪|89.96 | 89",
-                "@prrofile_purple|🇩🇪|96.31 | 90",
-                "@ConfigsHUB|🚩|2.08 | 91",
-                "@oneclickvpnkeys|🚩|2.19 | 92",
-                "@oneclickvpnkeys|🚩|1.95 | 93",
-                "@v2ray_swhil|🚩|2.05 | 94",
-                "@vpnfail_v2ray|🚩|1.86 | 95",
-                "@vpnfail_v2ray|🇫🇷|111.55 | 96",
-                "@vpn_tehran|🇺🇸|1.95 | 97",
-                "@v2ray1_ng|🇩🇪|354.97 | 98"
+                "🇸🇪SE-51.20.228.116-1992 | 1",
+                "🇸🇪SE-16.16.153.200-1988 | 2",
+                "🇫🇷FR-13.36.121.210-10235 | 3",
+                "🇫🇷FR-15.188.224.58-10056 | 4",
+                "🇩🇪DE-18.198.62.12-0105 | 5",
+                "🇬🇧GB-18.169.247.68-0687 | 6",
+                "🇬🇧GB-18.132.92.245-0110 | 7",
+                "🏁RELAY-172.67.229.25-1117 | 8",
+                "🏁RELAY-172.67.81.238-1447 | 9",
+                "🏁RELAY-104.21.75.246-1101 | 10",
+                "🏁RELAY-104.21.36.26-1098 | 11",
+                "🏁RELAY-172.67.184.53-1072 | 12",
+                "🏁RELAY-104.31.16.120-1090 | 13",
+                "🏁RELAY-188.114.96.7-0210 | 14",
+                "🏁RELAY-188.114.96.3-1487 | 15",
+                "🏁RELAY-188.114.99.0-1139 | 16",
+                "🏁RELAY-104.21.4.29-3728 | 17",
+                "🏁RELAY-162.159.134.234-1227 | 18",
+                "🇺🇸US-172.233.194.102-0610 | 19",
+                "🏁RELAY-104.27.97.42-1125 | 20",
+                "🏁RELAY-172.67.183.110-1540 | 21",
+                "🏁RELAY-162.159.130.234-1337 | 22",
+                "🏁RELAY-188.114.99.0-1557 | 23",
+                "🇺🇸US-80.92.205.112-0238 | 24",
+                "🇺🇸US-172.233.194.102-0611 | 25",
+                "REALITY|@kiava|🇸🇪|164.76 | 26",
+                "@AlienVPN402|🇫🇷|87.63 | 27",
+                "🇫🇷|@oneclickvpnkeys|81.03 | 28",
+                "🇬🇧|@oneclickvpnkeys|98.34 | 29",
+                "🇬🇧|@PrivateVPNs|75.96 | 30",
+                "🇬🇧|@oneclickvpnkeys|92.59 | 31",
+                "🇨🇦|@DirectVPN|19.02 | 32",
+                "🇸🇪|@DirectVPN|163.57 | 33",
+                "🇸🇪|@DirectVPN|105 | 34",
+                "@azadi_az_inja_migzare|🇺🇸|28.01 | 35",
+                "@ConfigsHUB|🚩|2.15 | 36",
+                "REALITY|@vpn_xw|🇹🇷|unavailable | 37",
+                "@MsV2ray|🇷🇺|33.02 | 38",
+                "@VlessConfig|🇬🇧|97.58 | 39",
+                "@azadi_az_inja_migzare|🚩|7.98 | 40",
+                "@bright_vpn|🇳🇱|2.12 | 41",
+                "@customv2ray|🚩|54.56 | 42",
+                "@vmessorg|🚩|1.76 | 43",
+                "@prrofile_purple|🚩|2.07 | 44",
+                "@prrofile_purple|🇺🇸|20.74 | 45",
+                "@Proxy_PJ|🚩|20.07 | 46",
+                "@proxystore11|🚩|1.39 | 47",
+                "@v2rayngvpn|🇺🇸|1.54 | 48",
+                "REALITY|@v2ray1_ng|🇩🇪|95.13 | 49",
+                "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 50",
+                "@vmess_vless_v2rayng|🚩|1.44 | 51",
+                "@v2rayngvpn|🚩|1.45 | 52",
+                "@ServerNett|🚩|2.23 | 53",
+                "@vpn_tehran|🇳🇱|8.2 | 54",
+                "@VmessProtocol|🇳🇱|275.9 | 55",
+                "@VmessProtocol|🇳🇱|325.18 | 56",
+                "@FalconPolV2rayNG|🚩|20.45 | 57",
+                "@VmessProtocol|🇳🇱|168.36 | 58",
+                "@proxy_kafee|🚩|1.75 | 59",
+                "@azadi_az_inja_migzare|🚩|10.07 | 60",
+                "@VlessConfig|🇬🇧|78.01 | 61",
+                "@vmessorg|🚩|86.55 | 62",
+                "@vpn_ioss|🚩|2.09 | 63",
+                "@vpnfail_v2ray|🇺🇸|2.21 | 64",
+                "@v2ray1_ng|🇺🇸|26.85 | 65",
+                "@free4allVPN|🇩🇪|89.96 | 66",
+                "@prrofile_purple|🇩🇪|96.31 | 67",
+                "@ConfigsHUB|🚩|2.08 | 68",
+                "@oneclickvpnkeys|🚩|2.19 | 69",
+                "@oneclickvpnkeys|🚩|1.95 | 70",
+                "@v2ray_swhil|🚩|2.05 | 71",
+                "@vpnfail_v2ray|🚩|1.86 | 72",
+                "@vpnfail_v2ray|🇫🇷|111.55 | 73",
+                "@vpn_tehran|🇺🇸|1.95 | 74",
+                "@v2ray1_ng|🇩🇪|354.97 | 75"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA-134.195.196.178-10843 | 1",
-                "🇫🇷FR-149.202.82.172-2952 | 2",
-                "🇩🇪DE-145.239.1.100-2863 | 3",
-                "🇩🇪DE-145.239.1.100-2876 | 4",
-                "🇩🇪DE-3.71.92.131-6228 | 5",
-                "🇫🇷FR-149.202.82.172-0837 | 6",
-                "🇩🇪DE-217.182.198.219-6232 | 7",
-                "🇫🇷FR-54.36.174.181-2268 | 8",
-                "🇫🇷FR-145.239.6.202-2885 | 9",
-                "🇫🇷FR-149.202.82.172-2904 | 10",
-                "🇫🇷FR-149.202.82.172-2977 | 11",
-                "🇩🇪DE-145.239.1.100-2912 | 12",
-                "🇩🇪DE-145.239.1.100-2872 | 13",
-                "🇫🇷FR-149.202.82.172-2937 | 14",
-                "🇫🇷FR-149.202.82.172-2901 | 15",
-                "🇫🇷FR-149.202.82.172-2905 | 16",
-                "🇬🇧GB-51.68.206.229-2831 | 17",
-                "🇫🇷FR-54.36.174.181-1556 | 18",
-                "🇫🇷FR-54.36.174.181-2836 | 19",
-                "🇫🇷FR-54.36.174.181-2848 | 20",
-                "🇸🇪SE-51.20.228.116-1992 | 21",
-                "🇸🇪SE-16.16.153.200-1988 | 22",
-                "🇫🇷FR-13.36.121.210-10235 | 23",
-                "🇫🇷FR-15.188.224.58-10056 | 24",
-                "🇩🇪DE-18.198.62.12-0105 | 25",
-                "🇬🇧GB-18.169.247.68-0687 | 26",
-                "🇬🇧GB-18.132.92.245-0110 | 27",
-                "🏁RELAY-172.67.229.25-1117 | 28",
-                "🏁RELAY-172.67.81.238-1447 | 29",
-                "🏁RELAY-104.21.75.246-1101 | 30",
-                "🏁RELAY-104.21.36.26-1098 | 31",
-                "🏁RELAY-172.67.184.53-1072 | 32",
-                "🏁RELAY-104.31.16.120-1090 | 33",
-                "🏁RELAY-188.114.96.7-0210 | 34",
-                "🏁RELAY-188.114.96.3-1487 | 35",
-                "🏁RELAY-188.114.99.0-1139 | 36",
-                "🏁RELAY-104.21.4.29-3728 | 37",
-                "🏁RELAY-162.159.134.234-1227 | 38",
-                "🇺🇸US-172.233.194.102-0610 | 39",
-                "🏁RELAY-104.27.97.42-1125 | 40",
-                "🏁RELAY-172.67.183.110-1540 | 41",
-                "🏁RELAY-162.159.130.234-1337 | 42",
-                "🏁RELAY-188.114.99.0-1557 | 43",
-                "🇺🇸US-80.92.205.112-0238 | 44",
-                "🇺🇸US-172.233.194.102-0611 | 45",
-                "REALITY|@v2ray1_ng|🇩🇪|95.13 | 46",
-                "REALITY|@vpn_xw|🇹🇷|unavailable | 47",
-                "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 48",
-                "REALITY|@kiava|🇸🇪|164.76 | 49",
-                "@AlienVPN402|🇫🇷|87.63 | 50",
-                "🇫🇷|@oneclickvpnkeys|81.03 | 51",
-                "🇬🇧|@oneclickvpnkeys|98.34 | 52",
-                "🇬🇧|@PrivateVPNs|75.96 | 53",
-                "🇬🇧|@oneclickvpnkeys|92.59 | 54",
-                "🇨🇦|@DirectVPN|19.02 | 55",
-                "🇸🇪|@DirectVPN|163.57 | 56",
-                "🇸🇪|@DirectVPN|105 | 57",
-                "@azadi_az_inja_migzare|🇺🇸|28.01 | 58",
-                "@ConfigsHUB|🚩|2.15 | 59",
-                "REALITY|@vpn_xw|🇹🇷|unavailable | 60",
-                "@MsV2ray|🇷🇺|33.02 | 61",
-                "@VlessConfig|🇬🇧|97.58 | 62",
-                "@azadi_az_inja_migzare|🚩|7.98 | 63",
-                "@bright_vpn|🇳🇱|2.12 | 64",
-                "@customv2ray|🚩|54.56 | 65",
-                "@vmessorg|🚩|1.76 | 66",
-                "@prrofile_purple|🚩|2.07 | 67",
-                "@prrofile_purple|🇺🇸|20.74 | 68",
-                "@Proxy_PJ|🚩|20.07 | 69",
-                "@proxystore11|🚩|1.39 | 70",
-                "@v2rayngvpn|🇺🇸|1.54 | 71",
-                "REALITY|@v2ray1_ng|🇩🇪|95.13 | 72",
-                "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 73",
-                "@vmess_vless_v2rayng|🚩|1.44 | 74",
-                "@v2rayngvpn|🚩|1.45 | 75",
-                "@ServerNett|🚩|2.23 | 76",
-                "@vpn_tehran|🇳🇱|8.2 | 77",
-                "@VmessProtocol|🇳🇱|275.9 | 78",
-                "@VmessProtocol|🇳🇱|325.18 | 79",
-                "@FalconPolV2rayNG|🚩|20.45 | 80",
-                "@VmessProtocol|🇳🇱|168.36 | 81",
-                "@proxy_kafee|🚩|1.75 | 82",
-                "@azadi_az_inja_migzare|🚩|10.07 | 83",
-                "@VlessConfig|🇬🇧|78.01 | 84",
-                "@vmessorg|🚩|86.55 | 85",
-                "@vpn_ioss|🚩|2.09 | 86",
-                "@vpnfail_v2ray|🇺🇸|2.21 | 87",
-                "@v2ray1_ng|🇺🇸|26.85 | 88",
-                "@free4allVPN|🇩🇪|89.96 | 89",
-                "@prrofile_purple|🇩🇪|96.31 | 90",
-                "@ConfigsHUB|🚩|2.08 | 91",
-                "@oneclickvpnkeys|🚩|2.19 | 92",
-                "@oneclickvpnkeys|🚩|1.95 | 93",
-                "@v2ray_swhil|🚩|2.05 | 94",
-                "@vpnfail_v2ray|🚩|1.86 | 95",
-                "@vpnfail_v2ray|🇫🇷|111.55 | 96",
-                "@vpn_tehran|🇺🇸|1.95 | 97",
-                "@v2ray1_ng|🇩🇪|354.97 | 98"
+                "🇸🇪SE-51.20.228.116-1992 | 1",
+                "🇸🇪SE-16.16.153.200-1988 | 2",
+                "🇫🇷FR-13.36.121.210-10235 | 3",
+                "🇫🇷FR-15.188.224.58-10056 | 4",
+                "🇩🇪DE-18.198.62.12-0105 | 5",
+                "🇬🇧GB-18.169.247.68-0687 | 6",
+                "🇬🇧GB-18.132.92.245-0110 | 7",
+                "🏁RELAY-172.67.229.25-1117 | 8",
+                "🏁RELAY-172.67.81.238-1447 | 9",
+                "🏁RELAY-104.21.75.246-1101 | 10",
+                "🏁RELAY-104.21.36.26-1098 | 11",
+                "🏁RELAY-172.67.184.53-1072 | 12",
+                "🏁RELAY-104.31.16.120-1090 | 13",
+                "🏁RELAY-188.114.96.7-0210 | 14",
+                "🏁RELAY-188.114.96.3-1487 | 15",
+                "🏁RELAY-188.114.99.0-1139 | 16",
+                "🏁RELAY-104.21.4.29-3728 | 17",
+                "🏁RELAY-162.159.134.234-1227 | 18",
+                "🇺🇸US-172.233.194.102-0610 | 19",
+                "🏁RELAY-104.27.97.42-1125 | 20",
+                "🏁RELAY-172.67.183.110-1540 | 21",
+                "🏁RELAY-162.159.130.234-1337 | 22",
+                "🏁RELAY-188.114.99.0-1557 | 23",
+                "🇺🇸US-80.92.205.112-0238 | 24",
+                "🇺🇸US-172.233.194.102-0611 | 25",
+                "REALITY|@kiava|🇸🇪|164.76 | 26",
+                "@AlienVPN402|🇫🇷|87.63 | 27",
+                "🇫🇷|@oneclickvpnkeys|81.03 | 28",
+                "🇬🇧|@oneclickvpnkeys|98.34 | 29",
+                "🇬🇧|@PrivateVPNs|75.96 | 30",
+                "🇬🇧|@oneclickvpnkeys|92.59 | 31",
+                "🇨🇦|@DirectVPN|19.02 | 32",
+                "🇸🇪|@DirectVPN|163.57 | 33",
+                "🇸🇪|@DirectVPN|105 | 34",
+                "@azadi_az_inja_migzare|🇺🇸|28.01 | 35",
+                "@ConfigsHUB|🚩|2.15 | 36",
+                "REALITY|@vpn_xw|🇹🇷|unavailable | 37",
+                "@MsV2ray|🇷🇺|33.02 | 38",
+                "@VlessConfig|🇬🇧|97.58 | 39",
+                "@azadi_az_inja_migzare|🚩|7.98 | 40",
+                "@bright_vpn|🇳🇱|2.12 | 41",
+                "@customv2ray|🚩|54.56 | 42",
+                "@vmessorg|🚩|1.76 | 43",
+                "@prrofile_purple|🚩|2.07 | 44",
+                "@prrofile_purple|🇺🇸|20.74 | 45",
+                "@Proxy_PJ|🚩|20.07 | 46",
+                "@proxystore11|🚩|1.39 | 47",
+                "@v2rayngvpn|🇺🇸|1.54 | 48",
+                "REALITY|@v2ray1_ng|🇩🇪|95.13 | 49",
+                "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 50",
+                "@vmess_vless_v2rayng|🚩|1.44 | 51",
+                "@v2rayngvpn|🚩|1.45 | 52",
+                "@ServerNett|🚩|2.23 | 53",
+                "@vpn_tehran|🇳🇱|8.2 | 54",
+                "@VmessProtocol|🇳🇱|275.9 | 55",
+                "@VmessProtocol|🇳🇱|325.18 | 56",
+                "@FalconPolV2rayNG|🚩|20.45 | 57",
+                "@VmessProtocol|🇳🇱|168.36 | 58",
+                "@proxy_kafee|🚩|1.75 | 59",
+                "@azadi_az_inja_migzare|🚩|10.07 | 60",
+                "@VlessConfig|🇬🇧|78.01 | 61",
+                "@vmessorg|🚩|86.55 | 62",
+                "@vpn_ioss|🚩|2.09 | 63",
+                "@vpnfail_v2ray|🇺🇸|2.21 | 64",
+                "@v2ray1_ng|🇺🇸|26.85 | 65",
+                "@free4allVPN|🇩🇪|89.96 | 66",
+                "@prrofile_purple|🇩🇪|96.31 | 67",
+                "@ConfigsHUB|🚩|2.08 | 68",
+                "@oneclickvpnkeys|🚩|2.19 | 69",
+                "@oneclickvpnkeys|🚩|1.95 | 70",
+                "@v2ray_swhil|🚩|2.05 | 71",
+                "@vpnfail_v2ray|🚩|1.86 | 72",
+                "@vpnfail_v2ray|🇫🇷|111.55 | 73",
+                "@vpn_tehran|🇺🇸|1.95 | 74",
+                "@v2ray1_ng|🇩🇪|354.97 | 75"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
         },
         {
-            "tag": "🇨🇦CA-134.195.196.178-10843 | 1",
-            "type": "shadowsocks",
-            "server": "134.195.196.178",
-            "server_port": 804,
-            "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-2952 | 2",
-            "type": "shadowsocks",
-            "server": "ak1764.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
-            "server_port": 7002,
-            "method": "aes-256-gcm",
-            "password": "RexnBgU7EV5ADxG",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE-145.239.1.100-2863 | 3",
-            "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 5601,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE-145.239.1.100-2876 | 4",
-            "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 5003,
-            "method": "aes-256-gcm",
-            "password": "g5MeD6Ft3CWlJId",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE-3.71.92.131-6228 | 5",
-            "type": "shadowsocks",
-            "server": "3.71.92.131",
-            "server_port": 33108,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Wc9mwaXoVeyznoAXxvaxok",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-0837 | 6",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 8080,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE-217.182.198.219-6232 | 7",
-            "type": "shadowsocks",
-            "server": "217.182.198.219",
-            "server_port": 3306,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-54.36.174.181-2268 | 8",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 7307,
-            "method": "aes-256-gcm",
-            "password": "FoOiGlkAA9yPEGP",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-145.239.6.202-2885 | 9",
-            "type": "shadowsocks",
-            "server": "145.239.6.202",
-            "server_port": 4444,
-            "method": "aes-256-gcm",
-            "password": "pKEW8JPByTVTLtM",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-2904 | 10",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 5001,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-2977 | 11",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 6679,
-            "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE-145.239.1.100-2912 | 12",
-            "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 6379,
-            "method": "aes-256-gcm",
-            "password": "zDNVedRFPQexG9v",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE-145.239.1.100-2872 | 13",
-            "type": "shadowsocks",
-            "server": "145.239.1.100",
-            "server_port": 3306,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-2937 | 14",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 9102,
-            "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-2901 | 15",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 5600,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-149.202.82.172-2905 | 16",
-            "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 5000,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB-51.68.206.229-2831 | 17",
-            "type": "shadowsocks",
-            "server": "51.68.206.229",
-            "server_port": 8080,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-54.36.174.181-1556 | 18",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 3306,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-54.36.174.181-2836 | 19",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 8000,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR-54.36.174.181-2848 | 20",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 5601,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇪SE-51.20.228.116-1992 | 21",
+            "tag": "🇸🇪SE-51.20.228.116-1992 | 1",
             "type": "trojan",
             "server": "51.20.228.116",
             "server_port": 22222,
@@ -537,7 +291,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE-16.16.153.200-1988 | 22",
+            "tag": "🇸🇪SE-16.16.153.200-1988 | 2",
             "type": "trojan",
             "server": "16.16.153.200",
             "server_port": 22222,
@@ -558,7 +312,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR-13.36.121.210-10235 | 23",
+            "tag": "🇫🇷FR-13.36.121.210-10235 | 3",
             "type": "trojan",
             "server": "13.36.121.210",
             "server_port": 22222,
@@ -579,7 +333,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR-15.188.224.58-10056 | 24",
+            "tag": "🇫🇷FR-15.188.224.58-10056 | 4",
             "type": "trojan",
             "server": "15.188.224.58",
             "server_port": 22222,
@@ -600,7 +354,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE-18.198.62.12-0105 | 25",
+            "tag": "🇩🇪DE-18.198.62.12-0105 | 5",
             "type": "trojan",
             "server": "18.198.62.12",
             "server_port": 22222,
@@ -621,7 +375,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB-18.169.247.68-0687 | 26",
+            "tag": "🇬🇧GB-18.169.247.68-0687 | 6",
             "type": "trojan",
             "server": "18.169.247.68",
             "server_port": 22222,
@@ -642,7 +396,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB-18.132.92.245-0110 | 27",
+            "tag": "🇬🇧GB-18.132.92.245-0110 | 7",
             "type": "trojan",
             "server": "18.132.92.245",
             "server_port": 22222,
@@ -663,7 +417,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-172.67.229.25-1117 | 28",
+            "tag": "🏁RELAY-172.67.229.25-1117 | 8",
             "type": "vmess",
             "server": "172.67.229.25",
             "server_port": 8880,
@@ -689,7 +443,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-172.67.81.238-1447 | 29",
+            "tag": "🏁RELAY-172.67.81.238-1447 | 9",
             "type": "vmess",
             "server": "172.67.81.238",
             "server_port": 2096,
@@ -725,7 +479,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-104.21.75.246-1101 | 30",
+            "tag": "🏁RELAY-104.21.75.246-1101 | 10",
             "type": "vmess",
             "server": "104.21.75.246",
             "server_port": 443,
@@ -761,7 +515,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-104.21.36.26-1098 | 31",
+            "tag": "🏁RELAY-104.21.36.26-1098 | 11",
             "type": "vmess",
             "server": "104.21.36.26",
             "server_port": 8443,
@@ -797,7 +551,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-172.67.184.53-1072 | 32",
+            "tag": "🏁RELAY-172.67.184.53-1072 | 12",
             "type": "vmess",
             "server": "172.67.184.53",
             "server_port": 8443,
@@ -833,7 +587,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-104.31.16.120-1090 | 33",
+            "tag": "🏁RELAY-104.31.16.120-1090 | 13",
             "type": "vmess",
             "server": "104.31.16.120",
             "server_port": 443,
@@ -869,7 +623,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-188.114.96.7-0210 | 34",
+            "tag": "🏁RELAY-188.114.96.7-0210 | 14",
             "type": "vmess",
             "server": "188.114.96.7",
             "server_port": 443,
@@ -905,7 +659,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-188.114.96.3-1487 | 35",
+            "tag": "🏁RELAY-188.114.96.3-1487 | 15",
             "type": "vmess",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -941,7 +695,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-188.114.99.0-1139 | 36",
+            "tag": "🏁RELAY-188.114.99.0-1139 | 16",
             "type": "vmess",
             "server": "188.114.99.0",
             "server_port": 8443,
@@ -977,7 +731,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-104.21.4.29-3728 | 37",
+            "tag": "🏁RELAY-104.21.4.29-3728 | 17",
             "type": "vmess",
             "server": "104.21.4.29",
             "server_port": 443,
@@ -1013,7 +767,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-162.159.134.234-1227 | 38",
+            "tag": "🏁RELAY-162.159.134.234-1227 | 18",
             "type": "vmess",
             "server": "162.159.134.234",
             "server_port": 443,
@@ -1049,7 +803,7 @@
             }
         },
         {
-            "tag": "🇺🇸US-172.233.194.102-0610 | 39",
+            "tag": "🇺🇸US-172.233.194.102-0610 | 19",
             "type": "vmess",
             "server": "172.233.194.102",
             "server_port": 80,
@@ -1075,7 +829,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-104.27.97.42-1125 | 40",
+            "tag": "🏁RELAY-104.27.97.42-1125 | 20",
             "type": "vmess",
             "server": "104.27.97.42",
             "server_port": 8443,
@@ -1111,7 +865,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-172.67.183.110-1540 | 41",
+            "tag": "🏁RELAY-172.67.183.110-1540 | 21",
             "type": "vmess",
             "server": "172.67.183.110",
             "server_port": 443,
@@ -1147,7 +901,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-162.159.130.234-1337 | 42",
+            "tag": "🏁RELAY-162.159.130.234-1337 | 22",
             "type": "vmess",
             "server": "162.159.130.234",
             "server_port": 443,
@@ -1183,7 +937,7 @@
             }
         },
         {
-            "tag": "🏁RELAY-188.114.99.0-1557 | 43",
+            "tag": "🏁RELAY-188.114.99.0-1557 | 23",
             "type": "vmess",
             "server": "188.114.99.0",
             "server_port": 443,
@@ -1219,7 +973,7 @@
             }
         },
         {
-            "tag": "🇺🇸US-80.92.205.112-0238 | 44",
+            "tag": "🇺🇸US-80.92.205.112-0238 | 24",
             "type": "vmess",
             "server": "80.92.205.112",
             "server_port": 443,
@@ -1255,7 +1009,7 @@
             }
         },
         {
-            "tag": "🇺🇸US-172.233.194.102-0611 | 45",
+            "tag": "🇺🇸US-172.233.194.102-0611 | 25",
             "type": "vmess",
             "server": "172.233.194.102",
             "server_port": 80,
@@ -1281,98 +1035,7 @@
             }
         },
         {
-            "tag": "REALITY|@v2ray1_ng|🇩🇪|95.13 | 46",
-            "type": "vless",
-            "server": "g1.spcenter.online",
-            "server_port": 2052,
-            "uuid": "aed5b92a-4eb6-4c36-b588-a3a4b319f50f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yoast.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kVh6MSTrVUpmWnaffTDf-LjaDYSVtMjQIKe7iFS1sV4",
-                    "short_id": "3b270433"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@vpn_xw|🇹🇷|unavailable | 47",
-            "type": "vless",
-            "server": "185.113.223.102",
-            "server_port": 443,
-            "uuid": "e1e94d76-6989-4bb3-aa29-b0f2dd5ba0d9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dest.acc1shop.shop",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UJu9wcbdCvQL9Q1B5CsvRbwIntbfM94Cc_rA6Z__GAo",
-                    "short_id": "d62c829c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 48",
-            "type": "vless",
-            "server": "109.61.80.236",
-            "server_port": 443,
-            "uuid": "9974e899-f131-40fe-ae82-4cdc39d8944b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fNJIVjRaZgVD0UmjEqsCkU4cfaM0G4wEa7lSvLaX3W8",
-                    "short_id": "ddf07dc7"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@kiava|🇸🇪|164.76 | 49",
+            "tag": "REALITY|@kiava|🇸🇪|164.76 | 26",
             "type": "vless",
             "server": "ec48.kiava.fun",
             "server_port": 8443,
@@ -1400,7 +1063,7 @@
             }
         },
         {
-            "tag": "@AlienVPN402|🇫🇷|87.63 | 50",
+            "tag": "@AlienVPN402|🇫🇷|87.63 | 27",
             "type": "shadowsocks",
             "server": "145.239.1.100",
             "server_port": 5003,
@@ -1410,7 +1073,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷|@oneclickvpnkeys|81.03 | 51",
+            "tag": "🇫🇷|@oneclickvpnkeys|81.03 | 28",
             "type": "trojan",
             "server": "13.37.179.119",
             "server_port": 22222,
@@ -1431,7 +1094,7 @@
             }
         },
         {
-            "tag": "🇬🇧|@oneclickvpnkeys|98.34 | 52",
+            "tag": "🇬🇧|@oneclickvpnkeys|98.34 | 29",
             "type": "trojan",
             "server": "35.176.146.207",
             "server_port": 22222,
@@ -1452,7 +1115,7 @@
             }
         },
         {
-            "tag": "🇬🇧|@PrivateVPNs|75.96 | 53",
+            "tag": "🇬🇧|@PrivateVPNs|75.96 | 30",
             "type": "trojan",
             "server": "13.43.202.184",
             "server_port": 22222,
@@ -1473,7 +1136,7 @@
             }
         },
         {
-            "tag": "🇬🇧|@oneclickvpnkeys|92.59 | 54",
+            "tag": "🇬🇧|@oneclickvpnkeys|92.59 | 31",
             "type": "trojan",
             "server": "18.135.140.30",
             "server_port": 22222,
@@ -1494,7 +1157,7 @@
             }
         },
         {
-            "tag": "🇨🇦|@DirectVPN|19.02 | 55",
+            "tag": "🇨🇦|@DirectVPN|19.02 | 32",
             "type": "trojan",
             "server": "35.182.204.195",
             "server_port": 22222,
@@ -1515,7 +1178,7 @@
             }
         },
         {
-            "tag": "🇸🇪|@DirectVPN|163.57 | 56",
+            "tag": "🇸🇪|@DirectVPN|163.57 | 33",
             "type": "trojan",
             "server": "13.49.154.245",
             "server_port": 22222,
@@ -1536,7 +1199,7 @@
             }
         },
         {
-            "tag": "🇸🇪|@DirectVPN|105 | 57",
+            "tag": "🇸🇪|@DirectVPN|105 | 34",
             "type": "trojan",
             "server": "16.16.228.143",
             "server_port": 22222,
@@ -1557,7 +1220,7 @@
             }
         },
         {
-            "tag": "@azadi_az_inja_migzare|🇺🇸|28.01 | 58",
+            "tag": "@azadi_az_inja_migzare|🇺🇸|28.01 | 35",
             "type": "vless",
             "server": "mci.dgi000.store",
             "server_port": 2087,
@@ -1587,7 +1250,7 @@
             }
         },
         {
-            "tag": "@ConfigsHUB|🚩|2.15 | 59",
+            "tag": "@ConfigsHUB|🚩|2.15 | 36",
             "type": "vless",
             "server": "v2rayngcloud.ddns.net",
             "server_port": 443,
@@ -1619,7 +1282,7 @@
             }
         },
         {
-            "tag": "REALITY|@vpn_xw|🇹🇷|unavailable | 60",
+            "tag": "REALITY|@vpn_xw|🇹🇷|unavailable | 37",
             "type": "vless",
             "server": "185.113.223.102",
             "server_port": 443,
@@ -1654,7 +1317,7 @@
             }
         },
         {
-            "tag": "@MsV2ray|🇷🇺|33.02 | 61",
+            "tag": "@MsV2ray|🇷🇺|33.02 | 38",
             "type": "vless",
             "server": "mtn.msv2ray.space",
             "server_port": 2053,
@@ -1684,7 +1347,7 @@
             }
         },
         {
-            "tag": "@VlessConfig|🇬🇧|97.58 | 62",
+            "tag": "@VlessConfig|🇬🇧|97.58 | 39",
             "type": "vless",
             "server": "18.130.185.199",
             "server_port": 22222,
@@ -1716,7 +1379,7 @@
             }
         },
         {
-            "tag": "@azadi_az_inja_migzare|🚩|7.98 | 63",
+            "tag": "@azadi_az_inja_migzare|🚩|7.98 | 40",
             "type": "vless",
             "server": "mci.dgi000.store",
             "server_port": 2083,
@@ -1746,7 +1409,7 @@
             }
         },
         {
-            "tag": "@bright_vpn|🇳🇱|2.12 | 64",
+            "tag": "@bright_vpn|🇳🇱|2.12 | 41",
             "type": "vless",
             "server": "188.114.97.0",
             "server_port": 443,
@@ -1778,7 +1441,7 @@
             }
         },
         {
-            "tag": "@customv2ray|🚩|54.56 | 65",
+            "tag": "@customv2ray|🚩|54.56 | 42",
             "type": "vless",
             "server": "new-join-tooo.outline-vpn.cloud",
             "server_port": 80,
@@ -1801,7 +1464,7 @@
             }
         },
         {
-            "tag": "@vmessorg|🚩|1.76 | 66",
+            "tag": "@vmessorg|🚩|1.76 | 43",
             "type": "vless",
             "server": "join_bede_vmessorg.mokhin.me",
             "server_port": 80,
@@ -1824,7 +1487,7 @@
             }
         },
         {
-            "tag": "@prrofile_purple|🚩|2.07 | 67",
+            "tag": "@prrofile_purple|🚩|2.07 | 44",
             "type": "vless",
             "server": "mtn.vpnprosec.com",
             "server_port": 443,
@@ -1854,7 +1517,7 @@
             }
         },
         {
-            "tag": "@prrofile_purple|🇺🇸|20.74 | 68",
+            "tag": "@prrofile_purple|🇺🇸|20.74 | 45",
             "type": "vless",
             "server": "wireless52---join.outline-vpn.cloud",
             "server_port": 443,
@@ -1886,7 +1549,7 @@
             }
         },
         {
-            "tag": "@Proxy_PJ|🚩|20.07 | 69",
+            "tag": "@Proxy_PJ|🚩|20.07 | 46",
             "type": "vless",
             "server": "wireless50---join.outline-vpn.cloud",
             "server_port": 443,
@@ -1918,7 +1581,7 @@
             }
         },
         {
-            "tag": "@proxystore11|🚩|1.39 | 70",
+            "tag": "@proxystore11|🚩|1.39 | 47",
             "type": "vless",
             "server": "190.93.246.241",
             "server_port": 8443,
@@ -1948,7 +1611,7 @@
             }
         },
         {
-            "tag": "@v2rayngvpn|🇺🇸|1.54 | 71",
+            "tag": "@v2rayngvpn|🇺🇸|1.54 | 48",
             "type": "vless",
             "server": "172.67.139.111",
             "server_port": 8443,
@@ -1980,7 +1643,7 @@
             }
         },
         {
-            "tag": "REALITY|@v2ray1_ng|🇩🇪|95.13 | 72",
+            "tag": "REALITY|@v2ray1_ng|🇩🇪|95.13 | 49",
             "type": "vless",
             "server": "g1.spcenter.online",
             "server_port": 2052,
@@ -2008,7 +1671,7 @@
             }
         },
         {
-            "tag": "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 73",
+            "tag": "REALITY|@v2rayNG_Matsuri|🇭🇺|86.61 | 50",
             "type": "vless",
             "server": "109.61.80.236",
             "server_port": 443,
@@ -2036,7 +1699,7 @@
             }
         },
         {
-            "tag": "@vmess_vless_v2rayng|🚩|1.44 | 74",
+            "tag": "@vmess_vless_v2rayng|🚩|1.44 | 51",
             "type": "vless",
             "server": "162.159.138.6",
             "server_port": 80,
@@ -2059,7 +1722,7 @@
             }
         },
         {
-            "tag": "@v2rayngvpn|🚩|1.45 | 75",
+            "tag": "@v2rayngvpn|🚩|1.45 | 52",
             "type": "vless",
             "server": "104.21.78.131",
             "server_port": 443,
@@ -2091,7 +1754,7 @@
             }
         },
         {
-            "tag": "@ServerNett|🚩|2.23 | 76",
+            "tag": "@ServerNett|🚩|2.23 | 53",
             "type": "vless",
             "server": "sdsdf.numal.site",
             "server_port": 8880,
@@ -2114,7 +1777,7 @@
             }
         },
         {
-            "tag": "@vpn_tehran|🇳🇱|8.2 | 77",
+            "tag": "@vpn_tehran|🇳🇱|8.2 | 54",
             "type": "vless",
             "server": "vmessprotocol.join807.propae.sbs",
             "server_port": 443,
@@ -2146,7 +1809,7 @@
             }
         },
         {
-            "tag": "@VmessProtocol|🇳🇱|275.9 | 78",
+            "tag": "@VmessProtocol|🇳🇱|275.9 | 55",
             "type": "vless",
             "server": "vm13708.vpsone.xyz",
             "server_port": 19246,
@@ -2160,7 +1823,7 @@
             }
         },
         {
-            "tag": "@VmessProtocol|🇳🇱|325.18 | 79",
+            "tag": "@VmessProtocol|🇳🇱|325.18 | 56",
             "type": "vless",
             "server": "vm13708.vpsone.xyz",
             "server_port": 19246,
@@ -2174,7 +1837,7 @@
             }
         },
         {
-            "tag": "@FalconPolV2rayNG|🚩|20.45 | 80",
+            "tag": "@FalconPolV2rayNG|🚩|20.45 | 57",
             "type": "vless",
             "server": "3324.outline-vpn.cloud",
             "server_port": 443,
@@ -2206,7 +1869,7 @@
             }
         },
         {
-            "tag": "@VmessProtocol|🇳🇱|168.36 | 81",
+            "tag": "@VmessProtocol|🇳🇱|168.36 | 58",
             "type": "vless",
             "server": "vm13708.vpsone.xyz",
             "server_port": 19246,
@@ -2220,7 +1883,7 @@
             }
         },
         {
-            "tag": "@proxy_kafee|🚩|1.75 | 82",
+            "tag": "@proxy_kafee|🚩|1.75 | 59",
             "type": "vless",
             "server": "190.93.246.241",
             "server_port": 2087,
@@ -2250,7 +1913,7 @@
             }
         },
         {
-            "tag": "@azadi_az_inja_migzare|🚩|10.07 | 83",
+            "tag": "@azadi_az_inja_migzare|🚩|10.07 | 60",
             "type": "vless",
             "server": "mci.dgi000.store",
             "server_port": 2096,
@@ -2280,7 +1943,7 @@
             }
         },
         {
-            "tag": "@VlessConfig|🇬🇧|78.01 | 84",
+            "tag": "@VlessConfig|🇬🇧|78.01 | 61",
             "type": "vless",
             "server": "18.170.75.28",
             "server_port": 22222,
@@ -2312,7 +1975,7 @@
             }
         },
         {
-            "tag": "@vmessorg|🚩|86.55 | 85",
+            "tag": "@vmessorg|🚩|86.55 | 62",
             "type": "vless",
             "server": "bia_to_vmessorg.mokhin.me",
             "server_port": 80,
@@ -2335,7 +1998,7 @@
             }
         },
         {
-            "tag": "@vpn_ioss|🚩|2.09 | 86",
+            "tag": "@vpn_ioss|🚩|2.09 | 63",
             "type": "vmess",
             "server": "ch5p.isecurity.site",
             "server_port": 443,
@@ -2371,7 +2034,7 @@
             }
         },
         {
-            "tag": "@vpnfail_v2ray|🇺🇸|2.21 | 87",
+            "tag": "@vpnfail_v2ray|🇺🇸|2.21 | 64",
             "type": "vmess",
             "server": "104.18.202.232",
             "server_port": 443,
@@ -2407,7 +2070,7 @@
             }
         },
         {
-            "tag": "@v2ray1_ng|🇺🇸|26.85 | 88",
+            "tag": "@v2ray1_ng|🇺🇸|26.85 | 65",
             "type": "vmess",
             "server": "104.16.126.175",
             "server_port": 80,
@@ -2433,7 +2096,7 @@
             }
         },
         {
-            "tag": "@free4allVPN|🇩🇪|89.96 | 89",
+            "tag": "@free4allVPN|🇩🇪|89.96 | 66",
             "type": "vmess",
             "server": "45.155.249.17",
             "server_port": 80,
@@ -2459,7 +2122,7 @@
             }
         },
         {
-            "tag": "@prrofile_purple|🇩🇪|96.31 | 90",
+            "tag": "@prrofile_purple|🇩🇪|96.31 | 67",
             "type": "vmess",
             "server": "188.34.179.119",
             "server_port": 8443,
@@ -2483,7 +2146,7 @@
             }
         },
         {
-            "tag": "@ConfigsHUB|🚩|2.08 | 91",
+            "tag": "@ConfigsHUB|🚩|2.08 | 68",
             "type": "vmess",
             "server": "alvvin.click",
             "server_port": 443,
@@ -2519,7 +2182,7 @@
             }
         },
         {
-            "tag": "@oneclickvpnkeys|🚩|2.19 | 92",
+            "tag": "@oneclickvpnkeys|🚩|2.19 | 69",
             "type": "vmess",
             "server": "104.18.203.232",
             "server_port": 443,
@@ -2555,7 +2218,7 @@
             }
         },
         {
-            "tag": "@oneclickvpnkeys|🚩|1.95 | 93",
+            "tag": "@oneclickvpnkeys|🚩|1.95 | 70",
             "type": "vmess",
             "server": "v133.v2freevpn.com",
             "server_port": 80,
@@ -2581,7 +2244,7 @@
             }
         },
         {
-            "tag": "@v2ray_swhil|🚩|2.05 | 94",
+            "tag": "@v2ray_swhil|🚩|2.05 | 71",
             "type": "vmess",
             "server": "188.114.97.1",
             "server_port": 443,
@@ -2617,7 +2280,7 @@
             }
         },
         {
-            "tag": "@vpnfail_v2ray|🚩|1.86 | 95",
+            "tag": "@vpnfail_v2ray|🚩|1.86 | 72",
             "type": "vmess",
             "server": "172.67.197.82",
             "server_port": 443,
@@ -2653,7 +2316,7 @@
             }
         },
         {
-            "tag": "@vpnfail_v2ray|🇫🇷|111.55 | 96",
+            "tag": "@vpnfail_v2ray|🇫🇷|111.55 | 73",
             "type": "vmess",
             "server": "v-nl1.ngvip.net",
             "server_port": 26830,
@@ -2689,7 +2352,7 @@
             }
         },
         {
-            "tag": "@vpn_tehran|🇺🇸|1.95 | 97",
+            "tag": "@vpn_tehran|🇺🇸|1.95 | 74",
             "type": "vmess",
             "server": "www.unpkg.com",
             "server_port": 2053,
@@ -2725,7 +2388,7 @@
             }
         },
         {
-            "tag": "@v2ray1_ng|🇩🇪|354.97 | 98",
+            "tag": "@v2ray1_ng|🇩🇪|354.97 | 75",
             "type": "vmess",
             "server": "b2.talamala.co",
             "server_port": 53797,
