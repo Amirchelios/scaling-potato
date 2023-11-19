@@ -67,7 +67,7 @@
         {
             "listen": "0.0.0.0",
             "listen_port": 6450,
-            "override_address": "1.1.1.1",
+            "override_address": "8.8.8.8",
             "override_port": 53,
             "tag": "dns-in",
             "type": "direct"
@@ -78,7 +78,7 @@
             "domain_strategy": "",
             "interface_name": "tun0",
             "inet4_address": "172.19.0.1\/30",
-            "mtu": 1280,
+            "mtu": 9000,
             "auto_route": true,
             "strict_route": true,
             "stack": "system",
@@ -133,7 +133,7 @@
         },
         {
             "type": "wireguard",
-            "server": "	188.114.98.248",
+            "server": "188.114.98.248",
             "server_port": 2408,
             "local_address": [
                 "172.16.0.2\/32",
