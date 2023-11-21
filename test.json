@@ -79,7 +79,7 @@
             "type": "direct"
         },
         {
-            "type": "fulse",
+            "type": "false",
             "tag": "tun-in",
             "domain_strategy": "",
             "interface_name": "tun0",
