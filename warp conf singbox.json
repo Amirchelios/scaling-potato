@@ -102,14 +102,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST | \u0631\u0627\u06cc\u06af\u0627\u0646",
-                "warpbrieynbwvf"
+                "+conf"
             ]
         },
         {
             "tag": "URL-TEST | \u0631\u0627\u06cc\u06af\u0627\u0646",
             "type": "urltest",
             "outbounds": [
-                "warpbrieynbwvf"
+                "+conf"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
