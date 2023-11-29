@@ -176,6 +176,17 @@
         "interval": "3m",
         "tolerance": 50
     },
+    {
+        "tag": "URL-TEST3",
+        "type": "urltest",
+        "outbounds": [
+                "URL-TEST",
+                "URL-TEST2"
+        ],
+        "url": "https:\/\/www.gstatic.com\/generate_204",
+        "interval": "3m",
+        "tolerance": 50
+    },
       {
           "tag": "REALITY|@UnlimitedDev|🇫🇮|124.53 | 1",
           "type": "vless",
