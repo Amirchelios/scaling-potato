@@ -178,8 +178,8 @@
         "url":"https:\/\/www.gstatic.com\/generate_204",
         "interval":"1m",
         "tolerance": 50
-    }
-      {
+    },
+    {
           "tag": "REALITY|@UnlimitedDev|🇫🇮|124.53 | 1",
           "type": "vless",
           "server": "3bia-to3.unlimiteddev.shop",
