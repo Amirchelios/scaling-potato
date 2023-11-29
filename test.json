@@ -126,7 +126,6 @@
           "tag": "mokhabrat",
           "type": "urltest",
           "outbounds": [
-            "REALITY|@azadi_az_inja_migzare|🇷🇺|172.25 | 1",
             "@proxystore11|🇲🇹|5.4 | 2",
             "🇨🇦CA-4.229.41.114-0180 | 3",
             "🏁RELAY-104.21.4.29-0129 | 4",
@@ -147,11 +146,11 @@
           "tag": "hamrah-aval",
           "type": "urltest",
           "outbounds": [
-            "✍️@EliV2ray | 1",
-            "@UnlimitedDev|🚩|6.32 | 2",
-            "@lrnbymaa|🇺🇸|5.31 | 3",
-            "SHΞЯVIN™ vless:\/\/7dc91abf-f2b8-4c13-bf1a-dccedc3f59f2@198.41.201.189:8443\/?type=grpc&encryption=none&serviceName=@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی&security=tls&sni=wizwiz.miox.sbs#SHΞЯVIN™ vless:\/\/d7e16b99-d71a-4ee6-970f-3fb14e42b090@172.64.163.38:2083\/?type=grpc&encryption=none&serviceName=@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی&security=tls&sni=wizwiz.miox.sbs#SHΞЯVIN™ vless:\/\/42d197f0-99ac-4837-9493-6bc416f951b9@104.20.38.0:2096\/?type=grpc&encryption=none&security=tls&sni=mah2.hAsmailKorea.storE&fp=chrome#SHΞЯVIN™ vless:\/\/6e34f2c5-6c71-4010-c292-10d05ef4a9a2@188.114.97.7:443\/?type=ws&encryption=none&host=current.iraniancp.fun&path=\/?ed=2048&security=tls&sni=current.iraniancp.fun&alpn=http\/1.1&fp=chrome#SHΞЯVIN™ | 4",
-            "@lrnbymaa|🇲🇹|5.61 | 5"
+            "✍️@EliV2ray | 13",
+            "@UnlimitedDev|🚩|6.32 | 14",
+            "@lrnbymaa|🇺🇸|5.31 | 15",
+            "SHΞЯVIN™ vless:\/\/7dc91abf-f2b8-4c13-bf1a-dccedc3f59f2@198.41.201.189:8443\/?type=grpc&encryption=none&serviceName=@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی&security=tls&sni=wizwiz.miox.sbs#SHΞЯVIN™ vless:\/\/d7e16b99-d71a-4ee6-970f-3fb14e42b090@172.64.163.38:2083\/?type=grpc&encryption=none&serviceName=@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی&security=tls&sni=wizwiz.miox.sbs#SHΞЯVIN™ vless:\/\/42d197f0-99ac-4837-9493-6bc416f951b9@104.20.38.0:2096\/?type=grpc&encryption=none&security=tls&sni=mah2.hAsmailKorea.storE&fp=chrome#SHΞЯVIN™ vless:\/\/6e34f2c5-6c71-4010-c292-10d05ef4a9a2@188.114.97.7:443\/?type=ws&encryption=none&host=current.iraniancp.fun&path=\/?ed=2048&security=tls&sni=current.iraniancp.fun&alpn=http\/1.1&fp=chrome#SHΞЯVIN™ | 16",
+            "@lrnbymaa|🇲🇹|5.61 | 17"
           ],
           "url": "https:\/\/www.gstatic.com\/generate_204",
           "interval": "1m",
@@ -161,21 +160,22 @@
           "tag": "irancell",
           "type": "urltest",
           "outbounds": [
-            "🇺🇸US-15.181.162.90-7919 | 1",
-            "🇺🇲 United States 249 | 2",
-            "@oneclickvpnkeys|🚩|6.17 | 3",
-            "REALITY|@v2ray_swhil|🇮🇷|115.88 | 4",
-            "REALITY|@v2ray1_ng|🇩🇪|91.03 | 5",
-            "🇺🇲 United States 191 | 6",
-            "SHΞЯVIN™ vless:\/\/1f63025e-2510-4fc8-a244-2bb964a85a4b@104.20.38.0:2096\/?type=grpc&encryption=none&security=tls&sni=mah1.haSmailKorea.storE&alpn=h2&fp=chrome#SHΞЯVIN™ vless:\/\/1e05ec32-0822-4990-b93b-575b3d8d4d1f@172.232.63.62:286\/?type=grpc&encryption=none&serviceName=xyz&sni=proxmox.com&fp=chrome&security=reality&pbk=hE3RjK4TmfdFmWyE_z2_QNr-VFuX8-sINoiWxZ_0QSs&sid=#SHΞЯVIN™ vless:\/\/1e05ec32-0822-4990-b93b-575b3d8d4d1f@172.234.96.220:286\/?type=grpc&encryption=none&serviceName=xyz&sni=proxmox.com&fp=chrome&security=reality&pbk=hE3RjK4TmfdFmWyE_z2_QNr-VFuX8-sINoiWxZ_0QSs&sid=#SHΞЯVIN™ vless:\/\/45676281-ab4e-4696-d1cd-cb1b141960ad@172.67.221.114:2083\/?type=grpc&encryption=none&security=tls&sni=pan-4.eoeo.cam&fp=chrome#SHΞЯVIN™ vless:\/\/f86103ba-e161-4e39-adb7-8006acc5ec0f@104.31.16.8:80\/?type=ws&encryption=none&host=ZOoloGY.KasHTi.woRld&path=\/backup#SHΞЯVIN™ vless:\/\/89e5f98c-f02a-4d4a-a751-5a21516866d2@172.67.213.169:443\/?type=grpc&encryption=none&serviceName=@melov2ray&security=tls&sni=finn.melov2ray.shop&alpn=http\/1.1,h2&fp=chrome#SHΞЯVIN™ vless:\/\/7dc91abf-f2b8-4c13-bf1a-dccedc3f59f2@198.41.201.189:8443\/?type=grpc&encryption=none&serviceName=@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تل%D | 7",
-            "✍️@EliV2ray | 8",
-            "@bright_vpn|🚩|19.84 | 9",
-            "🇪🇸ES-176.120.74.142-7724 | 10",
-            "🏁RELAY-154.83.2.75-0127 | 11"
+            "🇺🇸US-15.181.162.90-7919 | 18",
+            "🇺🇲 United States 249 | 19",
+            "@oneclickvpnkeys|🚩|6.17 | 20",
+            "REALITY|@v2ray_swhil|🇮🇷|115.88 | 21",
+            "REALITY|@v2ray1_ng|🇩🇪|91.03 | 22",
+            "🇺🇲 United States 191 | 23",
+            "SHΞЯVIN™ vless:\/\/1f63025e-2510-4fc8-a244-2bb964a85a4b@104.20.38.0:2096\/?type=grpc&encryption=none&security=tls&sni=mah1.haSmailKorea.storE&alpn=h2&fp=chrome#SHΞЯVIN™ vless:\/\/1e05ec32-0822-4990-b93b-575b3d8d4d1f@172.232.63.62:286\/?type=grpc&encryption=none&serviceName=xyz&sni=proxmox.com&fp=chrome&security=reality&pbk=hE3RjK4TmfdFmWyE_z2_QNr-VFuX8-sINoiWxZ_0QSs&sid=#SHΞЯVIN™ vless:\/\/1e05ec32-0822-4990-b93b-575b3d8d4d1f@172.234.96.220:286\/?type=grpc&encryption=none&serviceName=xyz&sni=proxmox.com&fp=chrome&security=reality&pbk=hE3RjK4TmfdFmWyE_z2_QNr-VFuX8-sINoiWxZ_0QSs&sid=#SHΞЯVIN™ vless:\/\/45676281-ab4e-4696-d1cd-cb1b141960ad@172.67.221.114:2083\/?type=grpc&encryption=none&security=tls&sni=pan-4.eoeo.cam&fp=chrome#SHΞЯVIN™ vless:\/\/f86103ba-e161-4e39-adb7-8006acc5ec0f@104.31.16.8:80\/?type=ws&encryption=none&host=ZOoloGY.KasHTi.woRld&path=\/backup#SHΞЯVIN™ vless:\/\/89e5f98c-f02a-4d4a-a751-5a21516866d2@172.67.213.169:443\/?type=grpc&encryption=none&serviceName=@melov2ray&security=tls&sni=finn.melov2ray.shop&alpn=http\/1.1,h2&fp=chrome#SHΞЯVIN™ vless:\/\/7dc91abf-f2b8-4c13-bf1a-dccedc3f59f2@198.41.201.189:8443\/?type=grpc&encryption=none&serviceName=@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تلگرامی@Frev2ray: چنل تل%D | 24",
+            "✍️@EliV2ray | 25",
+            "@bright_vpn|🚩|19.84 | 26",
+            "🇪🇸ES-176.120.74.142-7724 | 27",
+            "🏁RELAY-154.83.2.75-0127 | 28"
           ],
           "url":"https:\/\/www.gstatic.com\/generate_204",
           "interval":"1m",
           "tolerance": 50
+        },
         },
         {
             "tag": "REALITY|@azadi_az_inja_migzare|🇷🇺|172.25 | 1",
