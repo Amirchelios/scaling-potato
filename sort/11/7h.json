@@ -17,9 +17,7 @@
             "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
             "external_ui_download_detour": "direct",
             "secret": "",
-            "default_mode": "rule",
-            "store_selected": true,
-            "cache_file": "clash.db"
+            "default_mode": "rule"
         }
     },
     "dns": {
@@ -108,257 +106,83 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "@lrnbymaa|🇲🇹|8.84 | 1",
-                "@VlessConfig|🇸🇪|203.53 | 2",
-                "@lrnbymaa|🇺🇸|9.64 | 3",
-                "@V2RayTz|🚩|9.15 | 4",
-                "@customv2ray|🇺🇸|8.84 | 5",
-                "@vmessorg|🚩|19.51 | 6",
-                "@ServerNett|🚩|9.17 | 7",
-                "@vmess_vless_v2rayng|🇺🇸|9.33 | 8",
-                "REALITY|@v2rayNG_Matsuri|🇩🇪|146.1 | 9",
-                "REALITY|@proxyymeliii|🇮🇷|148.21 | 10",
-                "@v2rayNG_Matsuri|🇺🇸|8.71 | 11",
-                "@v2rayngvpn|🚩|8.75 | 12",
-                "REALITY|@VmessProtocol|🇩🇪|168.31 | 13",
-                "🔒 (5) | 14",
-                "🔒 VL-GRPC-RLT 🇫🇮 FI-135.181.157.18:47954 📡 PING-175.63-MS | 15",
-                "SHΞЯVIN™ (60) | 16",
-                "𝗧𝗩𝗖 (7) | 17",
-                "🔒 VL-TCP-RLT 🇫🇮 FI-65.109.193.181:20041 📡 PING-175.19-MS | 18"
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 1",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 2",
+                "𝗧𝗩𝗖 (1) | 3",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 4",
+                "REALITY|@MehradLearn|🇩🇪|164.24 | 5",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 6",
+                "𝗧𝗩𝗖 (1) | 7",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 8",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 9",
+                "🏁RELAY-172.67.229.14-1504 | 10",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 11",
+                "𝗧𝗩𝗖 (1) | 12",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 13",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 14",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 15",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 16",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 17",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 18",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 19",
+                "REALITY|@v2ray_swhil|🇳🇱|101.27 | 20",
+                "REALITY|@kiava|🇸🇪|127.08 | 21",
+                "REALITY|@v2ray1_ng|🇫🇮|131.8 | 22",
+                "@v2rayngvpn|🚩|1.99 | 23",
+                "REALITY|@kiava|🇸🇪|127.08 | 24",
+                "𝗧𝗩𝗖 (1) | 25",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 26",
+                "𝗧𝗩𝗖 (1) | 27",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 28",
+                "𝗧𝗩𝗖 (1) | 29",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 30"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "@lrnbymaa|🇲🇹|8.84 | 1",
-                "@VlessConfig|🇸🇪|203.53 | 2",
-                "@lrnbymaa|🇺🇸|9.64 | 3",
-                "@V2RayTz|🚩|9.15 | 4",
-                "@customv2ray|🇺🇸|8.84 | 5",
-                "@vmessorg|🚩|19.51 | 6",
-                "@ServerNett|🚩|9.17 | 7",
-                "@vmess_vless_v2rayng|🇺🇸|9.33 | 8",
-                "REALITY|@v2rayNG_Matsuri|🇩🇪|146.1 | 9",
-                "REALITY|@proxyymeliii|🇮🇷|148.21 | 10",
-                "@v2rayNG_Matsuri|🇺🇸|8.71 | 11",
-                "@v2rayngvpn|🚩|8.75 | 12",
-                "REALITY|@VmessProtocol|🇩🇪|168.31 | 13",
-                "🔒 (5) | 14",
-                "🔒 VL-GRPC-RLT 🇫🇮 FI-135.181.157.18:47954 📡 PING-175.63-MS | 15",
-                "SHΞЯVIN™ (60) | 16",
-                "𝗧𝗩𝗖 (7) | 17",
-                "🔒 VL-TCP-RLT 🇫🇮 FI-65.109.193.181:20041 📡 PING-175.19-MS | 18"
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 1",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 2",
+                "𝗧𝗩𝗖 (1) | 3",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 4",
+                "REALITY|@MehradLearn|🇩🇪|164.24 | 5",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 6",
+                "𝗧𝗩𝗖 (1) | 7",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 8",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 9",
+                "🏁RELAY-172.67.229.14-1504 | 10",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 11",
+                "𝗧𝗩𝗖 (1) | 12",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 13",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 14",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 15",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 16",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 17",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 18",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 19",
+                "REALITY|@v2ray_swhil|🇳🇱|101.27 | 20",
+                "REALITY|@kiava|🇸🇪|127.08 | 21",
+                "REALITY|@v2ray1_ng|🇫🇮|131.8 | 22",
+                "@v2rayngvpn|🚩|1.99 | 23",
+                "REALITY|@kiava|🇸🇪|127.08 | 24",
+                "𝗧𝗩𝗖 (1) | 25",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 26",
+                "𝗧𝗩𝗖 (1) | 27",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 28",
+                "𝗧𝗩𝗖 (1) | 29",
+                "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 30"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
         },
         {
-            "tag": "@lrnbymaa|🇲🇹|8.84 | 1",
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 1",
             "type": "vless",
-            "server": "193.227.99.66",
-            "server_port": 8443,
-            "uuid": "c1b00068-ab83-4fa2-9e3b-3751d3c72c61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sad.donaldvpn.sbs",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@VlessConfig|🇸🇪|203.53 | 2",
-            "type": "vless",
-            "server": "13.51.183.103",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@lrnbymaa|🇺🇸|9.64 | 3",
-            "type": "vless",
-            "server": "104.25.254.88",
-            "server_port": 8443,
-            "uuid": "c1b00068-ab83-4fa2-9e3b-3751d3c72c61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sad.donaldvpn.sbs",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@V2RayTz|🚩|9.15 | 4",
-            "type": "vless",
-            "server": "join.v2raytz.sbs",
-            "server_port": 443,
-            "uuid": "8eb654cb-773d-430b-aa1c-53141e1b1a6b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "V2ray.SvnReallity.Online",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@customv2ray|🇺🇸|8.84 | 5",
-            "type": "vless",
-            "server": "104.24.176.7",
-            "server_port": 2096,
-            "uuid": "0b9521d9-fb34-4b5e-b27c-d591f193bcf3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chh.cheetahmh45.shop",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@vmessorg|🚩|19.51 | 6",
-            "type": "vless",
-            "server": "vmessorg.bia.tosh.mokhin.me",
-            "server_port": 80,
-            "uuid": "da4d951c-6794-4f6f-a7cc-6cb0ea128d16",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "join.bede.vmessorg.mokhin.me"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@ServerNett|🚩|9.17 | 7",
-            "type": "vless",
-            "server": "sdsdf.numal.site",
-            "server_port": 8880,
-            "uuid": "fb7fa060-827c-4ead-af6c-5cde2b40db6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@vmess_vless_v2rayng|🇺🇸|9.33 | 8",
-            "type": "vless",
-            "server": "de.melobigg.site",
+            "server": "104.16.124.175",
             "server_port": 2083,
-            "uuid": "2bd91caa-fcaa-4039-85b1-daa51dd7ec7d",
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -368,7 +192,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de.melobigg.site",
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -377,18 +201,18 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": null,
+                "service_name": "digikala",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "REALITY|@v2rayNG_Matsuri|🇩🇪|146.1 | 9",
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 2",
             "type": "vless",
-            "server": "5.75.240.36",
-            "server_port": 443,
-            "uuid": "2e86a45a-9515-409c-bf99-9ea12ad9e0ad",
+            "server": "104.16.123.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -398,32 +222,122 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 (1) | 3",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 4",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "REALITY|@MehradLearn|🇩🇪|164.24 | 5",
+            "type": "vless",
+            "server": "45.15.157.248",
+            "server_port": 16139,
+            "uuid": "1e690f1e-3cd0-40b4-a34f-64e4ac0b25b3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.kukala.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "h9WJg-OduyP4gzA-DJdeU45fQIBs1j-tQS1pLwL_0yE",
-                    "short_id": "f5361167"
+                    "public_key": "XFB8ioayefxc5mPrZa0kDUzvtK1bsu7Iu_6b1gtJn1A",
+                    "short_id": "97c8e2c1"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ipV2Ray",
+                "service_name": "@proxyforopeta",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "REALITY|@proxyymeliii|🇮🇷|148.21 | 10",
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 6",
             "type": "vless",
-            "server": "91.107.255.121",
-            "server_port": 2087,
-            "uuid": "c9b35c7d-877a-4cd8-93e3-fbec90095dd8",
+            "server": "104.16.123.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -433,42 +347,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "c9b35c7d.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7gJh9nBTFDG6j7YeDUQ6_qoayZ1gVn6_dxQhKiqyJBA",
-                    "short_id": "0791918e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Digiv2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@v2rayNG_Matsuri|🇺🇸|8.71 | 11",
-            "type": "vless",
-            "server": "104.31.16.74",
-            "server_port": 2087,
-            "uuid": "bfa8fd6e-34fb-4957-84b1-bc6d99bc3dbe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kyyugkuyuygutf.mic-mokhaderat-shatel-irancel-digikala.shop",
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -477,18 +356,18 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "IP_CF",
+                "service_name": "digikala",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "@v2rayngvpn|🚩|8.75 | 12",
+            "tag": "𝗧𝗩𝗖 (1) | 7",
             "type": "vless",
-            "server": "104.18.15.235",
-            "server_port": 443,
-            "uuid": "60dfc64c-a5d2-4de8-a1bb-8b5dc6fe3f34",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -498,29 +377,383 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ughmgvkhgfmhgc.mic-mokhaderat-shatel-irancel-digikala.shop",
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 8",
+            "type": "vless",
+            "server": "104.16.124.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 9",
+            "type": "vless",
+            "server": "104.16.123.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.67.229.14-1504 | 10",
+            "type": "vmess",
+            "server": "172.67.229.14",
+            "server_port": 80,
+            "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-Telegramjoin:@Awlix_V2RAY-",
+                "path": "\/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
                 "headers": {
-                    "Host": "ughmgvkhgfmhgc.mic-mokhaderat-shatel-irancel-digikala.shop"
+                    "Host": "fr9.tehme100.fun"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "REALITY|@VmessProtocol|🇩🇪|168.31 | 13",
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 11",
             "type": "vless",
-            "server": "51.75.90.211",
-            "server_port": 51129,
-            "uuid": "b1e4fe2d-0513-5b9f-b8a8-91efc97db47a",
+            "server": "104.16.123.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 (1) | 12",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 13",
+            "type": "vless",
+            "server": "104.16.123.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 14",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 15",
+            "type": "vless",
+            "server": "104.16.124.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 16",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 17",
+            "type": "vless",
+            "server": "104.16.124.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 18",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 19",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "REALITY|@v2ray_swhil|🇳🇱|101.27 | 20",
+            "type": "vless",
+            "server": "174.138.8.188",
+            "server_port": 17031,
+            "uuid": "f8d05aa9-a4dc-4ba6-a7a1-769c700744e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -534,149 +767,28 @@
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tHUQkJ8gpxjTgeOkCrswR_pXx39S45SnTUv_FUP8Fis",
-                    "short_id": "7fe29733"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🔒 (5) | 14",
-            "type": "vless",
-            "server": "65.109.197.193",
-            "server_port": 443,
-            "uuid": "836e7938-6178-4db8-8d4a-09c63b9d88d2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gsmarena.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "dTGmUPDOGQhE1VI97cGpw-DOnsW_rzm7a-YMDcDkx2c",
-                    "short_id": "a786cf49"
+                    "public_key": "MayL7QeRcmvvPuyQXPxmjouZ_5PYzvcGvsR8hsl-9Dw",
+                    "short_id": "3d9752e5"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Everyday_VPN",
+                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray@XsV2ray,@XsV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "🔒 VL-GRPC-RLT 🇫🇮 FI-135.181.157.18:47954 📡 PING-175.63-MS | 15",
+            "tag": "REALITY|@kiava|🇸🇪|127.08 | 21",
             "type": "vless",
-            "server": "135.181.157.18",
-            "server_port": 47954,
-            "uuid": "40a441d4-d359-4879-9c6a-7210fcb7abd3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kukala.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dGjq60PKmggbdrDhiu2l4SsK8k0438ibjTyJAx0EuVI",
-                    "short_id": "ca387a9e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "SHΞЯVIN™ (60) | 16",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "𝗧𝗩𝗖 (7) | 17",
-            "type": "vless",
-            "server": "172.232.128.41",
-            "server_port": 18464,
-            "uuid": "27d69d52-5d63-4667-fd88-52c48b2b32b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🔒 VL-TCP-RLT 🇫🇮 FI-65.109.193.181:20041 📡 PING-175.19-MS | 18",
-            "type": "vless",
-            "server": "65.109.193.181",
-            "server_port": 20041,
-            "uuid": "ce6b09e1-ad36-453e-d2f9-192fa7619979",
+            "server": "13.53.140.24",
+            "server_port": 8443,
+            "uuid": "78a21ddc-dc26-4a8a-85fd-9ec5d8729955",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -686,17 +798,283 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ce6b09e1.com",
+                "server_name": "ddragon.leagueoflegends.com",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zyDyJchACrc8CuthaWp5IAv21TmakOJDNVvek_sTlxY",
-                    "short_id": "2027872c"
+                    "public_key": "fp-RvC2NYNxlOeLCFhqU6o4H_so-3l_2OHvTCQs3iFU",
+                    "short_id": "34"
                 }
+            }
+        },
+        {
+            "tag": "REALITY|@v2ray1_ng|🇫🇮|131.8 | 22",
+            "type": "vless",
+            "server": "65.108.252.214",
+            "server_port": 443,
+            "uuid": "cb56cfd1-1f9d-423a-9915-2d517e809dcd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SV23Za9kBfbKT2yweaAu_9RHj587y3hyBp3aX8kPT3w",
+                    "short_id": "f97ccea1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@V2ray1_Ng--@V2ray1_Ng",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@v2rayngvpn|🚩|1.99 | 23",
+            "type": "vless",
+            "server": "104.21.89.214",
+            "server_port": 80,
+            "uuid": "56733cf9-f08d-43d9-8157-8e8ddbd0c06f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/graphql",
+                "headers": {
+                    "Host": "v20.smartyticket.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "REALITY|@kiava|🇸🇪|127.08 | 24",
+            "type": "vless",
+            "server": "13.53.140.24",
+            "server_port": 8443,
+            "uuid": "78a21ddc-dc26-4a8a-85fd-9ec5d8729955",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ddragon.leagueoflegends.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fp-RvC2NYNxlOeLCFhqU6o4H_so-3l_2OHvTCQs3iFU",
+                    "short_id": "34"
+                }
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 (1) | 25",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 26",
+            "type": "vless",
+            "server": "104.16.123.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 (1) | 27",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 28",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 (1) | 29",
+            "type": "vless",
+            "server": "104.16.125.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 30",
+            "type": "vless",
+            "server": "104.16.124.175",
+            "server_port": 2083,
+            "uuid": "e7519d7a-0956-4263-aaf0-1354a34df1c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telEwebIoN.hAsmAIlkORea.stORe",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "digikala",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
