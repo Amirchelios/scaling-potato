@@ -23,13 +23,13 @@
     "dns": {
         "servers": [
             {
-                "address": "https:\/\/dns.bitdefender.net\/dns-query",
+                "address": "tcp:\/\/95.85.95.85",
                 "address_resolver": "dns-direct",
                 "strategy": "ipv4_only",
                 "tag": "dns-remote"
             },
             {
-                "address": "https:\/\/dns.bitdefender.net\/dns-query",
+                "address": "tcp:\/\/95.85.95.85",
                 "address_resolver": "dns-local",
                 "detour": "direct",
                 "strategy": "ipv4_only",
@@ -106,123 +106,158 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "SHΞЯVIN™ (60) | 1",
-                "@v2ray1_ng|🇺🇸|9.44 | 2",
-                "@ShadowProxy66|🇺🇸|24.74 | 3",
-                "SHΞЯVIN™ (35) | 4",
-                "SHΞЯVIN™ (60) | 5",
-                "🇳🇱 Netherlands 22 | 6",
-                "SHΞЯVIN™ (60) | 7",
-                "REALITY|@v2ray1_ng|🇫🇮|131.8 | 8",
-                "🇺🇲 United States 254 | 9",
-                "REALITY|@ConfigsHUB|🇵🇰|109.82 | 10",
-                "SHΞЯVIN™ (35) | 11",
-                "SHΞЯVIN™ (51) | 12",
-                "🏁RELAY-104.18.53.172-1571 | 13",
-                "REALITY|@ServerNett|🇫🇷|106.94 | 14",
-                "SHΞЯVIN™ (42) | 15",
-                "🏁RELAY-45.85.119.207-1314 | 16",
-                "SHΞЯVIN™ (42) | 17",
-                "REALITY|@MehradLearn|🇩🇪|164.24 | 18",
-                "REALITY|@ConfigsHUB|🇵🇰|109.82 | 19"
+                "🇺🇸US-205.134.180.143-0658 | 1",
+                "🇩🇪DE-95.164.89.142-6621 | 2",
+                "🏁RELAY-188.114.99.0-1179 | 3",
+                "🏁RELAY-172.67.229.14-1413 | 4",
+                "🏁RELAY-172.67.197.82-0148 | 5",
+                "🏁RELAY-104.31.16.46-1170 | 6",
+                "🏁RELAY-104.21.91.254-2934 | 7",
+                "🏁RELAY-172.64.80.1-1078 | 8",
+                "REALITY|@ServerNett|🇫🇷|139.51 | 9",
+                "REALITY|@V2RayTz|🇫🇮|130.75 | 10",
+                "@V2rayNGn|🚩|126.47 | 11",
+                "@UnlimitedDev|🇺🇸|5.83 | 12",
+                "REALITY|@Helix_Servers|🇫🇮|118.92 | 13",
+                "🇺🇲 United States 139 | 14",
+                "🇺🇲 United States 178 | 15",
+                "🇺🇲 United States 210 | 16",
+                "🇺🇲 United States 237 | 17",
+                "🇺🇲 United States 191 | 18",
+                "🇳🇱 Netherlands 21 | 19",
+                "🇺🇲 United States 226 | 20",
+                "🇳🇱 Netherlands 19 | 21",
+                "🇳🇱 Netherlands 20 | 22",
+                "🇺🇲 United States 187 | 23",
+                "🇺🇲 United States 91 | 24",
+                "🇺🇲 United States 162 | 25",
+                "🇺🇲 United States 171 | 26",
+                "🇺🇲 United States 193 | 27",
+                "🇺🇲 United States 154 | 28",
+                "🇺🇲 United States 168 | 29",
+                "🇺🇲 United States 159 | 30",
+                "🇺🇲 United States 170 | 31",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 32",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 33",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 34",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 35",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 36",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 37",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 38",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 39",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 40",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 41",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 42",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 43",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 44",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 45",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 46",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 47",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 48",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 49",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 50",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 51",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 52",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 53",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 54",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "SHΞЯVIN™ (60) | 1",
-                "@v2ray1_ng|🇺🇸|9.44 | 2",
-                "@ShadowProxy66|🇺🇸|24.74 | 3",
-                "SHΞЯVIN™ (35) | 4",
-                "SHΞЯVIN™ (60) | 5",
-                "🇳🇱 Netherlands 22 | 6",
-                "SHΞЯVIN™ (60) | 7",
-                "REALITY|@v2ray1_ng|🇫🇮|131.8 | 8",
-                "🇺🇲 United States 254 | 9",
-                "REALITY|@ConfigsHUB|🇵🇰|109.82 | 10",
-                "SHΞЯVIN™ (35) | 11",
-                "SHΞЯVIN™ (51) | 12",
-                "🏁RELAY-104.18.53.172-1571 | 13",
-                "REALITY|@ServerNett|🇫🇷|106.94 | 14",
-                "SHΞЯVIN™ (42) | 15",
-                "🏁RELAY-45.85.119.207-1314 | 16",
-                "SHΞЯVIN™ (42) | 17",
-                "REALITY|@MehradLearn|🇩🇪|164.24 | 18",
-                "REALITY|@ConfigsHUB|🇵🇰|109.82 | 19"
+                "🇺🇸US-205.134.180.143-0658 | 1",
+                "🇩🇪DE-95.164.89.142-6621 | 2",
+                "🏁RELAY-188.114.99.0-1179 | 3",
+                "🏁RELAY-172.67.229.14-1413 | 4",
+                "🏁RELAY-172.67.197.82-0148 | 5",
+                "🏁RELAY-104.31.16.46-1170 | 6",
+                "🏁RELAY-104.21.91.254-2934 | 7",
+                "🏁RELAY-172.64.80.1-1078 | 8",
+                "REALITY|@ServerNett|🇫🇷|139.51 | 9",
+                "REALITY|@V2RayTz|🇫🇮|130.75 | 10",
+                "@V2rayNGn|🚩|126.47 | 11",
+                "@UnlimitedDev|🇺🇸|5.83 | 12",
+                "REALITY|@Helix_Servers|🇫🇮|118.92 | 13",
+                "🇺🇲 United States 139 | 14",
+                "🇺🇲 United States 178 | 15",
+                "🇺🇲 United States 210 | 16",
+                "🇺🇲 United States 237 | 17",
+                "🇺🇲 United States 191 | 18",
+                "🇳🇱 Netherlands 21 | 19",
+                "🇺🇲 United States 226 | 20",
+                "🇳🇱 Netherlands 19 | 21",
+                "🇳🇱 Netherlands 20 | 22",
+                "🇺🇲 United States 187 | 23",
+                "🇺🇲 United States 91 | 24",
+                "🇺🇲 United States 162 | 25",
+                "🇺🇲 United States 171 | 26",
+                "🇺🇲 United States 193 | 27",
+                "🇺🇲 United States 154 | 28",
+                "🇺🇲 United States 168 | 29",
+                "🇺🇲 United States 159 | 30",
+                "🇺🇲 United States 170 | 31",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 32",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 33",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 34",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 35",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 36",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 37",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 38",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 39",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 40",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 41",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 42",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 43",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 44",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 45",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 46",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 47",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 48",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 49",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 50",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 51",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 52",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 53",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 54",
+                "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 55"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
         },
         {
-            "tag": "SHΞЯVIN™ (60) | 1",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@v2ray1_ng|🇺🇸|9.44 | 2",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@ShadowProxy66|🇺🇸|24.74 | 3",
-            "type": "vless",
-            "server": "ada36.qvqag.com",
+            "tag": "🇺🇸US-205.134.180.143-0658 | 1",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1949.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
             "server_port": 443,
-            "uuid": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "method": "chacha20-ietf-poly1305",
+            "password": "R9Xc4dHXGv3c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE-95.164.89.142-6621 | 2",
+            "type": "shadowsocks",
+            "server": "95.164.89.142",
+            "server_port": 58603,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5UyVcx4jYrcbFwmhPkhzim",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🏁RELAY-188.114.99.0-1179 | 3",
+            "type": "vmess",
+            "server": "188.114.99.0",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -230,8 +265,9 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
-                "insecure": false,
+                "server_name": "188.114.99.0",
+                "insecure": true,
+                "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
@@ -239,82 +275,340 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/users",
+                "path": "\/cloudconebbb",
                 "headers": {
-                    "Host": ""
+                    "Host": "cloudconebbb.gorgorchicken.one"
                 },
-                "max_early_data": 2048,
+                "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "SHΞЯVIN™ (35) | 4",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "SHΞЯVIN™ (60) | 5",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱 Netherlands 22 | 6",
+            "tag": "🏁RELAY-172.67.229.14-1413 | 4",
             "type": "vmess",
-            "server": "188.114.96.7",
+            "server": "172.67.229.14",
+            "server_port": 80,
+            "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
+                "headers": {
+                    "Host": "fr9.tehme100.fun"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.67.197.82-0148 | 5",
+            "type": "vmess",
+            "server": "odelia.autos",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "odelia.autos",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.31.16.46-1170 | 6",
+            "type": "vmess",
+            "server": "104.31.16.46",
+            "server_port": 2082,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": "ca5.tehme100.fun"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.21.91.254-2934 | 7",
+            "type": "vmess",
+            "server": "104.21.91.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "waynn.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "waynn.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.64.80.1-1078 | 8",
+            "type": "vmess",
+            "server": "ld2.shabijichang.com",
+            "server_port": 80,
+            "uuid": "c458695d-6908-45c3-9512-e0c46418454c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ld2.shabijichang.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "REALITY|@ServerNett|🇫🇷|139.51 | 9",
+            "type": "vless",
+            "server": "141.95.106.240",
+            "server_port": 54352,
+            "uuid": "41092633-c8b9-4e89-947b-31c515491b10",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jioin-severnett10.numalla.top",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "setn5CE9f0f3aY6ixElHyHI0PbkG_5V_8OSTTIfLBzA",
+                    "short_id": "b1327443"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "REALITY|@V2RayTz|🇫🇮|130.75 | 10",
+            "type": "vless",
+            "server": "861-join.v2raytz.sbs",
+            "server_port": 443,
+            "uuid": "017f481c-9450-47ca-9b89-f15ce14add6f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jVp3az9L96UNgzMK7fFGYsm41RLcGTceZ7xl02lYiTs",
+                    "short_id": "174e30c7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@V2rayNGn|🚩|126.47 | 11",
+            "type": "vless",
+            "server": "lightning6-joinbede.mamd.sbs",
+            "server_port": 2083,
+            "uuid": "34c2c061-b124-48ad-8efa-c82a2b932066",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Liv2ray.p-lightning6.cfd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@UnlimitedDev|🇺🇸|5.83 | 12",
+            "type": "vless",
+            "server": "bia-to3.unlimiteddev.shop",
+            "server_port": 80,
+            "uuid": "4851523c-24db-4995-9b24-69d31e7e2d2a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bia-to-channel3.unlimiteddev.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "REALITY|@Helix_Servers|🇫🇮|118.92 | 13",
+            "type": "vless",
+            "server": "free3.h3lixchannel.fun",
+            "server_port": 443,
+            "uuid": "a95cb979-589a-4b00-b68c-a76eebaa895a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0Ckov-4qL39Uei6IVu6z85AU7W4aHY_6DSioz3TfmFM",
+                    "short_id": "ba525fd6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 139 | 14",
+            "type": "shadowsocks",
+            "server": "passconf.xyz",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qGjmI8WQlF0tfhDbkLqGdN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇲 United States 178 | 15",
+            "type": "vmess",
+            "server": "octavi.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -344,13 +638,16 @@
             }
         },
         {
-            "tag": "SHΞЯVIN™ (60) | 7",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇲 United States 210 | 16",
+            "type": "vmess",
+            "server": "odelia.autos",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -358,29 +655,35 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
+                "server_name": "odelia.autos",
+                "insecure": true,
+                "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "REALITY|@v2ray1_ng|🇫🇮|131.8 | 8",
-            "type": "vless",
-            "server": "65.108.252.214",
+            "tag": "🇺🇲 United States 237 | 17",
+            "type": "vmess",
+            "server": "172.67.142.191",
             "server_port": 443,
-            "uuid": "cb56cfd1-1f9d-423a-9915-2d517e809dcd",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -388,30 +691,64 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": false,
+                "server_name": "edeen.makeup",
+                "insecure": true,
+                "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SV23Za9kBfbKT2yweaAu_9RHj587y3hyBp3aX8kPT3w",
-                    "short_id": "f97ccea1"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@V2ray1_Ng--@V2ray1_Ng",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "edeen.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "🇺🇲 United States 254 | 9",
+            "tag": "🇺🇲 United States 191 | 18",
             "type": "vmess",
-            "server": "104.21.53.12",
+            "server": "cloudconebbb.gorgorchicken.one",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇳🇱 Netherlands 21 | 19",
+            "type": "vmess",
+            "server": "188.114.99.0",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -445,105 +782,308 @@
             }
         },
         {
-            "tag": "REALITY|@ConfigsHUB|🇵🇰|109.82 | 10",
-            "type": "vless",
-            "server": "168.119.184.138",
-            "server_port": 25093,
-            "uuid": "e8134461-f05b-4af3-8291-e6fdd94f301d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "joinv_2rayngvpn.v2rayvpn2.sbs",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Y6NKkoTdEh7XQpLP0NrLTpwEWyEyL3E7PouAC4ShTXY",
-                    "short_id": "48d69fd8"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "SHΞЯVIN™ (35) | 11",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "SHΞЯVIN™ (51) | 12",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏁RELAY-104.18.53.172-1571 | 13",
+            "tag": "🇺🇲 United States 226 | 20",
             "type": "vmess",
-            "server": "104.18.53.172",
-            "server_port": 80,
+            "server": "104.21.27.139",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edeen.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "edeen.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇳🇱 Netherlands 19 | 21",
+            "type": "vmess",
+            "server": "188.114.97.1",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "odelia.autos",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇳🇱 Netherlands 20 | 22",
+            "type": "vmess",
+            "server": "22.vmessprotocol.telegram-vmessprotocol-channel.space",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "odelia.autos",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 187 | 23",
+            "type": "vmess",
+            "server": "104.21.31.183",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "octavi.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "octavi.cfd"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 91 | 24",
+            "type": "shadowsocks",
+            "server": "www.outline.network.ak1889.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5cp9Z3iWnJZ2",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇲 United States 162 | 25",
+            "type": "vmess",
+            "server": "172.67.164.184",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "alvvin.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "alvvin.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 171 | 26",
+            "type": "vmess",
+            "server": "172.67.215.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "octavi.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "octavi.cfd"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 193 | 27",
+            "type": "vmess",
+            "server": "104.21.21.88",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "odelia.autos",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "odelia.autos"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 154 | 28",
+            "type": "vmess",
+            "server": "waynn.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "waynn.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "waynn.makeup"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 168 | 29",
+            "type": "vmess",
+            "server": "172.67.229.24",
+            "server_port": 8880,
             "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
             "security": "auto",
             "alter_id": 0,
@@ -559,85 +1099,20 @@
                 "type": "ws",
                 "path": "\/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
                 "headers": {
-                    "Host": "fr9.tehme100.fun"
+                    "Host": "fr7.tehme100.fun"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "REALITY|@ServerNett|🇫🇷|106.94 | 14",
-            "type": "vless",
-            "server": "141.95.106.240",
-            "server_port": 54352,
-            "uuid": "3630b0b0-d697-4e14-ba2c-e7cdec840459",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jioin-severnett10.numalla.top",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "setn5CE9f0f3aY6ixElHyHI0PbkG_5V_8OSTTIfLBzA",
-                    "short_id": "b1327443"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "SHΞЯVIN™ (42) | 15",
-            "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": null,
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏁RELAY-45.85.119.207-1314 | 16",
+            "tag": "🇺🇲 United States 159 | 30",
             "type": "vmess",
-            "server": "45.85.119.207",
+            "server": "alvvin.click",
             "server_port": 443,
-            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -648,7 +1123,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "45.85.119.207",
+                "server_name": "alvvin.click",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -658,20 +1133,56 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Kansas.kotick.site\/speedtest",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "delicate-meadow-b728.mahdihajizade123080019624.workers.dev"
+                    "Host": "alvvin.click"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "SHΞЯVIN™ (42) | 17",
+            "tag": "🇺🇲 United States 170 | 31",
+            "type": "vmess",
+            "server": "172.67.179.37",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "octavi.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "octavi.cfd"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 32",
             "type": "vless",
-            "server": "172.67.221.114",
-            "server_port": 2083,
-            "uuid": "45676281-ab4e-4696-d1cd-cb1b141960ad",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -681,7 +1192,77 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pan-4.eoeo.cam",
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 33",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 34",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "827a1c22-2c1d-419b-afbe-20ea9cf2ad9d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free2.h3lixchannel.fun",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -690,18 +1271,18 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": null,
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "REALITY|@MehradLearn|🇩🇪|164.24 | 18",
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 35",
             "type": "vless",
-            "server": "45.15.157.248",
-            "server_port": 16139,
-            "uuid": "1e690f1e-3cd0-40b4-a34f-64e4ac0b25b3",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -711,32 +1292,27 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.kukala.ir",
+                "server_name": "free4.h3lixchannel.fun",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "XFB8ioayefxc5mPrZa0kDUzvtK1bsu7Iu_6b1gtJn1A",
-                    "short_id": "97c8e2c1"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@proxyforopeta",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "REALITY|@ConfigsHUB|🇵🇰|109.82 | 19",
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 36",
             "type": "vless",
-            "server": "168.119.184.138",
-            "server_port": 25093,
-            "uuid": "e8134461-f05b-4af3-8291-e6fdd94f301d",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -746,21 +1322,641 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "joinv_2rayngvpn.v2rayvpn2.sbs",
+                "server_name": "greenpepper.ir",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Y6NKkoTdEh7XQpLP0NrLTpwEWyEyL3E7PouAC4ShTXY",
-                    "short_id": "48d69fd8"
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 37",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free4.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 38",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free4.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 39",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free4.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 40",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "827a1c22-2c1d-419b-afbe-20ea9cf2ad9d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free2.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 41",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 42",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 43",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free4.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 44",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free4.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 45",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "871e3843-3941-46ce-862f-1bfb7ad7a57f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free4.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 46",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "827a1c22-2c1d-419b-afbe-20ea9cf2ad9d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free2.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 47",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 48",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 49",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 50",
+            "type": "vless",
+            "server": "104.16.178.157",
+            "server_port": 2096,
+            "uuid": "827a1c22-2c1d-419b-afbe-20ea9cf2ad9d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free2.h3lixchannel.fun",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 51",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 52",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 53",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 54",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "SHΞЯVIN™🔮_𝗧𝗩𝗖 ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ | 55",
+            "type": "vless",
+            "server": "49.13.153.45",
+            "server_port": 443,
+            "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2uEIMiFhabdzWyUpGlNjK7EcfhpnO8EapYAAfcPXZWg",
+                    "short_id": "7060aa96"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
