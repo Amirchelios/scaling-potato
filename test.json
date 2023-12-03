@@ -2020,11 +2020,11 @@
                 "geosite": [
                     "ir"
                 ],
-                "outbound": "direct"
+                "outbound": "bypass"
             },
             {
                 "geosite": [
-                    "other"
+                    "www.youtube.com"
                 ],
                 "outbound": "direct"
             },
