@@ -164,7 +164,7 @@
             ],
             "url": "http://cachefly.cachefly.net/100mb.test",
             "interval": "3m",
-            "tolerance": 100
+            "tolerance": 1
         },
         {
             "tag": "🇺🇸US-205.134.180.143-0658 | 1",
