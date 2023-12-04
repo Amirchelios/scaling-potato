@@ -100,677 +100,124 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "REALITY|@v2ray1_ng|🇫🇮|170.83 | 1",
-                "REALITY|@UnlimitedDev|🇫🇮|175.83 | 2",
-                "REALITY|@v2ray_swhil|🇳🇱|140.03 | 3",
-                "REALITY|@v2ray1_ng|🇫🇮|170.83 | 4",
-                "REALITY|@UnlimitedDev|🇫🇮|175.83 | 5",
-                "REALITY|@v2ray_swhil|🇳🇱|140.03 | 6",
-                "REALITY|@V2RayTz|🇮🇷|154.38 | 7",
-                "SHERVINOFPERSIA  | 8",
-                "REALITY|@v2ray1_ng|🇫🇮|170.83 | 9",
-                "REALITY|@kiava|🇸🇪|202.7 | 10",
-                "REALITY|@v2ray_swhil|🇳🇱|140.03 | 11",
-                "REALITY|@ServerNett|🇫🇷|161.26 | 12",
-                "REALITY|@ServerNett|🇫🇷|161.26 | 13",
-                "REALITY|@ServerNett|🇫🇷|161.26 | 14",
-                "REALITY|@VmessProtocol|🇸🇪|166.82 | 15",
-                "REALITY|@kiava|🇸🇪|202.7 | 16",
-                "REALITY|@VmessProtocol|🇸🇪|166.82 | 17",
-                "REALITY|@kiava|🇸🇪|202.7 | 18",
-                "REALITY|@VmessProtocol|🇸🇪|166.82 | 19"
+                "🇩🇪DE-217.182.198.219-3115 | 1",
+                "🇵🇱PL-51.77.53.200-3257 | 2",
+                "🇫🇷FR-149.202.82.172-2931 | 3",
+                "🇫🇷FR-149.202.82.172-2946 | 4",
+                "🇫🇷FR-54.36.174.181-3253 | 5",
+                "🇫🇷FR-149.202.82.172-3233 | 6",
+                "🇫🇷FR-149.202.82.172-7910 | 7",
+                "🇵🇱PL-51.77.53.200-3213 | 8",
+                "🇫🇷FR-54.36.174.181-6666 | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "REALITY|@v2ray1_ng|🇫🇮|170.83 | 1",
-                "REALITY|@UnlimitedDev|🇫🇮|175.83 | 2",
-                "REALITY|@v2ray_swhil|🇳🇱|140.03 | 3",
-                "REALITY|@v2ray1_ng|🇫🇮|170.83 | 4",
-                "REALITY|@UnlimitedDev|🇫🇮|175.83 | 5",
-                "REALITY|@v2ray_swhil|🇳🇱|140.03 | 6",
-                "REALITY|@V2RayTz|🇮🇷|154.38 | 7",
-                "SHERVINOFPERSIA  | 8",
-                "REALITY|@v2ray1_ng|🇫🇮|170.83 | 9",
-                "REALITY|@kiava|🇸🇪|202.7 | 10",
-                "REALITY|@v2ray_swhil|🇳🇱|140.03 | 11",
-                "REALITY|@ServerNett|🇫🇷|161.26 | 12",
-                "REALITY|@ServerNett|🇫🇷|161.26 | 13",
-                "REALITY|@ServerNett|🇫🇷|161.26 | 14",
-                "REALITY|@VmessProtocol|🇸🇪|166.82 | 15",
-                "REALITY|@kiava|🇸🇪|202.7 | 16",
-                "REALITY|@VmessProtocol|🇸🇪|166.82 | 17",
-                "REALITY|@kiava|🇸🇪|202.7 | 18",
-                "REALITY|@VmessProtocol|🇸🇪|166.82 | 19"
+                "🇩🇪DE-217.182.198.219-3115 | 1",
+                "🇵🇱PL-51.77.53.200-3257 | 2",
+                "🇫🇷FR-149.202.82.172-2931 | 3",
+                "🇫🇷FR-149.202.82.172-2946 | 4",
+                "🇫🇷FR-54.36.174.181-3253 | 5",
+                "🇫🇷FR-149.202.82.172-3233 | 6",
+                "🇫🇷FR-149.202.82.172-7910 | 7",
+                "🇵🇱PL-51.77.53.200-3213 | 8",
+                "🇫🇷FR-54.36.174.181-6666 | 9"
             ],
             "url": "https://cp.cloudflare.com/",
             "interval": "3m",
             "tolerance": 50
         },
         {
-            "tag": "REALITY|@v2ray1_ng|🇫🇮|170.83 | 1",
-            "type": "vless",
-            "server": "65.21.186.204",
-            "server_port": 443,
-            "uuid": "30d376aa-fd69-4423-b480-5424ae76cca7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aLvEJ7Jo0ffMwOPBM14S-n1WDOq-p-5SW903uBJGkVo",
-                    "short_id": "54df16fd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": ",@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇩🇪DE-217.182.198.219-3115 | 1",
+            "type": "shadowsocks",
+            "server": "217.182.198.219",
+            "server_port": 3389,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@UnlimitedDev|🇫🇮|175.83 | 2",
-            "type": "vless",
-            "server": "3bia-to3.unlimiteddev.shop",
-            "server_port": 443,
-            "uuid": "1eef7bb6-1301-4108-bc6d-3d0d947f25f9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FFcI966AMKaC7RtP9AZCpjFntoq7b6mVYSk07JBqhAM",
-                    "short_id": "da0afe8b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇵🇱PL-51.77.53.200-3257 | 2",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 6679,
+            "method": "aes-256-gcm",
+            "password": "TEzjfAYq2IjtuoS",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@v2ray_swhil|🇳🇱|140.03 | 3",
-            "type": "vless",
-            "server": "174.138.8.188",
-            "server_port": 17031,
-            "uuid": "87ea1c75-0f17-4ce1-9a2d-410570b981ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MayL7QeRcmvvPuyQXPxmjouZ_5PYzvcGvsR8hsl-9Dw",
-                    "short_id": "3d9752e5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇫🇷FR-149.202.82.172-2931 | 3",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@v2ray1_ng|🇫🇮|170.83 | 4",
-            "type": "vless",
-            "server": "65.21.186.204",
-            "server_port": 443,
-            "uuid": "30d376aa-fd69-4423-b480-5424ae76cca7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aLvEJ7Jo0ffMwOPBM14S-n1WDOq-p-5SW903uBJGkVo",
-                    "short_id": "54df16fd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": ",@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇫🇷FR-149.202.82.172-2946 | 4",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 3306,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@UnlimitedDev|🇫🇮|175.83 | 5",
-            "type": "vless",
-            "server": "3bia-to3.unlimiteddev.shop",
-            "server_port": 443,
-            "uuid": "1eef7bb6-1301-4108-bc6d-3d0d947f25f9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FFcI966AMKaC7RtP9AZCpjFntoq7b6mVYSk07JBqhAM",
-                    "short_id": "da0afe8b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇫🇷FR-54.36.174.181-3253 | 5",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 5600,
+            "method": "aes-256-gcm",
+            "password": "Y6R9pAtvxxzmGC",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@v2ray_swhil|🇳🇱|140.03 | 6",
-            "type": "vless",
-            "server": "174.138.8.188",
-            "server_port": 17031,
-            "uuid": "87ea1c75-0f17-4ce1-9a2d-410570b981ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MayL7QeRcmvvPuyQXPxmjouZ_5PYzvcGvsR8hsl-9Dw",
-                    "short_id": "3d9752e5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇫🇷FR-149.202.82.172-3233 | 6",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8882,
+            "method": "aes-256-gcm",
+            "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@V2RayTz|🇮🇷|154.38 | 7",
-            "type": "vless",
-            "server": "896-join.v2raytz.sbs",
-            "server_port": 8080,
-            "uuid": "61012f59-5576-4bd9-c932-08c05b0cba7a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4OTfR6IQ_6Z-5EiAi08sSfUjZtC30c2x6jl9BE9KFwg",
-                    "short_id": "356dc0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇫🇷FR-149.202.82.172-7910 | 7",
+            "type": "shadowsocks",
+            "server": "ak1650.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+            "server_port": 5004,
+            "method": "aes-256-gcm",
+            "password": "g5MeD6Ft3CWlJId",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "SHERVINOFPERSIA  | 8",
-            "type": "vless",
-            "server": "65.109.184.213",
-            "server_port": 443,
-            "uuid": "7ffa5d1a-c3ba-4eca-94c6-28f3eac26dc2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gsmarena.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dTGmUPDOGQhE1VI97cGpw-DOnsW_rzm7a-YMDcDkx2c",
-                    "short_id": "a786cf49"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Everyday_VPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
+            "tag": "🇵🇱PL-51.77.53.200-3213 | 8",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "REALITY|@v2ray1_ng|🇫🇮|170.83 | 9",
-            "type": "vless",
-            "server": "65.21.186.204",
-            "server_port": 443,
-            "uuid": "30d376aa-fd69-4423-b480-5424ae76cca7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aLvEJ7Jo0ffMwOPBM14S-n1WDOq-p-5SW903uBJGkVo",
-                    "short_id": "54df16fd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": ",@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,,@V2ray1_Ng,@V2ray1_Ng,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@kiava|🇸🇪|202.7 | 10",
-            "type": "vless",
-            "server": "13.50.111.188",
-            "server_port": 8443,
-            "uuid": "c6d1260e-d2dd-4e52-a265-2d0c731aa607",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddragon.leagueoflegends.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UGHN8rSIsIe7XF-Y9dTjAtokwr6fVYQdlHMH9nhdV1w",
-                    "short_id": "a0"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@v2ray_swhil|🇳🇱|140.03 | 11",
-            "type": "vless",
-            "server": "174.138.8.188",
-            "server_port": 17031,
-            "uuid": "87ea1c75-0f17-4ce1-9a2d-410570b981ef",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MayL7QeRcmvvPuyQXPxmjouZ_5PYzvcGvsR8hsl-9Dw",
-                    "short_id": "3d9752e5"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray@XsV2ray,@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@ServerNett|🇫🇷|161.26 | 12",
-            "type": "vless",
-            "server": "141.95.106.240",
-            "server_port": 54352,
-            "uuid": "6cac3292-d10d-4160-9957-1c25eb756027",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jioin-severnett10.numalla.top",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "setn5CE9f0f3aY6ixElHyHI0PbkG_5V_8OSTTIfLBzA",
-                    "short_id": "b1327443"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@ServerNett|🇫🇷|161.26 | 13",
-            "type": "vless",
-            "server": "141.95.106.240",
-            "server_port": 54352,
-            "uuid": "6cac3292-d10d-4160-9957-1c25eb756027",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jioin-severnett10.numalla.top",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "setn5CE9f0f3aY6ixElHyHI0PbkG_5V_8OSTTIfLBzA",
-                    "short_id": "b1327443"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@ServerNett|🇫🇷|161.26 | 14",
-            "type": "vless",
-            "server": "141.95.106.240",
-            "server_port": 54352,
-            "uuid": "6cac3292-d10d-4160-9957-1c25eb756027",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jioin-severnett10.numalla.top",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "setn5CE9f0f3aY6ixElHyHI0PbkG_5V_8OSTTIfLBzA",
-                    "short_id": "b1327443"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@VmessProtocol|🇸🇪|166.82 | 15",
-            "type": "vless",
-            "server": "13.48.31.204",
-            "server_port": 8443,
-            "uuid": "c6d1260e-d2dd-4e52-a265-2d0c731aa607",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddragon.leagueoflegends.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PoiYg9wOVGiMcFVjH9wmT2bUQ2EXWdM26WztKHo62Ho",
-                    "short_id": "a0"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@kiava|🇸🇪|202.7 | 16",
-            "type": "vless",
-            "server": "13.50.111.188",
-            "server_port": 8443,
-            "uuid": "c6d1260e-d2dd-4e52-a265-2d0c731aa607",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddragon.leagueoflegends.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UGHN8rSIsIe7XF-Y9dTjAtokwr6fVYQdlHMH9nhdV1w",
-                    "short_id": "a0"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@VmessProtocol|🇸🇪|166.82 | 17",
-            "type": "vless",
-            "server": "13.48.31.204",
-            "server_port": 8443,
-            "uuid": "c6d1260e-d2dd-4e52-a265-2d0c731aa607",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddragon.leagueoflegends.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PoiYg9wOVGiMcFVjH9wmT2bUQ2EXWdM26WztKHo62Ho",
-                    "short_id": "a0"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@kiava|🇸🇪|202.7 | 18",
-            "type": "vless",
-            "server": "13.50.111.188",
-            "server_port": 8443,
-            "uuid": "c6d1260e-d2dd-4e52-a265-2d0c731aa607",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddragon.leagueoflegends.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UGHN8rSIsIe7XF-Y9dTjAtokwr6fVYQdlHMH9nhdV1w",
-                    "short_id": "a0"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@VmessProtocol|🇸🇪|166.82 | 19",
-            "type": "vless",
-            "server": "13.48.31.204",
-            "server_port": 8443,
-            "uuid": "c6d1260e-d2dd-4e52-a265-2d0c731aa607",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ddragon.leagueoflegends.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PoiYg9wOVGiMcFVjH9wmT2bUQ2EXWdM26WztKHo62Ho",
-                    "short_id": "a0"
-                }
-            }
+            "tag": "🇫🇷FR-54.36.174.181-6666 | 9",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 9101,
+            "method": "aes-256-gcm",
+            "password": "e4FCWrgpkji3QY",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "direct",
