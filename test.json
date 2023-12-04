@@ -1968,7 +1968,7 @@
         },
         {
             "tag": "bypass",
-            "type": "direct"
+            "type": "bypass"
         },
         {
             "tag": "block",
