@@ -100,77 +100,387 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏁RELAY-104.17.45.51-1472 | 1",
-                "🏁RELAY-172.67.204.19-0308 | 2",
-                "🏁RELAY-188.42.88.21-1726 | 3",
-                "🏁RELAY-104.21.75.246-1209 | 4",
-                "🇺🇲 United States 363 | 5",
-                "@customv2ray|🚩|3.16 | 6",
-                "🇺🇲 United States 228 | 7",
-                "🏁RELAY-104.16.108.254-0212 | 8",
-                "🏁RELAY-172.67.132.209-1817 | 9",
-                "Mahsa+1+CDN+1.2 | 10",
-                "🇺🇲 United States 259 | 11",
-                "Mahsa+1+CDN+1.1 | 12",
-                "@proxyymeliii|🚩|31.26 | 13",
-                "@VlessConfig|🇫🇷|129.69 | 14",
-                "@v2ray_swhil|🇺🇸|22.63 | 15",
-                "🇺🇲 United States 280 | 16",
-                "@vpn_tehran|🇺🇸|1.84 | 17",
-                "@bright_vpn|🚩|4.8 | 18",
-                "@oneclickvpnkeys|🚩|3.12 | 19",
-                "🏁RELAY-104.16.106.197-1719 | 20",
-                "REALITY|@v2rayNG_Matsuri|🇸🇪|124.88 | 21",
-                "@v2ray_swhil|🇺🇸|27.16 | 22",
-                "REALITY|@kiava|🇸🇪|125.06 | 23",
-                "REALITY|@MehradLearn|🇸🇪|169.99 | 24",
-                "REALITY|@v2rayNG_Matsuri|🇸🇪|124.88 | 25",
-                "REALITY|@kiava|🇸🇪|125.06 | 26",
-                "REALITY|@MehradLearn|🇸🇪|169.99 | 27"
+                "@v2ray_swhil|🇺🇸|9.4 | 1",
+                "Mahsa+1+CDN-WS+:+1.2 | 2",
+                "@MsV2ray|🇺🇸|1.88 | 3",
+                "@prrofile_purple|🚩|10.21 | 4",
+                "@azadi_az_inja_migzare|🚩|20.03 | 5",
+                "@v2ray_swhil|🇺🇸|13.32 | 6",
+                "TVCminers | 7",
+                "@azadi_az_inja_migzare|🚩|4.85 | 8",
+                "Mahsa+2+CDN-GRPC+:+1.2 | 9",
+                "@azadi_az_inja_migzare|🚩|5.03 | 10",
+                "TVCminers | 11",
+                "🇺🇲 United States 270 | 12",
+                "@Proxy_PJ|🇺🇸|2.12 | 13",
+                "@prrofile_purple|🚩|1.92 | 14",
+                "@VmessProtocol|🇺🇸|2.43 | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏁RELAY-104.17.45.51-1472 | 1",
-                "🏁RELAY-172.67.204.19-0308 | 2",
-                "🏁RELAY-188.42.88.21-1726 | 3",
-                "🏁RELAY-104.21.75.246-1209 | 4",
-                "🇺🇲 United States 363 | 5",
-                "@customv2ray|🚩|3.16 | 6",
-                "🇺🇲 United States 228 | 7",
-                "🏁RELAY-104.16.108.254-0212 | 8",
-                "🏁RELAY-172.67.132.209-1817 | 9",
-                "Mahsa+1+CDN+1.2 | 10",
-                "🇺🇲 United States 259 | 11",
-                "Mahsa+1+CDN+1.1 | 12",
-                "@proxyymeliii|🚩|31.26 | 13",
-                "@VlessConfig|🇫🇷|129.69 | 14",
-                "@v2ray_swhil|🇺🇸|22.63 | 15",
-                "🇺🇲 United States 280 | 16",
-                "@vpn_tehran|🇺🇸|1.84 | 17",
-                "@bright_vpn|🚩|4.8 | 18",
-                "@oneclickvpnkeys|🚩|3.12 | 19",
-                "🏁RELAY-104.16.106.197-1719 | 20",
-                "REALITY|@v2rayNG_Matsuri|🇸🇪|124.88 | 21",
-                "@v2ray_swhil|🇺🇸|27.16 | 22",
-                "REALITY|@kiava|🇸🇪|125.06 | 23",
-                "REALITY|@MehradLearn|🇸🇪|169.99 | 24",
-                "REALITY|@v2rayNG_Matsuri|🇸🇪|124.88 | 25",
-                "REALITY|@kiava|🇸🇪|125.06 | 26",
-                "REALITY|@MehradLearn|🇸🇪|169.99 | 27"
+                "@v2ray_swhil|🇺🇸|9.4 | 1",
+                "Mahsa+1+CDN-WS+:+1.2 | 2",
+                "@MsV2ray|🇺🇸|1.88 | 3",
+                "@prrofile_purple|🚩|10.21 | 4",
+                "@azadi_az_inja_migzare|🚩|20.03 | 5",
+                "@v2ray_swhil|🇺🇸|13.32 | 6",
+                "TVCminers | 7",
+                "@azadi_az_inja_migzare|🚩|4.85 | 8",
+                "Mahsa+2+CDN-GRPC+:+1.2 | 9",
+                "@azadi_az_inja_migzare|🚩|5.03 | 10",
+                "TVCminers | 11",
+                "🇺🇲 United States 270 | 12",
+                "@Proxy_PJ|🇺🇸|2.12 | 13",
+                "@prrofile_purple|🚩|1.92 | 14",
+                "@VmessProtocol|🇺🇸|2.43 | 15"
             ],
             "url": "https://cp.cloudflare.com/",
             "interval": "3m",
             "tolerance": 50
         },
         {
-            "tag": "🏁RELAY-104.17.45.51-1472 | 1",
-            "type": "vmess",
-            "server": "104.17.45.51",
+            "tag": "@v2ray_swhil|🇺🇸|9.4 | 1",
+            "type": "vless",
+            "server": "all.vipxali.cfd",
+            "server_port": 2083,
+            "uuid": "89df4fee-2e92-4908-89a0-e070ce82ed93",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fe.XsV2ray.cfd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@XsV2ray,@XsV2ray@XsV2ray,@XsV2ray,@XsV2ray@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "Mahsa+1+CDN-WS+:+1.2 | 2",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2087,
+            "uuid": "4ce5bd2a-524f-486b-a188-08e1f5195e0a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mah5.hasmailkorea.store",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@mahsa_net @azadi_az_inja_migzare",
+                "headers": {
+                    "Host": "mah5.hasmailkorea.store"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@MsV2ray|🇺🇸|1.88 | 3",
+            "type": "vless",
+            "server": "mci-msv2ray.ddns.net",
+            "server_port": 2087,
+            "uuid": "5fac0e66-13a0-443f-fd7a-8c0b027e4632",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fe.MsV2ray.sbs",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@prrofile_purple|🚩|10.21 | 4",
+            "type": "vless",
+            "server": "all.shhproxy.cam",
             "server_port": 443,
-            "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+            "uuid": "a6d71596-5716-4c00-9267-7f195896a2c4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ShprxyV2rayy.digitalciity.Tech",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@azadi_az_inja_migzare|🚩|20.03 | 5",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "dbb4a6b3-8c3b-42e7-9de4-1a943dcddb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mah5.hasmailkorea.store",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@mahsa_net @azadi_az_inja_migzare",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@v2ray_swhil|🇺🇸|13.32 | 6",
+            "type": "vless",
+            "server": "all.vipxali.cfd",
+            "server_port": 2083,
+            "uuid": "12216d45-6e41-44e1-ac94-2d5ac82c4e7a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dm.XsV2ray.cfd",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@XsV2ray,@XsV2ray,@XsV2ry",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "TVCminers | 7",
+            "type": "vless",
+            "server": "172.67.189.4",
+            "server_port": 443,
+            "uuid": "daad453e-35e3-4d2a-b8e5-987bca0f7b1b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "avali.nufilter.store",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@azadi_az_inja_migzare|🚩|4.85 | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2087,
+            "uuid": "4ce5bd2a-524f-486b-a188-08e1f5195e0a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mah5.hasmailkorea.store",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@mahsa_net @azadi_az_inja_migzare",
+                "headers": {
+                    "Host": "mah5.hasmailkorea.store"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "Mahsa+2+CDN-GRPC+:+1.2 | 9",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "dbb4a6b3-8c3b-42e7-9de4-1a943dcddb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mah5.hasmailkorea.store",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@mahsa_net @azadi_az_inja_migzare",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "@azadi_az_inja_migzare|🚩|5.03 | 10",
+            "type": "vless",
+            "server": "mci.dgi000.store",
+            "server_port": 2096,
+            "uuid": "dbb4a6b3-8c3b-42e7-9de4-1a943dcddb5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mah5.hasmailkorea.store",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@mahsa_net @azadi_az_inja_migzare",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "TVCminers | 11",
+            "type": "vless",
+            "server": "104.27.84.50",
+            "server_port": 2087,
+            "uuid": "a2908f51-2620-4566-9539-3da3282b4597",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "SNI.Jd-Vpn.shop",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@jd_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇲 United States 270 | 12",
+            "type": "vmess",
+            "server": "hexsen.com",
+            "server_port": 443,
+            "uuid": "de04add9-5c68-8bab-950c-08cd5320df18",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -183,7 +493,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.17.45.51",
+                "server_name": "promoted-fax-hose-competitive.trycloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -193,25 +503,22 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/argo-vmess",
                 "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
+                    "Host": "promoted-fax-hose-competitive.trycloudflare.com"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
         {
-            "tag": "🏁RELAY-172.67.204.19-0308 | 2",
-            "type": "vmess",
-            "server": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top",
-            "server_port": 443,
-            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "@Proxy_PJ|🇺🇸|2.12 | 13",
+            "type": "vless",
+            "server": "mci.ahwazjob.ir",
+            "server_port": 2096,
+            "uuid": "924c5211-2e9a-497c-f053-12c5b9e85640",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -219,124 +526,23 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top",
-                "insecure": true,
-                "disable_sni": false,
+                "server_name": "az2cdncosenanatfilterchi987654321.ahwazjob.ir",
+                "insecure": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/azumase.ren",
-                "headers": {
-                    "Host": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
+                "type": "grpc",
+                "service_name": "ajcdn2096",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🏁RELAY-188.42.88.21-1726 | 3",
-            "type": "vmess",
-            "server": "188.42.88.21",
-            "server_port": 8080,
-            "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-                "headers": {
-                    "Host": "fr1.tehme100.fun"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "🏁RELAY-104.21.75.246-1209 | 4",
-            "type": "vmess",
-            "server": "104.21.75.246",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.21.75.246",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ophelia.mom:443\/linkvws",
-                "headers": {
-                    "Host": "cf.tonyluk.link"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "🇺🇲 United States 363 | 5",
-            "type": "vmess",
-            "server": "104.16.91.78",
-            "server_port": 443,
-            "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Kansas.bobbykotick.rip",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@customv2ray|🚩|3.16 | 6",
+            "tag": "@prrofile_purple|🚩|1.92 | 14",
             "type": "vless",
             "server": "serv13.alpha2.sbs",
             "server_port": 2083,
@@ -366,109 +572,11 @@
             }
         },
         {
-            "tag": "🇺🇲 United States 228 | 7",
-            "type": "vmess",
-            "server": "kansas.kotick.site",
+            "tag": "@VmessProtocol|🇺🇸|2.43 | 15",
+            "type": "vless",
+            "server": "z1p.isecurity.site",
             "server_port": 443,
-            "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kansas.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "kansas.kotick.site"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "🏁RELAY-104.16.108.254-0212 | 8",
-            "type": "vmess",
-            "server": "104.16.108.254",
-            "server_port": 443,
-            "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.16.108.254",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-                "headers": {
-                    "Host": "fr1.tehme100.fun"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "🏁RELAY-172.67.132.209-1817 | 9",
-            "type": "vmess",
-            "server": "upload.ir",
-            "server_port": 80,
-            "uuid": "7e85049a-2b44-4621-991f-1e10e2210bc9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": "lv1-vmess.sshmax.xyz"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "Mahsa+1+CDN+1.2 | 10",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2087,
-            "uuid": "20df9f57-c744-4e48-bb47-9ab2e9da9f51",
+            "uuid": "741d28ec-7361-4982-b71f-d6fe039ad27c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -478,7 +586,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mah5.HasMailkOrea.storE",
+                "server_name": "z1p.isecurity.site",
                 "insecure": false,
                 "utls": {
                     "enabled": true,
@@ -487,542 +595,12 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@mahsa_net @azadi_az_inja_migzare",
+                "path": "\/7IaM5TNiNbD6jagy5GzWC",
                 "headers": {
-                    "Host": "mah5.HasMailkOrea.storE"
+                    "Host": "z1p.isecurity.site"
                 },
                 "max_early_data": 0,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "🇺🇲 United States 259 | 11",
-            "type": "vmess",
-            "server": "104.17.45.51",
-            "server_port": 443,
-            "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Kansas.bobbykotick.rip",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "Mahsa+1+CDN+1.1 | 12",
-            "type": "vless",
-            "server": "mci.dgi000.store",
-            "server_port": 2087,
-            "uuid": "20df9f57-c744-4e48-bb47-9ab2e9da9f51",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mah5.HasMailkOrea.storE",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mahsa_net @azadi_az_inja_migzare",
-                "headers": {
-                    "Host": "mah5.HasMailkOrea.storE"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@proxyymeliii|🚩|31.26 | 13",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 2087,
-            "uuid": "b3f3771e-bebc-4058-b131-6fd24707edb7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ShhProxyV2ray.digitalciity.Tech",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ShhProxyV2ray.digitalciity.Tech"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@VlessConfig|🇫🇷|129.69 | 14",
-            "type": "vless",
-            "server": "35.181.214.168",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@v2ray_swhil|🇺🇸|22.63 | 15",
-            "type": "vless",
-            "server": "all.vipxali.cfd",
-            "server_port": 2083,
-            "uuid": "3c0d720e-4772-401a-be5d-a2fdbdeb8460",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fe.XsV2ray.cfd",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray@XsV2ray,@XsV2ray,@XsV2ray@XsV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇲 United States 280 | 16",
-            "type": "vmess",
-            "server": "bobbykotick.rip",
-            "server_port": 443,
-            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Kansas.bobbykotick.rip",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@vpn_tehran|🇺🇸|1.84 | 17",
-            "type": "vless",
-            "server": "104.31.16.32",
-            "server_port": 443,
-            "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "oniyx.fun",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/uorpws",
-                "headers": {
-                    "Host": "oniyx.fun"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "@bright_vpn|🚩|4.8 | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "156b2022-7b2d-43b1-9a2a-784adf9aa1e7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mah5.HasMailkOrea.storE",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@mahsa_net @azadi_az_inja_migzare",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "@oneclickvpnkeys|🚩|3.12 | 19",
-            "type": "vmess",
-            "server": "crownv2.ddns.net",
-            "server_port": 443,
-            "uuid": "97F80B9B-B6B8-4C7D-93E1-734FFBB0F07C",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Kansas.bobbykotick.rip",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "🏁RELAY-104.16.106.197-1719 | 20",
-            "type": "vmess",
-            "server": "crownv2ray.ddns.net",
-            "server_port": 443,
-            "uuid": "97F80B9B-B6B8-4C7D-93E1-734FFBB0F07C",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "crownv2ray.ddns.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Kansas.bobbykotick.rip"
-                },
-                "max_early_data": 0,
-                "early_data_header_name": "Sec-WebSocket-Protocol"
-            }
-        },
-        {
-            "tag": "REALITY|@v2rayNG_Matsuri|🇸🇪|124.88 | 21",
-            "type": "vless",
-            "server": "16.16.220.15",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gosm7R6q6p3zTzB679J3WxL2hArSdnTl2xD1URGWbBM",
-                    "short_id": "3c"
-                }
-            }
-        },
-        {
-            "tag": "@v2ray_swhil|🇺🇸|27.16 | 22",
-            "type": "vless",
-            "server": "all.vipxali.cfd",
-            "server_port": 2083,
-            "uuid": "6c69905a-5454-40e9-8b9a-dc99fa47c5c9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dm.XsV2ray.cfd",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XsV2ray,@XsV2ray,@XsV2ry",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "REALITY|@kiava|🇸🇪|125.06 | 23",
-            "type": "vless",
-            "server": "13.48.126.115",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "slDQ8ADjK94ymKi6DYgy8wzquWdR6xQdQd-YRcMa9g4",
-                    "short_id": "3c"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@MehradLearn|🇸🇪|169.99 | 24",
-            "type": "vless",
-            "server": "16.16.80.221",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xQmJeBo0MuLoaaTUkHPwA5zto9G29Q3EpVxctJDhRzM",
-                    "short_id": "3c"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@v2rayNG_Matsuri|🇸🇪|124.88 | 25",
-            "type": "vless",
-            "server": "16.16.220.15",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "gosm7R6q6p3zTzB679J3WxL2hArSdnTl2xD1URGWbBM",
-                    "short_id": "3c"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@kiava|🇸🇪|125.06 | 26",
-            "type": "vless",
-            "server": "13.48.126.115",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "slDQ8ADjK94ymKi6DYgy8wzquWdR6xQdQd-YRcMa9g4",
-                    "short_id": "3c"
-                }
-            }
-        },
-        {
-            "tag": "REALITY|@MehradLearn|🇸🇪|169.99 | 27",
-            "type": "vless",
-            "server": "16.16.80.221",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.makers.com",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xQmJeBo0MuLoaaTUkHPwA5zto9G29Q3EpVxctJDhRzM",
-                    "short_id": "3c"
-                }
             }
         },
         {
