@@ -1,6 +1,3 @@
-//profile-title: AMIR
-//profile-update-interval: 1
-//subscription-userinfo: upload=1; download=1; total=200; expired:2000
 {
     "log": {
         "disabled": false,
