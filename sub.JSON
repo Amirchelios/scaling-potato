@@ -1,9 +1,6 @@
 //profile-title: AMIR
 //profile-update-interval: 1
-//subscription-userinfo: upload=1; download=1; total=200; expire=1
-//support-url: https://t.me/v2raycollector
-//profile-web-page-url: https://github.com/yebekhe/TelegramV2rayCollector
-
+//subscription-userinfo: upload=1; download=1; total=200;
 {
     "log": {
         "disabled": false,
