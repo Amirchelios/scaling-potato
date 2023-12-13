@@ -8,7 +8,7 @@
       "servers": [
         {
           "tag": "proxyDns",
-          "address": "https://dns.controld.com/1u4zmsvhn8e",
+          "address": "8.8.8.8",
           "detour": "select"
         },
         {
