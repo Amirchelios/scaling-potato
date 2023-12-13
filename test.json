@@ -5,30 +5,22 @@
       "timestamp": true
     },
     "dns": {
-        "servers": [
-            {
-                "address": "https://dns.controld.com/1u4zmsvhn8e",
-                "address_resolver": "dns-direct",
-                "strategy": "ipv4_only",
-                "tag": "dns-remote"
-            },
-            {
-                "address": "https://dns.controld.com/1u4zmsvhn8e",
-                "address_resolver": "dns-local",
-                "detour": "direct",
-                "strategy": "ipv4_only",
-                "tag": "dns-direct"
-            },
-            {
-                "address": "local",
-                "detour": "direct",
-                "tag": "dns-local"
-            },
-            {
-                "address": "rcode:\/\/success",
-                "tag": "dns-block"
-            }
-        ],
+      "servers": [
+        {
+          "tag": "proxyDns",
+          "address": "https://dns.controld.com/1u4zmsvhn8e",
+          "detour": "select"
+        },
+        {
+          "tag": "localDns",
+          "address": "https://dns.controld.com/1u4zmsvhn8e",
+          "detour": "direct"
+        },
+        {
+          "tag": "block",
+          "address": "rcode://success"
+        }
+      ],
       "rules": [
         {
           "domain": [
