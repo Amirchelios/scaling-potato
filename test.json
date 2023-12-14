@@ -1405,7 +1405,7 @@
         "geoip": [
           "telegram"
         ],
-        "outbound": "telegram"
+        "outbound": "block"
       },
       {
         "geosite": [
