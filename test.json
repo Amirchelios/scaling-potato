@@ -524,7 +524,7 @@
         "geoip":[
           "yourube"
         ],
-        "outbound": "block"
+        "outbound": "direct"
       },
       {
         "geosite": [
@@ -533,7 +533,7 @@
         "geoip": [
           "telegram"
         ],
-        "outbound": "dns-out"
+        "outbound": "direct"
       },
       {
         "geosite": [
@@ -542,7 +542,7 @@
         "geoip": [
           "facebook"
         ],
-        "outbound": "dns-out"
+        "outbound": "direct"
       }
     ],
     "auto_detect_interface": true,
