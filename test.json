@@ -113,7 +113,8 @@
       "tag": "telegram",
       "type": "selector",
       "outbounds": [
-        "tu"
+        "tu",
+        "block"
       ]
     },
     {
