@@ -358,96 +358,6 @@
       "tolerance": 20
     },
     {
-      "tag": "🌏 !cn",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "🏁RELAY-45.85.119.207-1427",
-        "@shopingv2ray|🚩|24.25",
-        "REALITY|@kiava|🇸🇪|175.27",
-        "Mahsa+1+CDN-WS+:+1.1",
-        "🏁RELAY-104.24.177.7-0244",
-        "🏁RELAY-104.24.177.7-3342",
-        "🏁RELAY-172.67.229.39-1335",
-        "@UnlimitedDev|🚩|unavailable",
-        "Poland",
-        "Poland 3",
-        "Poland 6",
-        "Poland 11",
-        "🇳🇱 Netherlands 8",
-        "🇫🇷 France 68",
-        "🇫🇷 France 79",
-        "Poland 19",
-        "Switzerland",
-        "🇺🇲 United States 246",
-        "Mahsa+CDN-WS+2",
-        "🏁RELAY-167.68.5.183-0298",
-        "🏁RELAY-172.64.80.1-8909",
-        "🏁RELAY-172.67.164.184-8566",
-        "🇺🇦UA-185.250.150.220-0247",
-        "🇬🇧GB-136.0.9.8-0545",
-        "🏁RELAY-172.67.184.53-3821",
-        "REALITY|@daorzadannet|🇹🇷|191.75_1",
-        "@V2rayNGn|🚩|189.19",
-        "@VmessProtocol|🇳🇱|1.72",
-        "@v2ray_outlineir|🚩|2.84",
-        "🇫🇷 France 13",
-        "🇨🇦 Canada",
-        "🇫🇷 France 40",
-        "🇫🇷 France 53",
-        "🇫🇷 France 59",
-        "🇫🇷 France 80",
-        "🏁RELAY-172.67.167.182-2001-worker",
-        "🏁RELAY-188.114.98.0-0255-worker",
-        "Mahsa+CDN-GRPC+1",
-        "🏁RELAY-167.68.5.183-0132",
-        "🏁RELAY-172.67.229.35-1670",
-        "@ShadowProxy66|🇺🇸|2.31",
-        "@MTConfig|🇺🇸|2.56",
-        "@SafeNet_Server|🇺🇸|2.4",
-        "@v2ray_swhil|🇫🇷|174.94",
-        "🇫🇷 France 36",
-        "Poland 27",
-        "🏁RELAY-104.21.61.51-0147-worker",
-        "🇳🇱 Netherlands 31",
-        "🏁RELAY-172.67.229.29-1333",
-        "🇪🇪EE-5.181.23.67-8794",
-        "🏁RELAY-172.67.229.25-1332",
-        "@V2rayNGn|🚩|249.46",
-        "REALITY|@daorzadannet|🇹🇷|191.75_2",
-        "Poland 8",
-        "🇬🇧 United Kingdom 6",
-        "Poland 26",
-        "🏁RELAY-172.64.80.1-1767",
-        "@ShadowProxy66|🚩|2.84",
-        "Mahsa+CDN-WS+1",
-        "🏁RELAY-188.114.96.43-1855",
-        "🇩🇪DE-217.160.45.31-0258",
-        "@ShadowProxy66|🇺🇸|296.56",
-        "🇫🇷 France 7",
-        "Poland 7",
-        "🇨🇦 Canada 4",
-        "Poland 10",
-        "🇫🇷 France 70"
-      ]
-    },
-    {
-      "tag": "🌏 cn",
-      "type": "selector",
-      "outbounds": [
-        "direct",
-        "select"
-      ]
-    },
-    {
-      "tag": "🛑 AdBlock",
-      "type": "selector",
-      "outbounds": [
-        "block",
-        "direct"
-      ]
-    },
-    {
       "tag": "direct",
       "type": "direct"
     },
@@ -1478,45 +1388,13 @@
         "outbound": "dns-out"
       },
       {
-        "network": "udp",
-        "port": 443,
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "direct",
-        "outbound": "direct"
-      },
-      {
-        "clash_mode": "global",
-        "outbound": "select"
-      },
-      {
-        "domain": [
-          "v2rayse.com",
-          "cfmem.com",
-          "vpnse.org",
-          "cff.pw",
-          "tt.vg"
-        ],
-        "outbound": "select"
-      },
-      {
-        "domain": [
-          "clash.razord.top",
-          "yacd.metacubex.one",
-          "yacd.haishan.me",
-          "d.metacubex.one"
-        ],
-        "outbound": "direct"
-      },
-      {
         "geosite": [
           "youtube"
         ],
         "geoip":[
           "yourube"
         ],
-        "outbound": "youtube"
+        "outbound": "block"
       },
       {
         "geosite": [
