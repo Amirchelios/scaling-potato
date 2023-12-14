@@ -93,7 +93,8 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "all"
+        "all",
+        "block"
       ]
     },
     {
