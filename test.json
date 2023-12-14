@@ -1224,13 +1224,13 @@
       "geoip": {
         "path": "",
         "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
-        "download_detour": ""
+        "download_detour": "select"
     }
   },
   "geosite": {
     "path": "",
       "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
-      "download_detour": ""
+      "download_detour": "select"
   },
     "rules": [
       {
