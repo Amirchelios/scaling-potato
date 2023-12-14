@@ -605,7 +605,7 @@
         "🇫🇷 France 70"
       ],
       "url":"https://cp.cloudflare.com/",
-      "interval": "5M",
+      "interval": "5m",
       "tolerance": 50
 
     },
