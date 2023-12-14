@@ -1534,7 +1534,7 @@
         "geoip": [
           "instagram"
         ],
-        "outbound": "Instagram"
+        "outbound": "instagram"
       },
       {
         "geosite": [
