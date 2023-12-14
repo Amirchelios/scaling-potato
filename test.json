@@ -109,7 +109,7 @@
       "tolerance": 50
     },
     {
-      "tag": "telegram",
+      "tag": "Telegram",
       "type": "selector",
       "outbounds": [
         "tu"
