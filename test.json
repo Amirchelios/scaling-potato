@@ -1413,28 +1413,6 @@
           "instagram"
         ],
         "outbound": "instagram"
-      },
-      {
-        "geosite": [
-          "geolocation-!cn"
-        ],
-        "outbound": "🌏 !cn"
-      },
-      {
-        "geosite": [
-          "cn"
-        ],
-        "geoip": [
-          "private",
-          "cn"
-        ],
-        "outbound": "🌏 cn"
-      },
-      {
-        "geosite": [
-          "category-ads-all"
-        ],
-        "outbound": "🛑 AdBlock"
       }
     ],
     "auto_detect_interface": true,
