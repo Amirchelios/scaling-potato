@@ -1377,11 +1377,11 @@
   ],
   "route": {
     "geoip": {
-      "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
+      "download_url": "https://github.com/chocolate4u/Iran-v2ray-rules/releases/latest/download/geoip.dat",
       "download_detour": "select"
     },
     "geosite": {
-      "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
+      "download_url": "https://github.com/chocolate4u/Iran-v2ray-rules/releases/latest/download/geosite.dat",
       "download_detour": "select"
     },
     "rules": [
@@ -1409,10 +1409,10 @@
       },
       {
         "geosite": [
-          "instagram"
+          "facebook"
         ],
         "geoip": [
-          "instagram"
+          "facebook"
         ],
         "outbound": "instagram"
       }
