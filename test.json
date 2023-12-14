@@ -109,7 +109,7 @@
       "tolerance": 50
     },
     {
-      "tag": "Telegram",
+      "tag": "telegram",
       "type": "selector",
       "outbounds": [
         "tu"
@@ -1525,7 +1525,7 @@
         "geoip": [
           "telegram"
         ],
-        "outbound": "Telegram"
+        "outbound": "telegram"
       },
       {
         "geosite": [
