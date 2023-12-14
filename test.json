@@ -2,68 +2,55 @@
   "log": {
     "disabled": false,
     "level": "info",
-    "timestamp": true
+    "timestamp": false
   },
   "dns": {
     "servers": [
-      {
-        "tag": "proxyDns",
-        "address": "8.8.8.8",
-        "detour": "select"
-      },
-      {
-        "tag": "localDns",
-        "address": "https://223.5.5.5/dns-query",
-        "detour": "direct"
-      },
-      {
-        "tag": "block",
-        "address": "rcode://success"
-      }
+        {
+            "address": "tcp:\/\/95.85.95.85",
+            "address_resolver": "dns-direct",
+            "strategy": "ipv4_only",
+            "tag": "dns-remote"
+        },
+        {
+            "address": "tcp:\/\/95.85.95.85",
+            "address_resolver": "dns-local",
+            "detour": "direct",
+            "strategy": "ipv4_only",
+            "tag": "dns-direct"
+        },
+        {
+            "address": "local",
+            "detour": "direct",
+            "tag": "dns-local"
+        },
+        {
+            "address": "rcode:\/\/success",
+            "tag": "dns-block"
+        }
     ],
     "rules": [
-      {
-        "domain": [
-          "ghproxy.com",
-          "cdn.jsdelivr.net",
-          "testingcf.jsdelivr.net"
-        ],
-        "server": "localDns"
-      },
-      {
-        "geosite": [
-          "category-ads-all"
-        ],
-        "server": "block"
-      },
-      {
-        "server": "localDns",
-        "outbound": "any",
-        "disable_cache": true
-      },
-      {
-        "geosite": [
-          "cn"
-        ],
-        "server": "localDns"
-      },
-      {
-        "server": "localDns",
-        "clash_mode": "direct"
-      },
-      {
-        "server": "proxyDns",
-        "clash_mode": "global"
-      },
-      {
-        "geosite": [
-          "geolocation-!cn"
-        ],
-        "server": "proxyDns"
-      }
+        {
+            "domain_suffix": [
+                ".ir"
+            ],
+            "server": "dns-direct"
+        },
+        {
+            "outbound": "direct",
+            "server": "dns-direct",
+            "rewrite_ttl": 20
+        },
+        {
+            "outbound": "any",
+            "server": "dns-direct",
+            "rewrite_ttl": 20
+        }
     ],
-    "strategy": "ipv4_only"
-  },
+    "reverse_mapping": true,
+    "strategy": "ipv4_only",
+    "independent_cache": true
+},
   "inbounds": [
     {
       "sniff": true,
