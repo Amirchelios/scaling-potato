@@ -223,7 +223,7 @@
       ],
       "url": "https://cp.cloudflare.com/",
       "interval": "1m",
-      "tolerance": "200"
+      "tolerance": "50"
     },
     {
       "server": "188.114.96.58",
