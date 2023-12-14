@@ -2,83 +2,106 @@
   "log": {
     "disabled": false,
     "level": "info",
+    "output": "box.log",
     "timestamp": true
   },
   "dns": {
     "servers": [
-        {
-            "address": "https://dns.controld.com/1u4zmsvhn8e",
-            "address_resolver": "dns-direct",
-            "strategy": "ipv4_only",
-            "tag": "dns-remote"
-        },
-        {
-            "address": "https://dns.controld.com/1u4zmsvhn8e",
-            "address_resolver": "dns-local",
-            "detour": "direct",
-            "strategy": "ipv4_only",
-            "tag": "dns-direct"
-        },
-        {
-            "address": "local",
-            "detour": "direct",
-            "tag": "dns-local"
-        },
-        {
-            "address": "rcode:\/\/success",
-            "tag": "dns-block"
-        }
+      {
+        "tag": "google",
+        "address": "tls://dns.google",
+        "address_resolver": "local",
+        "address_strategy": "prefer_ipv4",
+        "strategy": "ipv4_only",
+        "detour": "direct"
+      }
     ],
-    "rules": [
-        {
-            "domain_suffix": [
-                ".ir"
-            ],
-            "server": "dns-direct"
-        },
-        {
-            "outbound": "direct",
-            "server": "dns-direct",
-            "rewrite_ttl": 20
-        },
-        {
-            "outbound": "any",
-            "server": "dns-direct",
-            "rewrite_ttl": 20
-        }
-    ],
-    "reverse_mapping": true,
+    "final": "",
     "strategy": "ipv4_only",
-    "independent_cache": true
-},
-  "inbounds": [
-    {
-      "sniff": true,
-      "type": "mixed",
-      "listen": "127.0.0.1",
-      "listen_port": 1081
-    },
-    {
-      "stack": "system",
-      "auto_route": true,
-      "inet4_address": "172.19.0.1/30",
-      "mtu": 9000,
-      "sniff": true,
-      "strict_route": true,
+    "disable_cache": true,
+    "disable_expire": true,
+    "independent_cache": true,
+    "reverse_mapping": true,
+    "fakeip": {
+      "enabled": false,
+    "inet4_range": "198.18.0.0/15",
+    "inet6_range": "fc00::/18"
+    }
+  },
+  "ntp": {
+    "enabled": false,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m"
+  },
+  "inbounds":  [
+     { 
       "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "inet4_route_address": [
+        "0.0.0.0/1",
+        "128.0.0.0/1"
+      ],
+      "inet6_route_address": [
+        "::/1",
+        "8000::/1"
+      ],
+      "inet4_route_exclude_address": [
+        "192.168.0.0/16"
+      ],
+      "inet6_route_exclude_address": [
+        "fc00::/7"
+      ],
+      "endpoint_independent_nat": false,
+      "stack": "system",
+      "include_interface": [
+        "lan0"
+      ],
+      "exclude_interface": [
+        "lan1"
+      ],
+      "include_uid": [
+        0
+      ],
+      "include_uid_range": [
+        "1000-99999"
+      ],
+      "exclude_uid": [
+        1000
+      ],
+      "exclude_uid_range": [
+        "1000-99999"
+      ],
+      "include_android_user": [
+        0,
+        10
+      ],
+      "include_package": [
+        "com.android.chrome"
+      ],
+      "exclude_package": [
+        "com.android.captiveportallogin"
+      ],
       "platform": {
         "http_proxy": {
           "enabled": true,
           "server": "127.0.0.1",
-          "server_port": 1081
+          "server_port": 8080
         }
       }
     }
   ],
-  "outbounds": [
+  "outbounds":  [
     {
-      "tag": "select",
       "type": "selector",
+      "tag": "انتخابگر",
+
       "outbounds": [
         "auto",
         "🏁RELAY-188.114.96.58-0225",
@@ -135,12 +158,14 @@
         "🔒 VL-GRPC-TLS 🇺🇸 US-172.67.198.114:443 📡 PING-001.56-MS (1)",
         "%F0%9F%87%BA%F0%9F%87%B8US+%7C+vless+%7C+%40V2rayCollectorDonate+%7C+11 (1)",
         "SHΞЯVIN™🔮\n𝗧𝗩𝗖ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ (22)"
-      ]
+      ],
+    "default": ""
     },
     {
-      "tag": "auto",
       "type": "urltest",
-      "outbounds": [
+      "tag": "تستر",
+
+      "outbounds":  [
         "🏁RELAY-188.114.96.58-0225",
         "🇮🇸IS-89.221.224.94-1051",
         "🏁RELAY-162.159.13.8-3800",
@@ -196,9 +221,9 @@
         "%F0%9F%87%BA%F0%9F%87%B8US+%7C+vless+%7C+%40V2rayCollectorDonate+%7C+11 (1)",
         "SHΞЯVIN™🔮\n𝗧𝗩𝗖ᴄᴏɴꜰɪɢ ᴍɪɴᴇʀ (22)"
       ],
-      "url": "https://cloudflare.com/",
+      "url": "https://cp.cloudflare.com/",
       "interval": "1m",
-      "tolerance": 50
+      "tolerance": "200"
     },
     {
       "server": "188.114.96.58",
@@ -1197,67 +1222,150 @@
   ],
   "route": {
     "geoip": {
-      "download_url": "https://github.com/soffchen/sing-geoip/releases/latest/download/geoip.db",
-      "download_detour": "select"
-    },
-    "geosite": {
-      "download_url": "https://github.com/soffchen/sing-geosite/releases/latest/download/geosite.db",
-      "download_detour": "select"
-    },
+      "geoip": {
+        "path": "",
+        "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db",
+        "download_detour": ""
+    }
+  },
+  "geosite": {
+    "path": "",
+      "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db",
+      "download_detour": ""
+  },
     "rules": [
       {
-          "outbound": "dns-out",
-          "port": [
-              53
-          ]
+        "inbound": [
+          "mixed-in"
+        ],
+        "ip_version": 6,
+        "network": [
+          "tcp"
+        ],
+        "auth_user": [
+          "usera",
+          "userb"
+        ],
+        "protocol": [
+          "tls",
+          "http",
+          "quic"
+        ],
+        "domain": [
+          "test.com"
+        ],
+        "domain_suffix": [
+          ".cn"
+        ],
+        "domain_keyword": [
+          "test"
+        ],
+        "domain_regex": [
+          "^stun\\..+"
+        ],
+        "geosite": [
+          "cn"
+        ],
+        "source_geoip": [
+          "private"
+        ],
+        "geoip": [
+          "cn"
+        ],
+        "source_ip_cidr": [
+          "10.0.0.0/24",
+          "192.168.0.1"
+        ],
+        "ip_cidr": [
+          "10.0.0.0/24",
+          "192.168.0.1"
+        ],
+        "source_port": [
+          12345
+        ],
+        "source_port_range": [
+          "1000:2000",
+          ":3000",
+          "4000:"
+        ],
+        "port": [
+          80,
+          443
+        ],
+        "port_range": [
+          "1000:2000",
+          ":3000",
+          "4000:"
+        ],
+        "process_name": [
+          "curl"
+        ],
+        "process_path": [
+          "/usr/bin/curl"
+        ],
+        "package_name": [
+          "com.termux"
+        ],
+        "user": [
+          "sekai"
+        ],
+        "user_id": [
+          1000
+        ],
+        "clash_mode": "direct",
+        "wifi_ssid": [
+          "My WIFI"
+        ],
+        "wifi_bssid": [
+          "00:00:00:00:00:00"
+        ],
+        "invert": false,
+        "outbound": "direct"
       },
       {
-          "inbound": [
-              "dns-in"
-          ],
-          "outbound": "dns-out"
-      },
-      {
-          "domain_suffix": [
-              "ir"
-          ],
-          "outbound": "bypass"
-      },
-      {
-          "geoip": [
-              "ir"
-          ],
-          "outbound": "bypass"
-      },
-      {
-          "geosite": [
-              "ir"
-          ],
-          "outbound": "direct"
-      },
-      {
-          "geosite": [
-              "other"
-          ],
-          "outbound": "direct"
-      },
-      {
-          "geosite": [
-              "ads"
-          ],
-          "outbound": "block"
-      },
-      {
-          "ip_cidr": [
-              "224.0.0.0\/3",
-              "ff00::\/8"
-          ],
-          "outbound": "block",
-          "source_ip_cidr": [
-              "224.0.0.0\/3",
-              "ff00::\/8"
-          ]
+        "type": "logical",
+        "mode": "and",
+        "rules": [],
+        "invert": false,
+        "outbound": "direct"
       }
-  ]
-}
-}
+     ],
+     "final": "",
+     "auto_detect_interface": false,
+     "override_android_vpn": true,
+     "default_interface": "en0",
+     "default_mark": 223
+    },
+    "experimental": {
+        "clash_api": {
+          "external_controller": "127.0.0.1:9090",
+          "external_ui": "",
+          "external_ui_download_url": "",
+          "external_ui_download_detour": "",
+          "secret": "",
+          "default_mode": "",
+          "store_mode": false,
+          "store_selected": false,
+          "store_fakeip": false,
+          "cache_file": "",
+          "cache_id": ""
+        },
+        "v2ray_api": {
+          "listen": "127.0.0.1:8080",
+          "stats": {
+            "enabled": true,
+            "inbounds": [
+              "socks-in"
+            ],
+            "outbounds": [
+              "proxy",
+              "direct"
+            ],
+            "users": [
+              "sekai"
+            ]
+          }
+        }
+      }
+    }
+    
