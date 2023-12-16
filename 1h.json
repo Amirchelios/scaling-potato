@@ -54,20 +54,6 @@
           "cn"
         ],
         "server": "localDns"
-      },
-      {
-        "server": "localDns",
-        "clash_mode": "زمان"
-      },
-      {
-        "server": "proxyDns",
-        "clash_mode": "اتمام"
-      },
-      {
-        "geosite": [
-          "geolocation-!cn"
-        ],
-        "server": "proxyDns"
       }
     ],
     "strategy": "ipv4_only"
