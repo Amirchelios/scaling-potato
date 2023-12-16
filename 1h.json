@@ -57,11 +57,11 @@
       },
       {
         "server": "localDns",
-        "clash_mode": "direct"
+        "clash_mode": "زمان"
       },
       {
         "server": "proxyDns",
-        "clash_mode": "amir"
+        "clash_mode": "اتمام"
       },
       {
         "geosite": [
