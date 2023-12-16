@@ -61,7 +61,7 @@
       },
       {
         "server": "proxyDns",
-        "clash_mode": "global"
+        "clash_mode": "amir"
       },
       {
         "geosite": [
