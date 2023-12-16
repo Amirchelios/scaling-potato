@@ -9,7 +9,7 @@
       {
           "address": "https://dns.controld.com/1u4zmsvhn8e",
           "address_resolver": "dns-direct",
-          "strategy": "ipv4_only",
+          "strategy": "prefer_ipv6",
           "tag": "dns-remote"
       },
       {
