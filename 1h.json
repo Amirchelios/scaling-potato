@@ -109,40 +109,25 @@
       "tag": "all",
       "type": "urltest",
       "outbounds":[
-        "🏁RELAY-172.67.131.150-9114-worker",
-        "@ΞLiV2RAY_1",
-        "@ΞLiV2RAY_2",
         "🏁RELAY-172.67.207.114-0217-worker",
+        "🏁RELAY-172.67.131.150-9114-worker",
         "🏁RELAY-172.67.207.114-9091-worker",
-        "🏁RELAY-104.31.16.120-8515-worker",
         "🇺🇲 United States 257",
-        "🏁RELAY-104.21.53.12-9021-worker",
-        "🏁RELAY-104.21.3.33-2021",
-        "@ΞLiV2RAY_3",
-        "کیفیت اتفاقی نیست_1",
-        "@V2RayTz|🇺🇸|1.86",
-        "کیفیت اتفاقی نیست_2",
-        "یه ادمین بی اعصاب",
+        "@ΞLiV2RAY",
         "Yup its TVC Power :)))_1",
-        "Yup its TVC Power :)))_2",
-        "🏁RELAY-104.21.13.183-0214",
+        "🏁RELAY-104.21.53.12-9021-worker",
         "🏁RELAY-104.16.131.59-5100",
-        "@ΞLiV2RAY_4",
-        "🏁RELAY-104.31.16.120-1289-worker",
+        "Yup its TVC Power :)))_2",
+        "یه ادمین بی اعصاب",
+        "🏁RELAY-104.21.3.33-2021",
+        "کیفیت اتفاقی نیست",
         "Yup its TVC Power :)))_3",
-        "Yup its TVC Power :)))_4",
-        "🏁RELAY-104.21.80.189-5145-worker",
-        "🏁RELAY-104.21.12.148-5141-worker",
-        "🏁RELAY-104.21.75.246-0141-worker",
-        "Yup its TVC Power :)))_5",
-        "کیفیت اتفاقی نیست_3",
-        "Shervin.io",
-        "@ΞLiV2RAY_5",
-        "🏁RELAY-104.21.34.21-2018"
+        "🏁RELAY-104.31.16.120-1289-worker",
+        "🏁RELAY-104.21.75.246-0141-worker"
       ],
-      "url": "https://instagram.com/",
-      "interval": "3m",
-      "tolerance": 30
+      "url": "https://telegram.org/",
+      "interval": "1m",
+      "tolerance": 10
     },
     {
       "tag": "direct",
@@ -155,60 +140,6 @@
     {
       "tag": "dns-out",
       "type": "dns"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.worKeRs.dev"
-      },
-      "transport": {
-        "path": "/oliv.beauty/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 1,
-      "tag": "🏁RELAY-172.67.131.150-9114-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "104.31.16.32",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "oniyx.fun"
-      },
-      "transport": {
-        "path": "/uorpws",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d",
-      "tag": "@ΞLiV2RAY_1",
-      "type": "vless"
-    },
-    {
-      "server": "mci.divar.pro",
-      "server_port": 2052,
-      "tls": {
-        "enabled": true,
-        "server_name": "pay.shaparak.bio"
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "d921584a-8bd9-43f0-9621-49463c30c4f3",
-      "tag": "@ΞLiV2RAY_2",
-      "type": "vless"
     },
     {
       "server": "188.114.98.228",
@@ -235,6 +166,26 @@
       "server_port": 443,
       "tls": {
         "enabled": true,
+        "server_name": "hamrah.amirchelios.worKeRs.dev"
+      },
+      "transport": {
+        "path": "/oliv.beauty/linkvws",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 1,
+      "tag": "🏁RELAY-172.67.131.150-9114-worker",
+      "type": "vmess"
+    },
+    {
+      "server": "188.114.98.228",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
         "server_name": "hamrah.amirchelios.workERs.Dev"
       },
       "transport": {
@@ -248,26 +199,6 @@
       "security": "auto",
       "alter_id": 1,
       "tag": "🏁RELAY-172.67.207.114-9091-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.WORkErS.DeV"
-      },
-      "transport": {
-        "path": "/edeen.makeup/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.31.16.120-8515-worker",
       "type": "vmess"
     },
     {
@@ -291,6 +222,37 @@
       "type": "vmess"
     },
     {
+      "server": "172.67.216.162",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "lmn59.sbs"
+      },
+      "transport": {
+        "path": "/fflsws",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+      "tag": "@ΞLiV2RAY",
+      "type": "vless"
+    },
+    {
+      "server": "172.67.167.213",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "xui1.alphapelas.cfd"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "7ce729d7-c426-425b-9661-b81fd2c61fc7",
+      "tag": "Yup its TVC Power :)))_1",
+      "type": "vless"
+    },
+    {
       "server": "188.114.98.228",
       "server_port": 443,
       "tls": {
@@ -309,6 +271,50 @@
       "alter_id": 1,
       "tag": "🏁RELAY-104.21.53.12-9021-worker",
       "type": "vmess"
+    },
+    {
+      "server": "cp2.colacloud.site",
+      "server_port": 2086,
+      "transport": {
+        "path": "/sssddd",
+        "type": "ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "63f06e16-01b8-44dc-aae6-1fe31af8a762",
+      "packet_encoding": "xudp",
+      "security": "auto",
+      "alter_id": 0,
+      "tag": "🏁RELAY-104.16.131.59-5100",
+      "type": "vmess"
+    },
+    {
+      "server": "172.67.196.179",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "propanell2.followerarzon.ir"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "6b500e55-263d-43be-b97e-021f88f2c68d",
+      "tag": "Yup its TVC Power :)))_2",
+      "type": "vless"
+    },
+    {
+      "server": "172.66.47.84",
+      "server_port": 2083,
+      "tls": {
+        "enabled": true,
+        "server_name": "proxy1.tradingvip.top"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "e801777e-7edc-4cf0-979b-99d275589db1",
+      "tag": "یه ادمین بی اعصاب",
+      "type": "vless"
     },
     {
       "server": "xyfxhiogo.site",
@@ -331,23 +337,6 @@
       "type": "vmess"
     },
     {
-      "server": "172.67.216.162",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "lmn59.sbs"
-      },
-      "transport": {
-        "path": "/fflsws",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
-      "tag": "@ΞLiV2RAY_3",
-      "type": "vless"
-    },
-    {
       "server": "162.159.138.232",
       "server_port": 2083,
       "tls": {
@@ -358,68 +347,7 @@
         "type": "grpc"
       },
       "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
-      "tag": "کیفیت اتفاقی نیست_1",
-      "type": "vless"
-    },
-    {
-      "server": "join.v2raytz.sbs",
-      "server_port": 2096,
-      "tls": {
-        "enabled": true,
-        "server_name": "FreeV2rayNg.DigiV2ray.shop",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "@Digiv2ray , @Digiv2ray , @Digiv2ray , @Digiv2ray , @Digiv2ray , @Digiv2ray , @Digiv2ray , @Digiv2ray, @Digiv2ray, @Digiv2ray"
-      },
-      "uuid": "443dd82b-68b9-40a6-aefd-094ad8c63e74",
-      "tag": "@V2RayTz|🇺🇸|1.86",
-      "type": "vless"
-    },
-    {
-      "server": "104.18.203.232",
-      "server_port": 2053,
-      "tls": {
-        "enabled": true,
-        "server_name": "mramir.azadnet88.xyz"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "d9e4049e-57a4-4cbe-8234-820fa9f67970",
-      "tag": "کیفیت اتفاقی نیست_2",
-      "type": "vless"
-    },
-    {
-      "server": "172.66.47.84",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy1.tradingvip.top"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "e801777e-7edc-4cf0-979b-99d275589db1",
-      "tag": "یه ادمین بی اعصاب",
-      "type": "vless"
-    },
-    {
-      "server": "172.67.197.4",
-      "server_port": 2053,
-      "tls": {
-        "enabled": true,
-        "server_name": "xuipanell.followerpanell.ir"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "a11b3e62-7af5-480c-8daa-cf3640724b91",
-      "tag": "Yup its TVC Power :)))_1",
+      "tag": "کیفیت اتفاقی نیست",
       "type": "vless"
     },
     {
@@ -433,57 +361,7 @@
         "type": "grpc"
       },
       "uuid": "7ce729d7-c426-425b-9661-b81fd2c61fc7",
-      "tag": "Yup its TVC Power :)))_2",
-      "type": "vless"
-    },
-    {
-      "server": "104.21.13.183",
-      "server_port": 2082,
-      "transport": {
-        "path": "/online",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "26852d52-f396-423b-a398-7e9b954517fe",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.21.13.183-0214",
-      "type": "vmess"
-    },
-    {
-      "server": "cp2.colacloud.site",
-      "server_port": 2086,
-      "transport": {
-        "path": "/sssddd",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "63f06e16-01b8-44dc-aae6-1fe31af8a762",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.16.131.59-5100",
-      "type": "vmess"
-    },
-    {
-      "server": "172.66.47.84",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy1.tradingvip.top",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "e801777e-7edc-4cf0-979b-99d275589db1",
-      "tag": "@ΞLiV2RAY_4",
+      "tag": "Yup its TVC Power :)))_3",
       "type": "vless"
     },
     {
@@ -507,74 +385,6 @@
       "type": "vmess"
     },
     {
-      "server": "172.67.167.213",
-      "server_port": 2096,
-      "tls": {
-        "enabled": true,
-        "server_name": "xui1.alphapelas.cfd"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "7ce729d7-c426-425b-9661-b81fd2c61fc7",
-      "tag": "Yup its TVC Power :)))_3",
-      "type": "vless"
-    },
-    {
-      "server": "172.67.196.179",
-      "server_port": 2053,
-      "tls": {
-        "enabled": true,
-        "server_name": "propanell2.followerarzon.ir"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "6b500e55-263d-43be-b97e-021f88f2c68d",
-      "tag": "Yup its TVC Power :)))_4",
-      "type": "vless"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.wORkERs.DEV"
-      },
-      "transport": {
-        "path": "/xsasowspdqz.site/kwhmvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.21.80.189-5145-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.WOrKErs.DEV"
-      },
-      "transport": {
-        "path": "/tehgsykbzb.site/kwhmvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.21.12.148-5141-worker",
-      "type": "vmess"
-    },
-    {
       "server": "188.114.98.228",
       "server_port": 443,
       "tls": {
@@ -592,82 +402,6 @@
       "security": "auto",
       "alter_id": 0,
       "tag": "🏁RELAY-104.21.75.246-0141-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "172.66.47.84",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy1.tradingvip.top"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "e801777e-7edc-4cf0-979b-99d275589db1",
-      "tag": "Yup its TVC Power :)))_5",
-      "type": "vless"
-    },
-    {
-      "server": "104.21.65.133",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "fnd.SvnNvs.Online"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
-      "tag": "کیفیت اتفاقی نیست_3",
-      "type": "vless"
-    },
-    {
-      "server": "172.66.47.84",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy1.tradingvip.top"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "e801777e-7edc-4cf0-979b-99d275589db1",
-      "tag": "Shervin.io",
-      "type": "vless"
-    },
-    {
-      "server": "104.20.184.151",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "FREE.vpngaming.shop"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "95671424-6668-49f7-9d88-1661c2ca0d1c",
-      "tag": "@ΞLiV2RAY_5",
-      "type": "vless"
-    },
-    {
-      "server": "ldkpsvvhhe.site",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "ldkpsvvhhe.site"
-      },
-      "transport": {
-        "path": "/kwhmvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.21.34.21-2018",
       "type": "vmess"
     }
   ],
