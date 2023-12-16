@@ -101,34 +101,45 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "all",
-        "block"
+        "vless",
+        "vmess"
       ]
     },
     {
-      "tag": "all",
+      "tag": "vless",
       "type": "urltest",
       "outbounds":[
-        "🏁RELAY-172.67.207.114-0217-worker",
-        "🏁RELAY-172.67.131.150-9114-worker",
-        "🏁RELAY-172.67.207.114-9091-worker",
-        "🇺🇲 United States 257",
         "@ΞLiV2RAY",
         "Yup its TVC Power :)))_1",
-        "🏁RELAY-104.21.53.12-9021-worker",
-        "🏁RELAY-104.16.131.59-5100",
         "Yup its TVC Power :)))_2",
         "یه ادمین بی اعصاب",
-        "🏁RELAY-104.21.3.33-2021",
-        "کیفیت اتفاقی نیست",
+        "کیفیت اتفاقی نیست_1",
         "Yup its TVC Power :)))_3",
-        "🏁RELAY-104.31.16.120-1289-worker",
-        "🏁RELAY-104.21.75.246-0141-worker"
+        "کیفیت اتفاقی نیست_2"
       ],
       "url": "https://telegram.org/",
       "interval": "1m",
       "tolerance": 10
     },
+    {
+      "tag": "vmess",
+      "type": "urltest",
+      "outbounds": [
+        "🏁RELAY-172.67.207.114-0217-worker",
+        "🏁RELAY-172.67.131.150-9114-worker",
+        "🏁RELAY-172.67.207.114-9091-worker",
+        "🇺🇲 United States 257",
+        "🏁RELAY-104.21.53.12-9021-worker",
+        "🏁RELAY-104.16.131.59-5100",
+        "🏁RELAY-104.21.3.33-2021",
+        "🏁RELAY-104.31.16.120-1289-worker",
+        "🏁RELAY-104.21.75.246-0141-worker"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+
     {
       "tag": "direct",
       "type": "direct"
