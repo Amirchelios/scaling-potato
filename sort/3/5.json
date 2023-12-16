@@ -1,558 +1,403 @@
 {
-    "log": {
-      "disabled": true,
-      "level": "warn",
-      "timestamp": false
-    },
-    "dns": {
-      "servers": [
-        {
-            "address": "https://dns.controld.com/1u4zmsvhn8e",
-            "address_resolver": "dns-direct",
-            "strategy": "ipv4_only",
-            "tag": "dns-remote"
-        },
-        {
-            "address": "https://dns.controld.com/1u4zmsvhn8e",
-            "address_resolver": "dns-local",
-            "detour": "direct",
-            "strategy": "ipv4_only",
-            "tag": "dns-direct"
-        },
-        {
-            "address": "local",
-            "detour": "direct",
-            "tag": "dns-local"
-        },
-        {
-            "address": "rcode:\/\/success",
-            "tag": "dns-block"
-        }
-      ],
-      "rules": [
-        {
-          "domain": [
-            "ghproxy.com",
-            "cdn.jsdelivr.net",
-            "testingcf.jsdelivr.net"
-          ],
-          "server": "localDns"
-        },
-        {
-          "geosite": [
-            "category-ads-all"
-          ],
-          "server": "block"
-        },
-        {
-          "server": "localDns",
-          "outbound": "any",
-          "disable_cache": true
-        },
-        {
-          "geosite": [
-            "cn"
-          ],
-          "server": "localDns"
-        },
-        {
-          "server": "localDns",
-          "clash_mode": "direct"
-        },
-        {
-          "server": "proxyDns",
-          "clash_mode": "global"
-        },
-        {
-          "geosite": [
-            "geolocation-!cn"
-          ],
-          "server": "proxyDns"
-        }
-      ],
-      "strategy": "ipv4_only"
-    },
-    "inbounds": [
+  "log": {
+    "disabled": true,
+    "level": "warn",
+    "timestamp": false
+  },
+  "dns": {
+    "servers": [
       {
-        "sniff": true,
-        "type": "mixed",
-        "listen": "127.0.0.1",
-        "listen_port": 1081
+          "address": "udp://1.1.1.1",
+          "address_resolver": "dns-direct",
+          "strategy": "prefer_ipv6",
+          "tag": "dns-remote"
       },
       {
-        "stack": "system",
-        "auto_route": true,
-        "inet4_address": "172.19.0.1/30",
-        "mtu": 9000,
-        "sniff": true,
-        "strict_route": true,
-        "type": "tun",
-        "platform": {
-          "http_proxy": {
-            "enabled": true,
-            "server": "127.0.0.1",
-            "server_port": 1081
-          }
-        }
+          "address": "udp://1.1.1.1",
+          "address_resolver": "dns-local",
+          "detour": "direct",
+          "strategy": "ipv4_only",
+          "tag": "dns-direct"
+      },
+      {
+          "address": "local",
+          "detour": "direct",
+          "tag": "dns-local"
+      },
+      {
+          "address": "rcode:\/\/success",
+          "tag": "dns-block"
       }
     ],
-    "outbounds": [
+    "rules": [
       {
-        "tag": "select",
-        "type": "selector",
-        "outbounds": [
-          "all",
-          "block"
-        ]
-      },
-      {
-        "tag": "all",
-        "type": "urltest",
-        "outbounds":[
-          "🇺🇸US-144.202.81.122-0173",
-          "🏁RELAY-185.135.9.247-1811",
-          "Poland 2",
-          "🇨🇦 Canada 2",
-          "🏁RELAY-104.21.50.177-0209",
-          "🏁RELAY-188.114.98.0-0155",
-          "🏁RELAY-188.114.96.3-1920",
-          "@vmessorg|🚩|106.15",
-          "@oneclickvpnkeys|🇫🇷|80.79",
-          "Poland 4",
-          "🇺🇸US-138.2.234.225-0889",
-          "@vpn_tehran|🚩|5.3",
-          "🇨🇦CA | vless | @melov2ray | 9",
-          "REALITY|@VmessProtocol|🇺🇸|5.28",
-          "@ShadowProxy66|🚩|6.11",
-          "🇫🇷 France",
-          "🇺🇸US-20.127.216.167-0200",
-          "🏁RELAY-172.67.131.150-0186",
-          "🇺🇸US-142.171.136.39-4964",
-          "🇫🇷 France 3",
-          "🇫🇷 France 14",
-          "🇫🇷 France 17",
-          "Poland 3",
-          "🇫🇷 France 26",
-          "🇫🇷 France 37"
+        "domain": [
+          "ghproxy.com",
+          "cdn.jsdelivr.net",
+          "testingcf.jsdelivr.net"
         ],
-        "url": "https://instagram.com/",
-        "interval": "3m",
-        "tolerance": 30
-      },
-      {
-        "tag": "direct",
-        "type": "direct"
-      },
-      {
-        "tag": "block",
-        "type": "block"
-      },
-      {
-        "tag": "dns-out",
-        "type": "dns"
-      },
-      {
-        "server": "144.202.81.122",
-        "server_port": 25514,
-        "transport": {
-          "path": "/",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "13bf827e-55cd-4b46-e9f1-b7f9ffbe7955",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇺🇸US-144.202.81.122-0173",
-        "type": "vmess"
-      },
-      {
-        "server": "185.135.9.247",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "ldkpsvvhhe.site"
-        },
-        "transport": {
-          "path": "/kwhmvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-185.135.9.247-1811",
-        "type": "vmess"
-      },
-      {
-        "server": "51.77.53.200",
-        "server_port": 9102,
-        "password": "e4FCWrgpkji3QY",
-        "method": "aes-256-gcm",
-        "tag": "Poland 2",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "134.195.196.178",
-        "server_port": 810,
-        "password": "G!yBwPWH3Vao",
-        "method": "chacha20-ietf-poly1305",
-        "tag": "🇨🇦 Canada 2",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "104.21.50.177",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "alvvin.click"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "🏁RELAY-104.21.50.177-0209",
-        "type": "vmess"
-      },
-      {
-        "server": "188.114.98.0",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "odelia.autos"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-188.114.98.0-0155",
-        "type": "vmess"
-      },
-      {
-        "server": "188.114.96.3",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "oliv.beauty"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-188.114.96.3-1920",
-        "type": "vmess"
-      },
-      {
-        "server": "vmessorg.bia.to.vmessorg.shop",
-        "server_port": 80,
-        "tls": {
-          "enabled": true,
-          "server_name": "join__bede_vmessorg.vmessorg.shop"
-        },
-        "transport": {
-          "path": "/",
-          "type": "ws",
-          "max_early_data": 4096,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "f8b91a0d-4750-4fb6-8c5a-219eb49f28a9",
-        "tag": "@vmessorg|🚩|106.15",
-        "type": "vless"
-      },
-      {
-        "server": "51.75.162.199",
-        "server_port": 61570,
-        "uuid": "e6aab1e0-ede0-47c3-b01c-f34a498db838",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "@oneclickvpnkeys|🇫🇷|80.79",
-        "type": "vmess"
-      },
-      {
-        "server": "51.77.53.200",
-        "server_port": 8888,
-        "password": "Y6R9pAtvxxzmGC",
-        "method": "aes-256-gcm",
-        "tag": "Poland 4",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "138.2.234.225",
-        "server_port": 45555,
-        "tls": {
-          "enabled": true,
-          "server_name": "sj1.alieszvps.cf",
-          "insecure": true
-        },
-        "password": "VpRuqFDCJo",
-        "tag": "🇺🇸US-138.2.234.225-0889",
-        "type": "trojan"
-      },
-      {
-        "server": "190.93.247.155",
-        "server_port": 2095,
-        "tls": {
-          "enabled": true,
-          "server_name": "hamrah.academiwollf.sbs"
-        },
-        "transport": {
-          "path": "/",
-          "type": "ws",
-          "max_early_data": 4096,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "bfad1a25-f5b5-41e6-98b3-438de77b524e",
-        "tag": "@vpn_tehran|🚩|5.3",
-        "type": "vless"
-      },
-      {
-        "server": "www.zula.ir",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "Fin.Melov2ray.Shop",
-          "utls": {
-            "enabled": true,
-            "fingerprint": "chrome"
-          },
-          "alpn": [
-            "http/1.1",
-            "h2"
-          ]
-        },
-        "transport": {
-          "type": "grpc",
-          "service_name": "@melov2ray"
-        },
-        "uuid": "17f49cf4-1c66-439a-928e-4eb0a4bfd78e",
-        "tag": "🇨🇦CA | vless | @melov2ray | 9",
-        "type": "vless"
-      },
-      {
-        "server": "5.161.140.0",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "sourceforge.net",
-          "utls": {
-            "enabled": true,
-            "fingerprint": "chrome"
-          },
-          "reality": {
-            "enabled": true,
-            "public_key": "3q4iHmKEqWwjbmX2O0HizwYlI6KH4VXOw3tXODdOjhw",
-            "short_id": "81bba4e6"
-          }
-        },
-        "transport": {
-          "type": "grpc",
-          "service_name": "@Everyday_VPN"
-        },
-        "uuid": "77daf7c5-d218-4efc-ab8b-5995b861283b",
-        "tag": "REALITY|@VmessProtocol|🇺🇸|5.28",
-        "type": "vless"
-      },
-      {
-        "server": "104.21.53.12",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "ophelia.mom"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "@ShadowProxy66|🚩|6.11",
-        "type": "vmess"
-      },
-      {
-        "server": "145.239.1.100",
-        "server_port": 8888,
-        "password": "Y6R9pAtvxxzmGC",
-        "method": "aes-256-gcm",
-        "tag": "🇫🇷 France",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "20.127.216.167",
-        "server_port": 65513,
-        "transport": {
-          "path": "/",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "2ba901d9-4c22-46da-def8-9c4008a22fd2",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇺🇸US-20.127.216.167-0200",
-        "type": "vmess"
-      },
-      {
-        "server": "172.67.131.150",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "oliv.beauty"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "🏁RELAY-172.67.131.150-0186",
-        "type": "vmess"
-      },
-      {
-        "server": "142.171.136.39",
-        "server_port": 56536,
-        "transport": {
-          "path": "/60b09967",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "60b09967-1069-469b-a4b2-8aa1744d0175",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇺🇸US-142.171.136.39-4964",
-        "type": "vmess"
-      },
-      {
-        "server": "145.239.1.100",
-        "server_port": 8118,
-        "password": "cdBIDV42DCwnfIN",
-        "method": "aes-256-gcm",
-        "tag": "🇫🇷 France 3",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "145.239.1.100",
-        "server_port": 7306,
-        "password": "FoOiGlkAA9yPEGP",
-        "method": "aes-256-gcm",
-        "tag": "🇫🇷 France 14",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "145.239.1.100",
-        "server_port": 8882,
-        "password": "kDWvXYZoTBcGkC4",
-        "method": "aes-256-gcm",
-        "tag": "🇫🇷 France 17",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "51.77.53.200",
-        "server_port": 8881,
-        "password": "kDWvXYZoTBcGkC4",
-        "method": "aes-256-gcm",
-        "tag": "Poland 3",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "145.239.1.100",
-        "server_port": 6697,
-        "password": "TEzjfAYq2IjtuoS",
-        "method": "aes-256-gcm",
-        "tag": "🇫🇷 France 26",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "145.239.1.100",
-        "server_port": 6679,
-        "password": "TEzjfAYq2IjtuoS",
-        "method": "aes-256-gcm",
-        "tag": "🇫🇷 France 37",
-        "type": "shadowsocks"
+        "server": "localDns"
       }
     ],
-    "route": {
-      "geoip": {
-        "download_url": "https://github.com/chocolate4u/Iran-v2ray-rules/releases/latest/download/geoip.dat",
-        "download_detour": "select"
-      },
-      "geosite": {
-        "download_url": "https://github.com/chocolate4u/Iran-v2ray-rules/releases/latest/download/geosite.dat",
-        "download_detour": "select"
-      },
-      "rules": [
-        {
-          "protocol": "dns",
-          "outbound": "dns-out"
-        },
-        {
-          "geosite": [
-            "youtube"
-          ],
-          "geoip":[
-            "yourube"
-          ],
-          "outbound": "direct"
-        },
-        {
-          "geosite": [
-            "telegram"
-          ],
-          "geoip": [
-            "telegram"
-          ],
-          "outbound": "direct"
-        },
-        {
-          "geosite": [
-            "facebook"
-          ],
-          "geoip": [
-            "facebook"
-          ],
-          "outbound": "direct"
-        }
-      ],
-      "auto_detect_interface": true,
-      "final": "select"
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "sniff": true,
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1081
     },
-    "experimental": {
-      "clash_api": {
-        "external_controller": "127.0.0.1:9090",
-        "external_ui": "ui",
-        "store_selected": true
+    {
+      "stack": "mixed",
+      "auto_route": true,
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 9000,
+      "sniff": true,
+      "strict_route": true,
+      "type": "tun",
+      "platform": {
+        "http_proxy": {
+          "enabled": false,
+          "server": "127.0.0.1",
+          "server_port": 1081
+        }
       }
     }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "پایدار",
+        "کمکی"
+      ]
+    },
+    {
+      "tag": "پایدار",
+      "type": "urltest",
+      "outbounds":[
+        "ΞLΞПΛ",
+        "@Everyday_VPN | 02 nuremberg | 1402/9/24",
+        "Yup its TVC Power :)))_1",
+        "@Everyday_VPN | 03 ashburn | 1402/9/24",
+        "@ΞLiV2RAY",
+        "کیفیت اتفاقی نیست",
+        "Yup its TVC Power :)))_2",
+        "🇺🇸US-138.2.234.225-0221"
+
+      ],
+      "url": "https://instagram.com/",
+      "interval": "2m",
+      "tolerance": 30
+    },
+    {
+      "tag": "کمکی",
+      "type": "urltest",
+      "outbounds":[
+        "🇵🇱PL-51.77.53.200-4087",
+        "🇵🇱PL-51.77.53.200-4046",
+        "🇩🇪DE-217.182.198.219-3962",
+        "🇵🇱PL-51.77.53.200-4105",
+        "🇵🇱PL-51.77.53.200-3797",
+        "🇵🇱PL-51.77.53.200-4112",
+        "Poland 3",
+        "Poland 7",
+        "Poland 15",
+        "🇩🇪DE-145.239.1.100-4109"
+
+      ],
+      "url": "https://instagram.com/",
+      "interval": "2m",
+      "tolerance": 30
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "server": "65.109.196.60",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "greenpepper.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HyfhuipSo5mPPlOlQ53Oi-jySZAx32cRbK7VMdVccAk",
+          "short_id": "db77564f"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@Everyday_VPN"
+      },
+      "uuid": "c9459db3-e4e7-4377-bd98-1acbfbb70f38",
+      "tag": "ΞLΞПΛ",
+      "type": "vless"
+    },
+    {
+      "server": "91.107.156.73",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "reJqUPF75qXRn-LfdbaelvMvlFBp4RchoVvmY7ois3c",
+          "short_id": "37aa606c"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@Everyday_VPN"
+      },
+      "uuid": "86858a44-0751-46a3-8466-4d52a9a4b7a8",
+      "tag": "@Everyday_VPN | 02 nuremberg | 1402/9/24",
+      "type": "vless"
+    },
+    {
+      "server": "172.67.197.4",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "xuipanell.followerpanell.ir"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "a11b3e62-7af5-480c-8daa-cf3640724b91",
+      "tag": "Yup its TVC Power :)))_1",
+      "type": "vless"
+    },
+    {
+      "server": "5.161.153.141",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "gsmarena.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vtUa7jdhymLNbzrhq3V9Mk0CxWZtXrBGNc4elOd0wXc",
+          "short_id": "079d8b6e"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@Everyday_VPN"
+      },
+      "uuid": "33732651-0c11-4abf-8c0c-e3744ec88230",
+      "tag": "@Everyday_VPN | 03 ashburn | 1402/9/24",
+      "type": "vless"
+    },
+    {
+      "server": "mci.divar.pro",
+      "server_port": 2052,
+      "tls": {
+        "enabled": true,
+        "server_name": "pay.shaparak.bio"
+      },
+      "transport": {
+        "path": "/",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "d921584a-8bd9-43f0-9621-49463c30c4f3",
+      "tag": "@ΞLiV2RAY",
+      "type": "vless"
+    },
+    {
+      "server": "162.159.137.232",
+      "server_port": 2083,
+      "tls": {
+        "enabled": true,
+        "server_name": "fnd.SvnNvs.Online"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
+      "tag": "کیفیت اتفاقی نیست",
+      "type": "vless"
+    },
+    {
+      "server": "172.67.196.179",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "propanell2.followerarzon.ir"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "6b500e55-263d-43be-b97e-021f88f2c68d",
+      "tag": "Yup its TVC Power :)))_2",
+      "type": "vless"
+    },
+    {
+      "server": "138.2.234.225",
+      "server_port": 45555,
+      "tls": {
+        "enabled": true,
+        "server_name": "sj1.alieszvps.cf",
+        "insecure": true
+      },
+      "password": "VpRuqFDCJo",
+      "tag": "🇺🇸US-138.2.234.225-0221",
+      "type": "trojan"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 5004,
+      "password": "g5MeD6Ft3CWlJId",
+      "method": "aes-256-gcm",
+      "tag": "🇵🇱PL-51.77.53.200-4087",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 5500,
+      "password": "KixLvKzwjekG00rm",
+      "method": "aes-256-gcm",
+      "tag": "🇵🇱PL-51.77.53.200-4046",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "217.182.198.219",
+      "server_port": 3306,
+      "password": "Y6R9pAtvxxzmGC",
+      "method": "aes-256-gcm",
+      "tag": "🇩🇪DE-217.182.198.219-3962",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 9101,
+      "password": "e4FCWrgpkji3QY",
+      "method": "aes-256-gcm",
+      "tag": "🇵🇱PL-51.77.53.200-4105",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 8118,
+      "password": "cdBIDV42DCwnfIN",
+      "method": "aes-256-gcm",
+      "tag": "🇵🇱PL-51.77.53.200-3797",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 7001,
+      "password": "RexnBgU7EV5ADxG",
+      "method": "aes-256-gcm",
+      "tag": "🇵🇱PL-51.77.53.200-4112",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 8090,
+      "password": "PCnnH6SQSnfoS27",
+      "method": "aes-256-gcm",
+      "tag": "Poland 3",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 8118,
+      "password": "cdBIDV42DCwnfIN",
+      "method": "aes-256-gcm",
+      "tag": "Poland 7",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "51.77.53.200",
+      "server_port": 5001,
+      "password": "Y6R9pAtvxxzmGC",
+      "method": "aes-256-gcm",
+      "tag": "Poland 15",
+      "type": "shadowsocks"
+    },
+    {
+      "server": "145.239.1.100",
+      "server_port": 9102,
+      "password": "e4FCWrgpkji3QY",
+      "method": "aes-256-gcm",
+      "tag": "🇩🇪DE-145.239.1.100-4109",
+      "type": "shadowsocks"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "download_url": "https://github.com/chocolate4u/Iran-v2ray-rules/releases/latest/download/geoip.dat",
+      "download_detour": "select"
+    },
+    "geosite": {
+      "download_url": "https://github.com/chocolate4u/Iran-v2ray-rules/releases/latest/download/geosite.dat",
+      "download_detour": "select"
+    },
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "geosite": [
+          "youtube"
+        ],
+        "geoip":[
+          "yourube"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "telegram"
+        ],
+        "geoip": [
+          "telegram"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "facebook"
+        ],
+        "geoip": [
+          "facebook"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "store_selected": true
+    }
   }
+}
