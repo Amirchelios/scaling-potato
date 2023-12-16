@@ -80,7 +80,7 @@
       "listen_port": 1081
     },
     {
-      "stack": "system",
+      "stack": "mixed",
       "auto_route": true,
       "inet4_address": "172.19.0.1/30",
       "mtu": 9000,
