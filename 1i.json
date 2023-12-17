@@ -84,8 +84,6 @@
         "کیفیت اتفاقی نیست_1",
         "REALITY|@v2ray_swhil|🇩🇪|117.07",
         "کیفیت اتفاقی نیست_2",
-        "🇺🇸US-15.181.162.90-0212",
-        "🇮🇸IS-89.221.224.94-8846",
         "Yup its TVC Power :)))_2",
         "@v2rayNG_Matsuri|🇺🇸|2.05",
         "REALITY|@azadi_az_inja_migzare|🇺🇸|15.77",
@@ -223,30 +221,6 @@
       "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
       "tag": "کیفیت اتفاقی نیست_2",
       "type": "vless"
-    },
-    {
-      "server": "aws-us-nyc-1.f1rocketnode.com",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "aws-us-nyc-1.f1rocketnode.com",
-        "insecure": true
-      },
-      "password": "pjdnqv",
-      "tag": "🇺🇸US-15.181.162.90-0212",
-      "type": "trojan"
-    },
-    {
-      "server": "89.221.224.94",
-      "server_port": 80,
-      "tls": {
-        "enabled": true,
-        "server_name": "is2-t.sshmax.xyz",
-        "insecure": true
-      },
-      "password": "28c79056-ccfd-4cc1-93d4-c337cc782e65",
-      "tag": "🇮🇸IS-89.221.224.94-8846",
-      "type": "trojan"
     },
     {
       "server": "104.21.34.28",
