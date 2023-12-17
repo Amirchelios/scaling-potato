@@ -93,8 +93,8 @@
         "@Everyday_VPN | 02 nuremberg | 1402/9/24"
       ],
       "url": "https://cp.cloudflare.com/",
-      "interval": "2m",
-      "tolerance": 30
+      "interval": "1m",
+      "tolerance": 50
     },
     {
       "tag": "کمکی",
@@ -107,8 +107,8 @@
         "🇺🇲 United States 11"
       ],
       "url": "https://cp.cloudflare.com/",
-      "interval": "2m",
-      "tolerance": 30
+      "interval": "1m",
+      "tolerance": 50
     },
     {
       "tag": "direct",
