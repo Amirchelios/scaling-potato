@@ -31,34 +31,27 @@
     ],
     "rules": [
       {
-        "domain": [
-          "ghproxy.com",
-          "cdn.jsdelivr.net",
-          "testingcf.jsdelivr.net"
-        ],
-        "server": "localDns"
+          "domain_suffix": [
+              ".ir"
+          ],
+          "server": "dns-direct"
       },
       {
-        "geosite": [
-          "category-ads-all"
-        ],
-        "server": "block"
+          "outbound": "direct",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
       },
       {
-        "server": "localDns",
-        "outbound": "any",
-        "disable_cache": true
-      },
-      {
-        "geosite": [
-          "cn"
-        ],
-        "server": "localDns"
+          "outbound": "any",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
       }
-    ],
-    "strategy": "prefer_ipv6"
-  },
-  "inbounds": [
+  ],
+  "reverse_mapping": true,
+  "strategy": "ipv4_only",
+  "independent_cache": true
+},
+"inbounds": [
     {
       "sniff": true,
       "type": "mixed",
