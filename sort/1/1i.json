@@ -31,17 +31,27 @@
     ],
     "rules": [
       {
-        "domain": [
-          "ghproxy.com",
-          "cdn.jsdelivr.net",
-          "testingcf.jsdelivr.net"
-        ],
-        "server": "localDns"
+          "domain_suffix": [
+              ".ir"
+          ],
+          "server": "dns-direct"
+      },
+      {
+          "outbound": "direct",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
+      },
+      {
+          "outbound": "any",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
       }
-    ],
-    "strategy": "ipv4_only"
-  },
-  "inbounds": [
+  ],
+  "reverse_mapping": true,
+  "strategy": "ipv4_only",
+  "independent_cache": true
+},
+"inbounds": [
     {
       "sniff": true,
       "type": "mixed",
@@ -78,15 +88,19 @@
       "tag": "پایدار",
       "type": "urltest",
       "outbounds":[
-        "ΞLΞПΛ",
-        "@Everyday_VPN | 02 nuremberg | 1402/9/24",
+        "REALITY|@VmessProtocol|🇫🇮|110",
+        "@ShadowProxy66|🇫🇮|161.9",
         "Yup its TVC Power :)))_1",
-        "@Everyday_VPN | 03 ashburn | 1402/9/24",
-        "@ΞLiV2RAY",
-        "کیفیت اتفاقی نیست",
+        "کیفیت اتفاقی نیست_1",
+        "REALITY|@v2ray_swhil|🇩🇪|117.07",
+        "کیفیت اتفاقی نیست_2",
+        "🇺🇸US-15.181.162.90-0212",
+        "🇮🇸IS-89.221.224.94-8846",
         "Yup its TVC Power :)))_2",
-        "🇺🇸US-138.2.234.225-0221"
-
+        "@v2rayNG_Matsuri|🇺🇸|2.05",
+        "REALITY|@azadi_az_inja_migzare|🇺🇸|15.77",
+        "@daorzadannet|🇺🇸|1.91",
+        "@Everyday_VPN | 02 nuremberg | 1402/9/24"
       ],
       "url": "https://instagram.com/",
       "interval": "2m",
@@ -96,17 +110,11 @@
       "tag": "کمکی",
       "type": "urltest",
       "outbounds":[
-        "🇵🇱PL-51.77.53.200-4087",
-        "🇵🇱PL-51.77.53.200-4046",
-        "🇩🇪DE-217.182.198.219-3962",
-        "🇵🇱PL-51.77.53.200-4105",
-        "🇵🇱PL-51.77.53.200-3797",
-        "🇵🇱PL-51.77.53.200-4112",
-        "Poland 3",
-        "Poland 7",
-        "Poland 15",
-        "🇩🇪DE-145.239.1.100-4109"
-
+        "🇸🇪SE-172.234.99.105-2313",
+        "🇸🇪SE-172.232.152.142-0989",
+        "🇸🇪SE-172.234.99.105-0987",
+        "🇺🇲 United States 197",
+        "🇺🇲 United States 11"
       ],
       "url": "https://instagram.com/",
       "interval": "2m",
@@ -125,27 +133,203 @@
       "type": "dns"
     },
     {
-      "server": "65.109.196.60",
+      "server": "earthshaker.uk",
+      "server_port": 19657,
+      "tls": {
+        "enabled": true,
+        "server_name": "discord.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BDs4HkB-ivRmJ9V_ax8TPq_b44BV0e18AsFHkL6H_UE",
+          "short_id": "4565ac3e"
+        }
+      },
+      "uuid": "854af0b3-ed34-48a8-81a6-8cde6cbe9864",
+      "flow": "xtls-rprx-vision",
+      "tag": "REALITY|@VmessProtocol|🇫🇮|110",
+      "type": "vless"
+    },
+    {
+      "server": "dl.magnataur.uk",
+      "server_port": 12345,
+      "tls": {
+        "enabled": true,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "uuid": "1963dc27-ef6e-421c-af94-500604ffd9a3",
+      "flow": "xtls-rprx-vision",
+      "tag": "@ShadowProxy66|🇫🇮|161.9",
+      "type": "vless"
+    },
+    {
+      "server": "172.67.196.179",
+      "server_port": 2053,
+      "tls": {
+        "enabled": true,
+        "server_name": "propanell2.followerarzon.ir"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "6b500e55-263d-43be-b97e-021f88f2c68d",
+      "tag": "Yup its TVC Power :)))_1",
+      "type": "vless"
+    },
+    {
+      "server": "162.159.137.232",
+      "server_port": 2083,
+      "tls": {
+        "enabled": true,
+        "server_name": "fnd.SvnNvs.Online"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
+      "tag": "کیفیت اتفاقی نیست_1",
+      "type": "vless"
+    },
+    {
+      "server": "titaniom.official.mmdtitaniom.com",
       "server_port": 443,
       "tls": {
         "enabled": true,
-        "server_name": "greenpepper.ir",
+        "server_name": "sourceforge.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "myOyTs6wtYgOioDwSzMCIUNRuq6l6I7ciLUqfusSTmY",
+          "short_id": "6fa697ff"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL"
+      },
+      "uuid": "46a7b4fd-16c3-4e6b-ff02-973d69b9eec6",
+      "tag": "REALITY|@v2ray_swhil|🇩🇪|117.07",
+      "type": "vless"
+    },
+    {
+      "server": "104.21.65.133",
+      "server_port": 2083,
+      "tls": {
+        "enabled": true,
+        "server_name": "fnd.SvnNvs.Online"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
+      "tag": "کیفیت اتفاقی نیست_2",
+      "type": "vless"
+    },
+    {
+      "server": "aws-us-nyc-1.f1rocketnode.com",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "aws-us-nyc-1.f1rocketnode.com",
+        "insecure": true
+      },
+      "password": "pjdnqv",
+      "tag": "🇺🇸US-15.181.162.90-0212",
+      "type": "trojan"
+    },
+    {
+      "server": "89.221.224.94",
+      "server_port": 80,
+      "tls": {
+        "enabled": true,
+        "server_name": "is2-t.sshmax.xyz",
+        "insecure": true
+      },
+      "password": "28c79056-ccfd-4cc1-93d4-c337cc782e65",
+      "tag": "🇮🇸IS-89.221.224.94-8846",
+      "type": "trojan"
+    },
+    {
+      "server": "104.21.34.28",
+      "server_port": 2096,
+      "tls": {
+        "enabled": true,
+        "server_name": "xui1.alphapelas.cfd"
+      },
+      "transport": {
+        "type": "grpc"
+      },
+      "uuid": "7ce729d7-c426-425b-9661-b81fd2c61fc7",
+      "tag": "Yup its TVC Power :)))_2",
+      "type": "vless"
+    },
+    {
+      "server": "104.31.16.36",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "lmn39.sbs"
+      },
+      "transport": {
+        "path": "/fflsws",
+        "type": "ws",
+        "max_early_data": 4096,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+      "tag": "@v2rayNG_Matsuri|🇺🇸|2.05",
+      "type": "vless"
+    },
+    {
+      "server": "5.161.153.141",
+      "server_port": 443,
+      "tls": {
+        "enabled": true,
+        "server_name": "gsmarena.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "HyfhuipSo5mPPlOlQ53Oi-jySZAx32cRbK7VMdVccAk",
-          "short_id": "db77564f"
+          "public_key": "vtUa7jdhymLNbzrhq3V9Mk0CxWZtXrBGNc4elOd0wXc",
+          "short_id": "079d8b6e"
         }
       },
       "transport": {
         "type": "grpc",
         "service_name": "@Everyday_VPN"
       },
-      "uuid": "c9459db3-e4e7-4377-bd98-1acbfbb70f38",
-      "tag": "ΞLΞПΛ",
+      "uuid": "33732651-0c11-4abf-8c0c-e3744ec88230",
+      "tag": "REALITY|@azadi_az_inja_migzare|🇺🇸|15.77",
+      "type": "vless"
+    },
+    {
+      "server": "cloud.configforvpn.fun",
+      "server_port": 2087,
+      "tls": {
+        "enabled": true,
+        "server_name": "cloud.configforvpn.fun",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "@configforVPN"
+      },
+      "uuid": "eeff5f38-6b30-4085-aa9a-02cb6c0fa1d3",
+      "tag": "@daorzadannet|🇺🇸|1.91",
       "type": "vless"
     },
     {
@@ -173,178 +357,43 @@
       "type": "vless"
     },
     {
-      "server": "172.67.197.4",
-      "server_port": 2053,
-      "tls": {
-        "enabled": true,
-        "server_name": "xuipanell.followerpanell.ir"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "a11b3e62-7af5-480c-8daa-cf3640724b91",
-      "tag": "Yup its TVC Power :)))_1",
-      "type": "vless"
-    },
-    {
-      "server": "5.161.153.141",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "gsmarena.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vtUa7jdhymLNbzrhq3V9Mk0CxWZtXrBGNc4elOd0wXc",
-          "short_id": "079d8b6e"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "@Everyday_VPN"
-      },
-      "uuid": "33732651-0c11-4abf-8c0c-e3744ec88230",
-      "tag": "@Everyday_VPN | 03 ashburn | 1402/9/24",
-      "type": "vless"
-    },
-    {
-      "server": "mci.divar.pro",
-      "server_port": 2052,
-      "tls": {
-        "enabled": true,
-        "server_name": "pay.shaparak.bio"
-      },
-      "transport": {
-        "path": "/",
-        "type": "ws",
-        "max_early_data": 4096,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "d921584a-8bd9-43f0-9621-49463c30c4f3",
-      "tag": "@ΞLiV2RAY",
-      "type": "vless"
-    },
-    {
-      "server": "162.159.137.232",
-      "server_port": 2083,
-      "tls": {
-        "enabled": true,
-        "server_name": "fnd.SvnNvs.Online"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "01007737-b549-4a1a-9371-de2b320c263f",
-      "tag": "کیفیت اتفاقی نیست",
-      "type": "vless"
-    },
-    {
-      "server": "172.67.196.179",
-      "server_port": 2053,
-      "tls": {
-        "enabled": true,
-        "server_name": "propanell2.followerarzon.ir"
-      },
-      "transport": {
-        "type": "grpc"
-      },
-      "uuid": "6b500e55-263d-43be-b97e-021f88f2c68d",
-      "tag": "Yup its TVC Power :)))_2",
-      "type": "vless"
-    },
-    {
-      "server": "138.2.234.225",
-      "server_port": 45555,
-      "tls": {
-        "enabled": true,
-        "server_name": "sj1.alieszvps.cf",
-        "insecure": true
-      },
-      "password": "VpRuqFDCJo",
-      "tag": "🇺🇸US-138.2.234.225-0221",
-      "type": "trojan"
-    },
-    {
-      "server": "51.77.53.200",
-      "server_port": 5004,
-      "password": "g5MeD6Ft3CWlJId",
-      "method": "aes-256-gcm",
-      "tag": "🇵🇱PL-51.77.53.200-4087",
+      "server": "masting.xyz",
+      "server_port": 8080,
+      "password": "XlUFgoOqDlVqlZFD3Js0YA",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "🇸🇪SE-172.234.99.105-2313",
       "type": "shadowsocks"
     },
     {
-      "server": "51.77.53.200",
-      "server_port": 5500,
-      "password": "KixLvKzwjekG00rm",
-      "method": "aes-256-gcm",
-      "tag": "🇵🇱PL-51.77.53.200-4046",
+      "server": "passconf.xyz",
+      "server_port": 8080,
+      "password": "qGjmI8WQlF0tfhDbkLqGdN",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "🇸🇪SE-172.232.152.142-0989",
       "type": "shadowsocks"
     },
     {
-      "server": "217.182.198.219",
-      "server_port": 3306,
-      "password": "Y6R9pAtvxxzmGC",
-      "method": "aes-256-gcm",
-      "tag": "🇩🇪DE-217.182.198.219-3962",
+      "server": "masting.xyz",
+      "server_port": 8080,
+      "password": "XlUFgoOqDlVqlZFD3Js0YA",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "🇸🇪SE-172.234.99.105-0987",
       "type": "shadowsocks"
     },
     {
-      "server": "51.77.53.200",
-      "server_port": 9101,
-      "password": "e4FCWrgpkji3QY",
-      "method": "aes-256-gcm",
-      "tag": "🇵🇱PL-51.77.53.200-4105",
+      "server": "3.91.181.129",
+      "server_port": 20015,
+      "password": "6cerJipnW7jxuKKSYWVNR4",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "🇺🇲 United States 197",
       "type": "shadowsocks"
     },
     {
-      "server": "51.77.53.200",
-      "server_port": 8118,
-      "password": "cdBIDV42DCwnfIN",
-      "method": "aes-256-gcm",
-      "tag": "🇵🇱PL-51.77.53.200-3797",
-      "type": "shadowsocks"
-    },
-    {
-      "server": "51.77.53.200",
-      "server_port": 7001,
-      "password": "RexnBgU7EV5ADxG",
-      "method": "aes-256-gcm",
-      "tag": "🇵🇱PL-51.77.53.200-4112",
-      "type": "shadowsocks"
-    },
-    {
-      "server": "51.77.53.200",
-      "server_port": 8090,
-      "password": "PCnnH6SQSnfoS27",
-      "method": "aes-256-gcm",
-      "tag": "Poland 3",
-      "type": "shadowsocks"
-    },
-    {
-      "server": "51.77.53.200",
-      "server_port": 8118,
-      "password": "cdBIDV42DCwnfIN",
-      "method": "aes-256-gcm",
-      "tag": "Poland 7",
-      "type": "shadowsocks"
-    },
-    {
-      "server": "51.77.53.200",
-      "server_port": 5001,
-      "password": "Y6R9pAtvxxzmGC",
-      "method": "aes-256-gcm",
-      "tag": "Poland 15",
-      "type": "shadowsocks"
-    },
-    {
-      "server": "145.239.1.100",
-      "server_port": 9102,
-      "password": "e4FCWrgpkji3QY",
-      "method": "aes-256-gcm",
-      "tag": "🇩🇪DE-145.239.1.100-4109",
+      "server": "masting.xyz",
+      "server_port": 8080,
+      "password": "XlUFgoOqDlVqlZFD3Js0YA",
+      "method": "chacha20-ietf-poly1305",
+      "tag": "🇺🇲 United States 11",
       "type": "shadowsocks"
     }
   ],
