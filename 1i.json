@@ -31,17 +31,27 @@
     ],
     "rules": [
       {
-        "domain": [
-          "ghproxy.com",
-          "cdn.jsdelivr.net",
-          "testingcf.jsdelivr.net"
-        ],
-        "server": "localDns"
+          "domain_suffix": [
+              ".ir"
+          ],
+          "server": "dns-direct"
+      },
+      {
+          "outbound": "direct",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
+      },
+      {
+          "outbound": "any",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
       }
-    ],
-    "strategy": "ipv4_only"
-  },
-  "inbounds": [
+  ],
+  "reverse_mapping": true,
+  "strategy": "ipv4_only",
+  "independent_cache": true
+},
+"inbounds": [
     {
       "sniff": true,
       "type": "mixed",
