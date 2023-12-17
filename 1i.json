@@ -92,7 +92,7 @@
         "@daorzadannet|🇺🇸|1.91",
         "@Everyday_VPN | 02 nuremberg | 1402/9/24"
       ],
-      "url": "https://telegram.org/",
+      "url": "https://instagram.com/",
       "interval": "2m",
       "tolerance": 30
     },
@@ -107,8 +107,8 @@
         "🇺🇲 United States 11"
       ],
       "url": "https://instagram.com/",
-      "interval": "3m",
-      "tolerance": 10
+      "interval": "2m",
+      "tolerance": 30
     },
     {
       "tag": "direct",
