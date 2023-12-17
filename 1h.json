@@ -7,13 +7,13 @@
   "dns": {
     "servers": [
       {
-          "address": "https://dns.controld.com/1u4zmsvhn8e",
+          "address": "udp://1.1.1.1",
           "address_resolver": "dns-direct",
           "strategy": "ipv6_only",
           "tag": "dns-remote"
       },
       {
-          "address": "https://dns.controld.com/1u4zmsvhn8e",
+          "address": "udp://1.1.1.1",
           "address_resolver": "dns-local",
           "detour": "direct",
           "strategy": "prefer_ipv6",
