@@ -31,17 +31,27 @@
     ],
     "rules": [
       {
-        "domain": [
-          "ghproxy.com",
-          "cdn.jsdelivr.net",
-          "testingcf.jsdelivr.net"
-        ],
-        "server": "localDns"
+          "domain_suffix": [
+              ".ir"
+          ],
+          "server": "dns-direct"
+      },
+      {
+          "outbound": "direct",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
+      },
+      {
+          "outbound": "any",
+          "server": "dns-direct",
+          "rewrite_ttl": 20
       }
-    ],
-    "strategy": "ipv4_only"
-  },
-  "inbounds": [
+  ],
+  "reverse_mapping": true,
+  "strategy": "ipv4_only",
+  "independent_cache": true
+},
+"inbounds": [
     {
       "sniff": true,
       "type": "mixed",
@@ -92,7 +102,7 @@
         "@daorzadannet|🇺🇸|1.91",
         "@Everyday_VPN | 02 nuremberg | 1402/9/24"
       ],
-      "url": "https://telegram.org/",
+      "url": "https://instagram.com/",
       "interval": "2m",
       "tolerance": 30
     },
@@ -107,8 +117,8 @@
         "🇺🇲 United States 11"
       ],
       "url": "https://instagram.com/",
-      "interval": "3m",
-      "tolerance": 10
+      "interval": "2m",
+      "tolerance": 30
     },
     {
       "tag": "direct",

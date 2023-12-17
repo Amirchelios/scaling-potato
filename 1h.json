@@ -104,15 +104,8 @@
       "tag": "vmess",
       "type": "urltest",
       "outbounds": [
-        "🏁RELAY-172.67.207.114-0217-worker",
-        "🏁RELAY-172.67.131.150-9114-worker",
-        "🏁RELAY-172.67.207.114-9091-worker",
-        "🇺🇲 United States 257",
-        "🏁RELAY-104.21.53.12-9021-worker",
-        "🏁RELAY-104.16.131.59-5100",
-        "🏁RELAY-104.21.3.33-2021",
-        "🏁RELAY-104.31.16.120-1289-worker",
-        "🏁RELAY-104.21.75.246-0141-worker"
+        "دستی 1",
+        "دستی 2"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -233,63 +226,23 @@
       "type": "vless"
     },
     {
-      "server": "188.114.98.228",
+      "server": "xyfxhiogo.site",
       "server_port": 443,
       "tls": {
         "enabled": true,
-        "server_name": "hamrah.amirchelios.WorKeRs.DEV"
+        "server_name": "xyfxhiogo.site"
       },
       "transport": {
-        "path": "/ophelia.mom/linkvws",
+        "path": "/kwhmvws",
         "type": "ws",
         "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
       "packet_encoding": "xudp",
       "security": "auto",
-      "alter_id": 1,
-      "tag": "🏁RELAY-172.67.207.114-0217-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.worKeRs.dev"
-      },
-      "transport": {
-        "path": "/oliv.beauty/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 1,
-      "tag": "🏁RELAY-172.67.131.150-9114-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.workERs.Dev"
-      },
-      "transport": {
-        "path": "/ophelia.mom/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 1,
-      "tag": "🏁RELAY-172.67.207.114-9091-worker",
+      "alter_id": 0,
+      "tag": "دستی 1",
       "type": "vmess"
     },
     {
@@ -309,103 +262,7 @@
       "packet_encoding": "xudp",
       "security": "auto",
       "alter_id": 0,
-      "tag": "🇺🇲 United States 257",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.workerS.DeV"
-      },
-      "transport": {
-        "path": "/ophelia.mom/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 1,
-      "tag": "🏁RELAY-104.21.53.12-9021-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "cp2.colacloud.site",
-      "server_port": 2086,
-      "transport": {
-        "path": "/sssddd",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "63f06e16-01b8-44dc-aae6-1fe31af8a762",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.16.131.59-5100",
-      "type": "vmess"
-    },
-    {
-      "server": "xyfxhiogo.site",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "xyfxhiogo.site"
-      },
-      "transport": {
-        "path": "/kwhmvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "4fa35ea4-668e-4d7b-9bbc-b83681060617",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.21.3.33-2021",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.WorkERs.DeV"
-      },
-      "transport": {
-        "path": "/edeen.makeup/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.31.16.120-1289-worker",
-      "type": "vmess"
-    },
-    {
-      "server": "188.114.98.228",
-      "server_port": 443,
-      "tls": {
-        "enabled": true,
-        "server_name": "hamrah.amirchelios.WOrkeRS.dEV"
-      },
-      "transport": {
-        "path": "/cf.tonyluk.link/ophelia.mom:443/linkvws",
-        "type": "ws",
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "security": "auto",
-      "alter_id": 0,
-      "tag": "🏁RELAY-104.21.75.246-0141-worker",
+      "tag": "دستی 2",
       "type": "vmess"
     }
   ],
