@@ -13,7 +13,7 @@
           "tag": "dns-remote"
       },
       {
-          "address": "udp://1.1.1.1",
+          "address": "tcp://1.1.1.1",
           "address_resolver": "dns-local",
           "detour": "direct",
           "strategy": "ipv4_only",
@@ -135,7 +135,7 @@
       "tolerance": 30
     },
     {
-      "tag": "1 کمکی",
+      "tag": "کمکی",
       "type": "urltest",
       "outbounds":[
         "🇮🇹IT-172.232.218.143-2305",
@@ -151,7 +151,7 @@
       "tolerance": 30
     },
     {
-      "tag": "2 کمکی",
+      "tag": "1کمکی",
       "type": "urltest",
       "outbounds":[
         "@v2ray_outlineir|🚩|2.7",
