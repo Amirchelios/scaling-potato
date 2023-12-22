@@ -7,15 +7,15 @@
   "dns": {
     "servers": [
       {
-          "address": "https://free.shecan.ir/dns-query",
+          "address": "tcp://8.8.8.8",
           "address_resolver": "dns-direct",
-          "strategy": "prefer_ipv6",
+          "strategy": "ipv4_only",
           "tag": "dns-remote"
       },
       {
-          "address": "https://free.shecan.ir/dns-query",
+          "address": "8.8.8.8",
           "address_resolver": "dns-local",
-          "detour": "direct",
+          "detour": "select",
           "strategy": "ipv4_only",
           "tag": "dns-direct"
       },
