@@ -7,13 +7,13 @@
   "dns": {
     "servers": [
       {
-          "address": "tcp://76.76.2.111",
+          "address": "https://free.shecan.ir/dns-query",
           "address_resolver": "dns-direct",
           "strategy": "prefer_ipv6",
           "tag": "dns-remote"
       },
       {
-          "address": "tcp://76.76.10.111",
+          "address": "https://free.shecan.ir/dns-query",
           "address_resolver": "dns-local",
           "detour": "direct",
           "strategy": "ipv4_only",
