@@ -81,7 +81,7 @@
       "type": "selector",
       "outbounds": [
         "شارژ مجدد",
-        "dns-out"   
+        "dns-direct"   
       ]
     },
     {
