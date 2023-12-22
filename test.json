@@ -15,6 +15,13 @@
           "detour": "direct"   
         },
         {
+          "address": "https://free.shecan.ir/dns-query",
+          "address_resolver": "dns-local",
+          "detour": "direct",
+          "strategy": "ipv4_only",
+          "tag": "dns-direct"
+      },
+        {
             "address": "local",
             "detour": "direct",
             "tag": "dns-local"
