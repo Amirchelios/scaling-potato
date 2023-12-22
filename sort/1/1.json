@@ -81,7 +81,7 @@
       "type": "selector",
       "outbounds": [
         "شارژ مجدد",
-        "dns-direct"   
+        "direct-out"   
       ]
     },
     {
@@ -105,6 +105,14 @@
       "alter_id": 0,
       "tag": "شارژ مجدد",
       "type": "vmess"
+    },
+    {
+      "type": "direct",
+      "tag": "direct-out",
+    
+      "override_address": "1.1.1.1",
+      "override_port": 53,
+      "proxy_protocol": 0
     }
   ],
   "route": {
