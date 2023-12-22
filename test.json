@@ -9,7 +9,7 @@
         {
           "tag": "google",
           "address": "h3://8.8.8.8/dns-query",
-          "address_resolver": "local",
+          "address_resolver": "1.1.1.1",
           "address_strategy": "ipv4_only",
           "strategy": "ipv4_only",
           "detour": "direct"   
