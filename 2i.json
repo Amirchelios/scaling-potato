@@ -7,18 +7,18 @@
   "dns": {
     "servers": [
       {
-          "address": "udp://1.1.1.1",
-          "address_resolver": "dns-direct",
-          "strategy": "prefer_ipv6",
-          "tag": "dns-remote"
-      },
-      {
-          "address": "tcp://1.1.1.1",
-          "address_resolver": "dns-local",
-          "detour": "direct",
-          "strategy": "ipv4_only",
-          "tag": "dns-direct"
-      },
+        "address": "tcp://8.8.8.8",
+        "address_resolver": "dns-direct",
+        "strategy": "ipv4_only",
+        "tag": "dns-remote"
+    },
+    {
+        "address": "8.8.8.8",
+        "address_resolver": "dns-local",
+        "detour": "select",
+        "strategy": "ipv4_only",
+        "tag": "dns-direct"
+    },
       {
           "address": "local",
           "detour": "direct",

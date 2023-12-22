@@ -6,16 +6,16 @@
   },
   "dns": {
     "servers": [
-      {
-          "address": "tcp://76.76.2.111",
+        {
+          "address": "tcp://8.8.8.8",
           "address_resolver": "dns-direct",
-          "strategy": "prefer_ipv6",
+          "strategy": "ipv4_only",
           "tag": "dns-remote"
       },
       {
-          "address": "tcp://76.76.10.111",
+          "address": "8.8.8.8",
           "address_resolver": "dns-local",
-          "detour": "direct",
+          "detour": "select",
           "strategy": "ipv4_only",
           "tag": "dns-direct"
       },
