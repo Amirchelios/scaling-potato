@@ -80,19 +80,9 @@
       "tag": "select",
       "type": "selector",
       "outbounds": [
-        "پایدار",
-        "dns-out"        
+        "شارژ مجدد",
+        "dns-out"   
       ]
-    },
-    {
-      "tag": "پایدار",
-      "type": "urltest",
-      "outbounds":[
-      "شارژ مجدد"
-      ],
-      "url": "https://instagram.com/",
-      "interval": "2m",
-      "tolerance": 30
     },
     {
       "tag": "direct",
