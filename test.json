@@ -965,12 +965,12 @@
       "geoip": {
         "path":"",
         "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db",
-        "download_detour": "select"
+        "download_detour": "direct"
       },
       "geosite": {
         "path":"",
         "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db",
-        "download_detour": "select"
+        "download_detour": "direct"
       },
       "rules": [
         {
