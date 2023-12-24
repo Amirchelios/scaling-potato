@@ -172,11 +172,11 @@
       "final": "proxy",
       "geoip": {
           "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "direct"
+          "download_detour": "proxy"
       },
       "geosite": {
           "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "direct"
+          "download_detour": "proxy"
       },
       "rules": [
           {
