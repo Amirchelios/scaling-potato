@@ -952,12 +952,14 @@
     ],
     "route": {
       "geoip": {
-        "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-        "download_detour": "dns-remote"
+        "path":"",
+        "download_url": "https://github.com/SagerNet/sing-geoip/releases/latest/download/geoip.db",
+        "download_detour": ""
       },
       "geosite": {
-        "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-        "download_detour": "dns-remote"
+        "path":"",
+        "download_url": "https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db",
+        "download_detour": ""
       },
       "rules": [
         {
