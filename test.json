@@ -953,11 +953,11 @@
     "route": {
       "geoip": {
         "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-        "download_detour": "select"
+        "download_detour": "dns-remote"
       },
       "geosite": {
         "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-        "download_detour": "select"
+        "download_detour": "dns-remote"
       },
       "rules": [
         {
