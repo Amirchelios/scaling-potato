@@ -90,8 +90,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.21.65.133:2087 📡 PING-002.53-MS"
-              ]
+                "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.21.65.133:2087 📡 PING-002.53-MS",
+                "direct"
+            ]
         },
         {
             "tag": "URL-TEST",
