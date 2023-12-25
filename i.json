@@ -52,6 +52,7 @@
   "independent_cache": true
 },
 "inbounds": [
+  
     {
       "sniff": true,
       "type": "mixed",
@@ -953,11 +954,13 @@
   "route": {
     "geoip": {
       "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-      "download_detour": "پایدار"
+      "download_detour":         "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.21.65.133:2087 📡 PING-002.53-MS"
+
     },
     "geosite": {
       "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-      "download_detour": "پایدار"
+      "download_detour":         "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.21.65.133:2087 📡 PING-002.53-MS"
+
     },
     "rules": [
       {
