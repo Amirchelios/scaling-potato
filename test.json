@@ -55,6 +55,13 @@
   },
   "inbounds": [
     {
+      "type": "direct",
+      "tag": "direct-in",
+      "network": "tcp",
+      "override_address": "1.0.0.1",
+      "override_port": 53
+    },
+    {
       "sniff": true,
       "type": "mixed",
       "listen": "127.0.0.1",
@@ -127,8 +134,12 @@
           }
       },
       {
-          "tag": "direct",
-          "type": "direct"
+        "type": "direct",
+        "tag": "direct-out",
+      
+        "override_address": "1.0.0.1",
+        "override_port": 53,
+        "proxy_protocol": 0
       },
       {
           "tag": "bypass",
@@ -149,11 +160,11 @@
       "final": "proxy",
       "geoip": {
           "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "proxy"
+          "download_detour": "direct-out"
       },
       "geosite": {
           "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "proxy"
+          "download_detour": "direct-out"
       },
       "rules": [
         {
