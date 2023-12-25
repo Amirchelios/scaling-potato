@@ -112,7 +112,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        }
+        },
+        {
+            "server": "104.21.65.133",
+            "server_port": 2087,
+            "tls": {
+              "enabled": true,
+              "server_name": "chalesh1.alpha5.top"
+            },
+            "transport": {
+              "type": "grpc",
+              "service_name": "@V2ray_Alpha @V2ray_Alpha @V2ray_Alpha"
+            },
+            "uuid": "a42b324b-a919-4649-8c1c-df0af14dfccc",
+            "tag": "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.21.65.133:2087 📡 PING-002.53-MS",
+            "type": "vless"
+          }
     ],
     "route": {
         "auto_detect_interface": true,
