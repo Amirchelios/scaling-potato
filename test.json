@@ -23,7 +23,7 @@
     },
       {
           "address": "local",
-          "detour": "direct",
+          "detour": "direct-out",
           "tag": "dns-local"
       },
       {
@@ -39,7 +39,7 @@
               "server": "dns-direct"
           },
           {
-              "outbound": "direct",
+              "outbound": "direct-out",
               "server": "dns-direct",
               "rewrite_ttl": 20
           },
@@ -178,7 +178,7 @@
           "geoip":[
             "yourube"
           ],
-          "outbound": "direct"
+          "outbound": "direct-out"
         },
         {
           "geosite": [
@@ -187,7 +187,7 @@
           "geoip": [
             "telegram"
           ],
-          "outbound": "direct"
+          "outbound": "direct-out"
         },
         {
           "geosite": [
@@ -196,7 +196,7 @@
           "geoip": [
             "facebook"
           ],
-          "outbound": "direct"
+          "outbound": "direct-out"
         }
       ]
     },
