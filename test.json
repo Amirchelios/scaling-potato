@@ -155,56 +155,45 @@
       }
   ],
   "route": {
-      "auto_detect_interface": true,
-      "override_android_vpn": true,
-      "final": "proxy",
-      "geoip": {
-          "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "direct-out"
+    "rules": [
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
       },
-      "geosite": {
-          "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "direct-out"
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
       },
-      "rules": [
-        {
-          "protocol": "dns",
-          "outbound": "dns-out"
-        },
-        {
-          "geosite": [
-            "youtube"
-          ],
-          "geoip":[
-            "yourube"
-          ],
-          "outbound": "direct-out"
-        },
-        {
-          "geosite": [
-            "telegram"
-          ],
-          "geoip": [
-            "telegram"
-          ],
-          "outbound": "direct-out"
-        },
-        {
-          "geosite": [
-            "facebook"
-          ],
-          "geoip": [
-            "facebook"
-          ],
-          "outbound": "direct-out"
-        }
-      ]
+      {
+        "rule_set": "geoip-us",
+        "rule_set_ipcidr_match_source": true,
+        "outbound": "block"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "proxy"
+      },
+      {
+        "tag": "geoip-us",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-us.srs",
+        "download_detour": "proxy"
+      }
+    ]
     },
-    "experimental": {
+        "experimental": {
+      "cache_file":{
+        "enabled": true
+      },
       "clash_api": {
         "external_controller": "127.0.0.1:9090",
-        "external_ui": "ui",
-        "store_selected": true
+        "external_ui": "ui"
       }
     }
   }
