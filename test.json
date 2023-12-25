@@ -105,7 +105,7 @@
         },
         {
             "type": "direct",
-            "tag": "direct-out",
+            "tag": "direct",
             "override_address": "1.0.0.1",
             "override_port": 53,
             "proxy_protocol": 0
