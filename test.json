@@ -17,7 +17,7 @@
       {
           "address": "8.8.8.8",
           "address_resolver": "dns-local",
-          "detour": "proxy",
+          "detour": "direct",
           "strategy": "ipv4_only",
           "tag": "dns-direct"
       },
@@ -54,6 +54,13 @@
         "independent_cache": true
     },
     "inbounds": [
+        {
+            "type": "direct",
+            "tag": "direct-in",
+            "network": "udp",
+            "override_address": "1.0.0.1",
+            "override_port": 53
+      },
       {
         "sniff": true,
         "type": "mixed",
@@ -96,15 +103,13 @@
             "interval": "3m",
             "tolerance": 50
         },
-        
         {
-            "tag": "direct",
-            "type": "direct"
-        },
-        {
-            "tag": "bypass",
-            "type": "direct"
-        },
+            "type": "direct",
+            "tag": "direct-out",
+            "override_address": "1.0.0.1",
+            "override_port": 53,
+            "proxy_protocol": 0
+          },
         {
             "tag": "block",
             "type": "block"
