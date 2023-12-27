@@ -3639,9 +3639,9 @@
             "🇫🇷FR-141.95.106.33-0342",
             "🇱🇹LT-80.209.228.242-0333"
               ],
-          "url": "https://www.google.com/",
-          "interval": "2m",
-          "tolerance": 30
+          "url": "https://cp.cloudflare.com/",
+          "interval": "1m",
+          "tolerance": 50
       },
       {
         "type": "direct",
