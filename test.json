@@ -55,10 +55,6 @@
   },
   "inbounds": [
     {
-      "enabled": true,
-      "padding": false
-    },    
-    {
       "type": "direct",
       "tag": "direct-in",
       "network": "udp",
