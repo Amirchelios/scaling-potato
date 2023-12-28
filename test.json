@@ -17,7 +17,7 @@
     {
         "address": "8.8.8.8",
         "address_resolver": "dns-local",
-        "detour": "direct",
+        "detour": "proxy",
         "strategy": "ipv4_only",
         "tag": "dns-direct"
     },
@@ -96,16 +96,14 @@
           "type": "selector",
           "outbounds": [
               "URL-TEST",
-              "SERVER-1",
-              "SERVER-2"      
+              "server"
             ]
       },
       {
           "tag": "URL-TEST",
           "type": "urltest",
           "outbounds": [
-            "SERVER-1",
-            "SERVER-2"    
+            "server"
           ],
           "url": "https://www.google.com/",
           "interval": "2m",
@@ -131,30 +129,10 @@
         "server_port": 51348,
         "password": "verRi65HGFTh76sGesh",
         "method": "chacha20-ietf-poly1305",
-        "tag": "SERVER-1",
+        "tag": "server",
         "type": "shadowsocks"
-      },
-      {
-        "server": "188.114.97.1",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "odelia.autos"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "SERVER-2",
-        "type": "vmess"
       }
-  ],
+    ],
   "route": {
       "auto_detect_interface": true,
       "override_android_vpn": true,
