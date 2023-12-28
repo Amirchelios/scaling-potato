@@ -1,36 +1,50 @@
-//profile-title: MOKHABRAT
+//profile-title: base64:Q09OVkVSVEVEIEJZIFRWQw==
 //profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/v2raycollector
+//profile-web-page-url: https://github.com/yebekhe/TelegramV2rayCollector
+
 {
   "log": {
-    "disabled": true,
-    "level": "warn",
-    "timestamp": false
+      "disabled": false,
+      "level": "fatal",
+      "timestamp": true
+  },
+  "experimental": {
+      "clash_api": {
+          "external_controller": "0.0.0.0:9090",
+          "external_ui": "yacd",
+          "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+          "external_ui_download_detour": "direct",
+          "secret": "",
+          "default_mode": "rule"
+      }
   },
   "dns": {
-    "servers": [
-      {
-        "address": "tcp://8.8.8.8",
-        "address_resolver": "dns-direct",
-        "strategy": "ipv4_only",
-        "tag": "dns-remote"
-    },
-    {
-        "address": "8.8.8.8",
-        "address_resolver": "dns-local",
-        "detour": "proxy",
-        "strategy": "ipv4_only",
-        "tag": "dns-direct"
-    },
-      {
-          "address": "local",
-          "detour": "direct",
-          "tag": "dns-local"
-      },
-      {
-          "address": "rcode:\/\/success",
-          "tag": "dns-block"
-      }
-    ],
+      "servers": [
+          {
+              "address": "tcp:\/\/95.85.95.85",
+              "address_resolver": "dns-direct",
+              "strategy": "ipv4_only",
+              "tag": "dns-remote"
+          },
+          {
+              "address": "tcp:\/\/95.85.95.85",
+              "address_resolver": "dns-local",
+              "detour": "direct",
+              "strategy": "ipv4_only",
+              "tag": "dns-direct"
+          },
+          {
+              "address": "local",
+              "detour": "direct",
+              "tag": "dns-local"
+          },
+          {
+              "address": "rcode:\/\/success",
+              "tag": "dns-block"
+          }
+      ],
       "rules": [
           {
               "domain_suffix": [
@@ -54,35 +68,37 @@
       "independent_cache": true
   },
   "inbounds": [
-    {
-      "type": "direct",
-      "tag": "direct-in",
-      "network": "udp",
-      "override_address": "1.0.0.1",
-      "override_port": 53
-    },    
-    {
-      "sniff": true,
-      "type": "mixed",
-      "listen": "127.0.0.1",
-      "listen_port": 1081
-    },
-    {
-      "stack": "mixed",
-      "auto_route": true,
-      "inet4_address": "172.19.0.1/30",
-      "mtu": 9000,
-      "sniff": true,
-      "strict_route": true,
-      "type": "tun",
-      "platform": {
-        "http_proxy": {
-          "enabled": false,
-          "server": "127.0.0.1",
-          "server_port": 1081
-        }
+      {
+          "listen": "0.0.0.0",
+          "listen_port": 6450,
+          "override_address": "8.8.8.8",
+          "override_port": 53,
+          "tag": "dns-in",
+          "type": "direct"
+      },
+      {
+          "type": "tun",
+          "tag": "tun-in",
+          "domain_strategy": "",
+          "interface_name": "tun0",
+          "inet4_address": "172.19.0.1\/30",
+          "mtu": 9000,
+          "auto_route": true,
+          "strict_route": true,
+          "stack": "system",
+          "endpoint_independent_nat": true,
+          "sniff": true,
+          "sniff_override_destination": false
+      },
+      {
+          "domain_strategy": "",
+          "listen": "0.0.0.0",
+          "listen_port": 2080,
+          "sniff": true,
+          "sniff_override_destination": false,
+          "tag": "mixed-in",
+          "type": "mixed"
       }
-    }
   ],
   "outbounds": [
       {
@@ -90,38 +106,291 @@
           "type": "selector",
           "outbounds": [
               "URL-TEST",
-              "🏁RELAY-188.114.96.7-2312",
-              "🏁RELAY-188.114.97.3-2209",
-              "🏁RELAY-188.114.97.7-1907",
-              "🏁RELAY-172.67.183.110-4492",
-              "🏁RELAY-188.114.97.18-2002",
-              "@vpnfail_v2ray|🚩|2.26",
-              "🇺🇲 United States 228"      
-                  ]
+              "🏁RELAY-188.114.96.7-2312 | 1",
+              "🏁RELAY-188.114.97.3-2209 | 2",
+              "🏁RELAY-188.114.97.7-1907 | 3",
+              "🏁RELAY-172.67.183.110-4492 | 4",
+              "🏁RELAY-188.114.97.18-2002 | 5",
+              "@vpnfail_v2ray|🚩|2.26 | 6",
+              "🇺🇲 United States 228 | 7"
+          ]
       },
       {
           "tag": "URL-TEST",
           "type": "urltest",
           "outbounds": [
-            "🏁RELAY-188.114.96.7-2312",
-            "🏁RELAY-188.114.97.3-2209",
-            "🏁RELAY-188.114.97.7-1907",
-            "🏁RELAY-172.67.183.110-4492",
-            "🏁RELAY-188.114.97.18-2002",
-            "@vpnfail_v2ray|🚩|2.26",
-            "🇺🇲 United States 228"    
-              ],
-          "url": "https://www.google.com/",
-          "interval": "1m",
+              "🏁RELAY-188.114.96.7-2312 | 1",
+              "🏁RELAY-188.114.97.3-2209 | 2",
+              "🏁RELAY-188.114.97.7-1907 | 3",
+              "🏁RELAY-172.67.183.110-4492 | 4",
+              "🏁RELAY-188.114.97.18-2002 | 5",
+              "@vpnfail_v2ray|🚩|2.26 | 6",
+              "🇺🇲 United States 228 | 7"
+          ],
+          "url": "https:\/\/www.gstatic.com\/generate_204",
+          "interval": "3m",
           "tolerance": 50
       },
       {
-        "type": "direct",
-        "tag": "direct",
-        "override_address": "1.0.0.1",
-        "override_port": 53,
-        "proxy_protocol": 0
-      },      
+          "tag": "🏁RELAY-188.114.96.7-2312 | 1",
+          "type": "vmess",
+          "server": "188.114.96.7",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 1,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "188.114.96.7",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "octavi.cfd"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "🏁RELAY-188.114.97.3-2209 | 2",
+          "type": "vmess",
+          "server": "188.114.97.3",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "188.114.97.3",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "odelia.autos"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "🏁RELAY-188.114.97.7-1907 | 3",
+          "type": "vmess",
+          "server": "188.114.97.7",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 1,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "188.114.97.7",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "waynn.makeup"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "🏁RELAY-172.67.183.110-4492 | 4",
+          "type": "vmess",
+          "server": "172.67.183.110",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "waynn.makeup",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "waynn.makeup"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "🏁RELAY-188.114.97.18-2002 | 5",
+          "type": "vmess",
+          "server": "188.114.97.18",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "188.114.97.18",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "odelia.autos"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "@vpnfail_v2ray|🚩|2.26 | 6",
+          "type": "vmess",
+          "server": "104.21.91.254",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 0,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "waynn.makeup",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "waynn.makeup"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "🇺🇲 United States 228 | 7",
+          "type": "vmess",
+          "server": "oliv.beauty",
+          "server_port": 443,
+          "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+          "security": "auto",
+          "alter_id": 1,
+          "global_padding": false,
+          "authenticated_length": true,
+          "packet_encoding": "",
+          "multiplex": {
+              "enabled": false,
+              "protocol": "smux",
+              "max_streams": 32
+          },
+          "tls": {
+              "enabled": true,
+              "server_name": "oliv.beauty",
+              "insecure": true,
+              "disable_sni": false,
+              "utls": {
+                  "enabled": true,
+                  "fingerprint": "chrome"
+              }
+          },
+          "transport": {
+              "type": "ws",
+              "path": "\/linkvws",
+              "headers": {
+                  "Host": "oliv.beauty"
+              },
+              "max_early_data": 0,
+              "early_data_header_name": "Sec-WebSocket-Protocol"
+          }
+      },
+      {
+          "tag": "direct",
+          "type": "direct"
+      },
+      {
+          "tag": "bypass",
+          "type": "direct"
+      },
       {
           "tag": "block",
           "type": "block"
@@ -129,146 +398,6 @@
       {
           "tag": "dns-out",
           "type": "dns"
-      },
-      {
-        "server": "188.114.96.7",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "octavi.cfd"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "🏁RELAY-188.114.96.7-2312",
-        "type": "vmess"
-      },
-      {
-        "server": "188.114.97.3",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "odelia.autos"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-188.114.97.3-2209",
-        "type": "vmess"
-      },
-      {
-        "server": "188.114.97.7",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "waynn.makeup"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "🏁RELAY-188.114.97.7-1907",
-        "type": "vmess"
-      },
-      {
-        "server": "172.67.183.110",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "waynn.makeup"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-172.67.183.110-4492",
-        "type": "vmess"
-      },
-      {
-        "server": "188.114.97.18",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "odelia.autos"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-188.114.97.18-2002",
-        "type": "vmess"
-      },
-      {
-        "server": "104.21.91.254",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "waynn.makeup"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "@vpnfail_v2ray|🚩|2.26",
-        "type": "vmess"
-      },
-      {
-        "server": "oliv.beauty",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "oliv.beauty"
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "🇺🇲 United States 228",
-        "type": "vmess"
       }
   ],
   "route": {
@@ -277,52 +406,66 @@
       "final": "proxy",
       "geoip": {
           "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "proxy"
-
+          "download_detour": "direct"
       },
       "geosite": {
           "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "proxy"
-
+          "download_detour": "direct"
       },
       "rules": [
-        {
-          "protocol": "dns",
-          "outbound": "dns-out"
-        },
-        {
-          "geosite": [
-            "youtube"
-          ],
-          "geoip":[
-            "yourube"
-          ],
-          "outbound": "proxy"
-        },
-        {
-          "geosite": [
-            "telegram"
-          ],
-          "geoip": [
-            "telegram"
-          ],
-          "outbound": "proxy"
-        },
-        {
-          "geosite": [
-            "facebook"
-          ],
-          "geoip": [
-            "facebook"
-          ],
-          "outbound": "proxy"
-        }
+          {
+              "outbound": "dns-out",
+              "port": [
+                  53
+              ]
+          },
+          {
+              "inbound": [
+                  "dns-in"
+              ],
+              "outbound": "dns-out"
+          },
+          {
+              "domain_suffix": [
+                  "ir"
+              ],
+              "outbound": "bypass"
+          },
+          {
+              "geoip": [
+                  "ir"
+              ],
+              "outbound": "bypass"
+          },
+          {
+              "geosite": [
+                  "ir"
+              ],
+              "outbound": "direct"
+          },
+          {
+              "geosite": [
+                  "other"
+              ],
+              "outbound": "direct"
+          },
+          {
+              "geosite": [
+                  "ads"
+              ],
+              "outbound": "block"
+          },
+          {
+              "ip_cidr": [
+                  "224.0.0.0\/3",
+                  "ff00::\/8"
+              ],
+              "outbound": "block",
+              "source_ip_cidr": [
+                  "224.0.0.0\/3",
+                  "ff00::\/8"
+              ]
+          }
       ]
-    },
-    "experimental": {
-      "clash_api": {
-        "external_controller": "127.0.0.1:9090",
-        "external_ui": "ui"
-      }
-    }
   }
+}
