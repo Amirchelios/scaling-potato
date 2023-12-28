@@ -10,16 +10,26 @@
       "level": "fatal",
       "timestamp": true
   },
+  "experimental": {
+      "clash_api": {
+          "external_controller": "0.0.0.0:9090",
+          "external_ui": "yacd",
+          "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+          "external_ui_download_detour": "direct",
+          "secret": "",
+          "default_mode": "rule"
+      }
+  },
   "dns": {
       "servers": [
           {
-              "address": "tcp://1.1.1.1",
+              "address": "tcp:\/\/95.85.95.85",
               "address_resolver": "dns-direct",
               "strategy": "ipv4_only",
               "tag": "dns-remote"
           },
           {
-              "address": "1.1.1.1",
+              "address": "tcp:\/\/95.85.95.85",
               "address_resolver": "dns-local",
               "detour": "direct",
               "strategy": "ipv4_only",
@@ -57,22 +67,16 @@
       "strategy": "ipv4_only",
       "independent_cache": true
   },
-    "ntp": {
-      "enabled": true,
-      "server": "Iran — ir.pool.ntp.org",
-      "detour": "direct-in",
-      "server_port": 123,
-      "interval": "30m"
-    },
   "inbounds": [
-    {
-      "type": "direct",
-      "tag": "direct-in",
-      "network": "tcp",
-      "override_address": "187.22.122.100",
-      "override_port": 53
-    },    
-    {
+      {
+          "listen": "0.0.0.0",
+          "listen_port": 6450,
+          "override_address": "8.8.8.8",
+          "override_port": 53,
+          "tag": "dns-in",
+          "type": "direct"
+      },
+      {
           "type": "tun",
           "tag": "tun-in",
           "domain_strategy": "",
@@ -123,7 +127,7 @@
               "@vpnfail_v2ray|🚩|2.26 | 6",
               "🇺🇲 United States 228 | 7"
           ],
-          "url": "https://cp.cloudflare.com/",
+          "url": "https:\/\/www.gstatic.com\/generate_204",
           "interval": "3m",
           "tolerance": 50
       },
@@ -382,10 +386,13 @@
       {
         "type": "direct",
         "tag": "direct",
-      
-        "override_address": "185.51.200.2",
+        "override_address": "178.22.122.100",
         "override_port": 53,
         "proxy_protocol": 0
+      },      
+      {
+          "tag": "bypass",
+          "type": "direct"
       },
       {
           "tag": "block",
@@ -402,11 +409,11 @@
       "final": "proxy",
       "geoip": {
           "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "direct-in"
+          "download_detour": "direct"
       },
       "geosite": {
           "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "direct-in"
+          "download_detour": "direct"
       },
       "rules": [
           {
@@ -425,13 +432,13 @@
               "domain_suffix": [
                   "ir"
               ],
-              "outbound": "direct"
+              "outbound": "bypass"
           },
           {
               "geoip": [
                   "ir"
               ],
-              "outbound": "direct"
+              "outbound": "bypass"
           },
           {
               "geosite": [
@@ -462,12 +469,6 @@
                   "ff00::\/8"
               ]
           }
-        ]
-      },
-        "experimental" : {
-        "clash_api": {
-          "external_controller": "127.0.0.1:9090",
-          "external_ui": "ui"
-        }
-      }
-    }
+      ]
+  }
+}
