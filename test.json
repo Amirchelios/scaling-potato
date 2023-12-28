@@ -138,12 +138,12 @@
       "override_android_vpn": true,
       "final": "proxy",
       "geoip": {
-          "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+          "download_url": "https://cdn.jsdelivr.net/gh/chocolate4u/Iran-sing-box-rules@release/geoip-lite.db",
           "download_detour": "server"
 
       },
       "geosite": {
-          "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+          "download_url": "https://cdn.jsdelivr.net/gh/chocolate4u/Iran-sing-box-rules@release/geosite-lite.db",
           "download_detour": "server"
 
       },
