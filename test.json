@@ -60,7 +60,7 @@
     "ntp": {
       "enabled": true,
       "server": "0.asia.pool.ntp.org",
-      "detour": "direct",
+      "detour": "direct-in",
       "server_port": 123,
       "interval": "30m"
     },
@@ -402,11 +402,11 @@
       "final": "proxy",
       "geoip": {
           "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "direct"
+          "download_detour": "direct-in"
       },
       "geosite": {
           "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "direct"
+          "download_detour": "direct-in"
       },
       "rules": [
           {
