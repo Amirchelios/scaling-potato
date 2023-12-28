@@ -17,7 +17,7 @@
     {
         "address": "8.8.8.8",
         "address_resolver": "dns-local",
-        "detour": "proxy",
+        "detour": "direct",
         "strategy": "ipv4_only",
         "tag": "dns-direct"
     },
