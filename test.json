@@ -131,14 +131,6 @@
           "type": "dns"
       },
       {
-        "enabled": true,
-        "protocol": "smux",
-        "max_connections": 4,
-        "min_streams": 4,
-        "max_streams": 0,
-        "padding": false
-      }, 
-      {
         "server": "188.114.96.7",
         "server_port": 443,
         "tls": {
