@@ -23,13 +23,13 @@
   "dns": {
       "servers": [
           {
-              "address": "tcp:\/\/95.85.95.85",
+              "address": "tcp:1.1.1.1",
               "address_resolver": "dns-direct",
               "strategy": "ipv4_only",
               "tag": "dns-remote"
           },
           {
-              "address": "tcp:\/\/95.85.95.85",
+              "address": "1.1.1.1",
               "address_resolver": "dns-local",
               "detour": "direct",
               "strategy": "ipv4_only",
@@ -127,7 +127,7 @@
               "@vpnfail_v2ray|🚩|2.26 | 6",
               "🇺🇲 United States 228 | 7"
           ],
-          "url": "https:\/\/www.gstatic.com\/generate_204",
+          "url": "https://cp.cloudflare.com/",
           "interval": "3m",
           "tolerance": 50
       },
