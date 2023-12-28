@@ -56,6 +56,7 @@
     "ntp": {
       "enabled": true,
       "server": "Iran — ir.pool.ntp.org",
+      "detour": "direct",
       "server_port": 123,
       "interval": "30m"
   },
