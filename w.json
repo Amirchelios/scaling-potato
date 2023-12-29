@@ -444,12 +444,12 @@
       "final": "proxy",
       "geoip": {
           "download_url": "https://cdn.jsdelivr.net/gh/chocolate4u/Iran-sing-box-rules@release/geoip-lite.db",
-          "download_detour": "direct"
+          "download_detour": "🇳🇱NL-109.201.152.181-0946"
 
       },
       "geosite": {
           "download_url": "https://cdn.jsdelivr.net/gh/chocolate4u/Iran-sing-box-rules@release/geosite-lite.db",
-          "download_detour": "direct"
+          "download_detour": "🇳🇱NL-109.201.152.181-0946"
 
       },
       "rules": [
