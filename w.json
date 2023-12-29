@@ -1,4 +1,4 @@
-//profile-title: IRANCELL
+//profile-title: MOKHABRAT
 //profile-update-interval: 1
 {
   "log": {
@@ -53,7 +53,21 @@
       "strategy": "ipv4_only",
       "independent_cache": true
   },
+    "ntp": {
+      "enabled": true,
+      "server": "Iran — ir.pool.ntp.org",
+      "detour": "direct",
+      "server_port": 123,
+      "interval": "30m"
+  },
   "inbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-in",
+      "network": "udp",
+      "override_address": "8.8.8.8",
+      "override_port": 53
+    },    
     {
       "sniff": true,
       "type": "mixed",
@@ -83,33 +97,56 @@
           "type": "selector",
           "outbounds": [
               "URL-TEST",
-              "@v2rayNG_Matsuri|🇺🇸|2.05",
-              "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.16.54.99:2053 📡 PING-016.39-MS",
-              "🇵🇱PL-51.77.53.200-9408",
-              "Poland 29"
+              "🇳🇱NL-109.201.152.181-0946",
+              "🇬🇧GB-52.142.146.57-2087",
+              "🏁RELAY-172.67.197.82-10799",
+              "🏁RELAY-104.21.91.254-0184",
+              "🏁RELAY-172.67.183.110-4492",
+              "🏁RELAY-188.114.96.2-4522",
+              "🏁RELAY-104.21.53.12-4503",
+              "SHΞЯVIN™_1",
+              "SHΞЯVIN™_2",
+              "🔒+VL-GRPC-TLS+🇺🇸+US-172.64.80.1:443+📡+PING-001.78-MS",
+              "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.17.239.159:2087+📡+PING-001.90-MS",
+              "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.16.68.38:2053+📡+PING-001.60-MS",
+              "ALL+@ΞLiV2RAY (20)",
+              "ALL+@ΞLiV2RAY_1",
+              "ALL+@ΞLiV2RAY_2",
+              "ALL+@ΞLiV2RAY (8)"
             ]
       },
       {
           "tag": "URL-TEST",
           "type": "urltest",
           "outbounds": [
-            "@v2rayNG_Matsuri|🇺🇸|2.05",
-            "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.16.54.99:2053 📡 PING-016.39-MS",
-            "🇵🇱PL-51.77.53.200-9408",
-            "Poland 29"    
+            "🇳🇱NL-109.201.152.181-0946",
+            "🇬🇧GB-52.142.146.57-2087",
+            "🏁RELAY-172.67.197.82-10799",
+            "🏁RELAY-104.21.91.254-0184",
+            "🏁RELAY-172.67.183.110-4492",
+            "🏁RELAY-188.114.96.2-4522",
+            "🏁RELAY-104.21.53.12-4503",
+            "SHΞЯVIN™_1",
+            "SHΞЯVIN™_2",
+            "🔒+VL-GRPC-TLS+🇺🇸+US-172.64.80.1:443+📡+PING-001.78-MS",
+            "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.17.239.159:2087+📡+PING-001.90-MS",
+            "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.16.68.38:2053+📡+PING-001.60-MS",
+            "ALL+@ΞLiV2RAY (20)",
+            "ALL+@ΞLiV2RAY_1",
+            "ALL+@ΞLiV2RAY_2",
+            "ALL+@ΞLiV2RAY (8)"    
           ],
           "url": "https://www.google.com/",
-          "interval": "3m",
-          "tolerance": 30
+          "interval": "1m",
+          "tolerance": 50
       },
       {
-          "tag": "direct",
-          "type": "direct"
-      },
-      {
-          "tag": "bypass",
-          "type": "direct"
-      },
+        "type": "direct",
+        "tag": "direct",
+        "override_address": "178.22.122.100",
+        "override_port": 53,
+        "proxy_protocol": 0
+      },      
       {
           "tag": "block",
           "type": "block"
@@ -119,69 +156,301 @@
           "type": "dns"
       },
       {
-        "server": "104.31.16.36",
+        "server": "109.201.152.181",
+        "server_port": 443,
+        "password": "shadowsocks",
+        "method": "aes-128-cfb",
+        "tag": "🇳🇱NL-109.201.152.181-0946",
+        "type": "shadowsocks"
+      },
+      {
+        "server": "52.142.146.57",
+        "server_port": 50395,
+        "password": "zpgPBiYXEhOwgwpCTaoTui",
+        "method": "chacha20-ietf-poly1305",
+        "tag": "🇬🇧GB-52.142.146.57-2087",
+        "type": "shadowsocks"
+      },
+      {
+        "server": "172.67.197.82",
+        "server_port": 443,
+        "tls": {
+          "enabled": true
+        },
+        "transport": {
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 1,
+        "tag": "🏁RELAY-172.67.197.82-10799",
+        "type": "vmess"
+      },
+      {
+        "server": "104.21.91.254",
         "server_port": 443,
         "tls": {
           "enabled": true,
-          "server_name": "lmn39.sbs"
+          "server_name": "waynn.makeup"
         },
         "transport": {
-          "path": "/fflsws",
+          "path": "linkvws",
           "type": "ws",
-          "max_early_data": 4096,
+          "max_early_data": 2048,
           "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
-        "tag": "@v2rayNG_Matsuri|🇺🇸|2.05",
-        "type": "vless"
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🏁RELAY-104.21.91.254-0184",
+        "type": "vmess"
       },
       {
-        "server": "104.16.54.99",
-        "server_port": 2053,
+        "server": "172.67.183.110",
+        "server_port": 443,
         "tls": {
           "enabled": true,
-          "server_name": "fff.vipconnected.cfd",
+          "server_name": "waynn.makeup"
+        },
+        "transport": {
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🏁RELAY-172.67.183.110-4492",
+        "type": "vmess"
+      },
+      {
+        "server": "188.114.96.2",
+        "server_port": 443,
+        "tls": {
+          "enabled": true,
+          "server_name": "ophelia.mom"
+        },
+        "transport": {
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 1,
+        "tag": "🏁RELAY-188.114.96.2-4522",
+        "type": "vmess"
+      },
+      {
+        "server": "104.21.53.12",
+        "server_port": 443,
+        "tls": {
+          "enabled": true,
+          "server_name": "ophelia.mom"
+        },
+        "transport": {
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 1,
+        "tag": "🏁RELAY-104.21.53.12-4503",
+        "type": "vmess"
+      },
+      {
+        "server": "84.32.230.81",
+        "server_port": 443,
+        "tls": {
+          "enabled": true,
+          "server_name": "sourceforge.net",
           "utls": {
             "enabled": true,
-            "fingerprint": "firefox"
+            "fingerprint": "chrome"
+          },
+          "reality": {
+            "enabled": true,
+            "public_key": "eSq2viks3QTjVd77cFKfenQfxAL2JBxoJX9xxblcsno",
+            "short_id": "7b6e4dd3"
           }
         },
         "transport": {
           "type": "grpc",
-          "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER"
+          "service_name": "Dr.Phone"
         },
-        "uuid": "a760297b-0cc1-46c6-fd92-590cc7d9e5d0",
-        "tag": "🔒 VL-GRPC-TLS 🏴‍☠️ NA-104.16.54.99:2053 📡 PING-016.39-MS",
+        "uuid": "ff20725a-e351-42e5-9bc4-838b10cc2531",
+        "tag": "SHΞЯVIN™_1",
         "type": "vless"
       },
       {
-        "server": "51.77.53.200",
-        "server_port": 2376,
-        "password": "faBAoD54k87UJG7",
-        "method": "aes-256-gcm",
-        "tag": "🇵🇱PL-51.77.53.200-9408",
-        "type": "shadowsocks"
+        "server": "84.32.230.81",
+        "server_port": 443,
+        "tls": {
+          "enabled": true,
+          "server_name": "sourceforge.net",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "chrome"
+          },
+          "reality": {
+            "enabled": true,
+            "public_key": "eSq2viks3QTjVd77cFKfenQfxAL2JBxoJX9xxblcsno",
+            "short_id": "7b6e4dd3"
+          }
+        },
+        "transport": {
+          "type": "grpc",
+          "service_name": "Dr.Phone"
+        },
+        "uuid": "ff20725a-e351-42e5-9bc4-838b10cc2531",
+        "tag": "SHΞЯVIN™_2",
+        "type": "vless"
       },
       {
-        "server": "51.77.53.200",
-        "server_port": 8009,
-        "password": "XKFKl2rULjIp74",
-        "method": "aes-256-gcm",
-        "tag": "Poland 29",
-        "type": "shadowsocks"
-      }  
-  ],
+        "server": "172.64.80.1",
+        "server_port": 443,
+        "tls": {
+          "enabled": true,
+          "server_name": "ph.XsV2ray.cfd",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "transport": {
+          "type": "grpc",
+          "service_name": "@MxV2ray،@MxV2ray،@MxV2ray"
+        },
+        "uuid": "269ba10a-8196-4b0b-8c74-99394b022a20",
+        "tag": "🔒+VL-GRPC-TLS+🇺🇸+US-172.64.80.1:443+📡+PING-001.78-MS",
+        "type": "vless"
+      },
+      {
+        "server": "104.17.239.159",
+        "server_port": 2087,
+        "tls": {
+          "enabled": true,
+          "server_name": "ch.RxV2ray.space"
+        },
+        "transport": {
+          "type": "grpc",
+          "service_name": "@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@R"
+        },
+        "uuid": "166b6bca-ff9a-41bf-e9b9-76a77a5e018e",
+        "tag": "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.17.239.159:2087+📡+PING-001.90-MS",
+        "type": "vless"
+      },
+      {
+        "server": "104.16.68.38",
+        "server_port": 2053,
+        "tls": {
+          "enabled": true,
+          "server_name": "vip.lockey-vip.xyz"
+        },
+        "transport": {
+          "type": "grpc",
+          "service_name": "@vbox_speed-@vbox_speed"
+        },
+        "uuid": "1e4b8e38-9aed-4d99-9358-a1237425d60a",
+        "tag": "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.16.68.38:2053+📡+PING-001.60-MS",
+        "type": "vless"
+      },
+      {
+        "server": "172.67.166.36",
+        "server_port": 2053,
+        "tls": {
+          "enabled": true,
+          "server_name": "mtnkedewjhjnjd.bazaars.pro"
+        },
+        "transport": {
+          "path": "/",
+          "type": "ws",
+          "max_early_data": 4096,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "1507cae5-19e8-46aa-ab46-80518f9d0c16",
+        "tag": "ALL+@ΞLiV2RAY (20)",
+        "type": "vless"
+      },
+      {
+        "server": "188.114.97.1",
+        "server_port": 2053,
+        "tls": {
+          "enabled": true,
+          "server_name": "ir.XsV2ray.cfd",
+          "utls": {
+            "enabled": true,
+            "fingerprint": "safari"
+          },
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "transport": {
+          "type": "grpc"
+        },
+        "uuid": "69a88fa9-8775-41be-b17d-12264f17609e",
+        "tag": "ALL+@ΞLiV2RAY_1",
+        "type": "vless"
+      },
+      {
+        "server": "104.17.205.170",
+        "server_port": 443,
+        "tls": {
+          "enabled": true,
+          "server_name": "space.nonoal.xyz"
+        },
+        "transport": {
+          "type": "grpc"
+        },
+        "uuid": "f1d4a5f8-826f-4a01-826e-517e698af6fa",
+        "tag": "ALL+@ΞLiV2RAY_2",
+        "type": "vless"
+      },
+      {
+        "server": "www.speedtest.net",
+        "server_port": 80,
+        "tls": {
+          "enabled": true,
+          "server_name": "yalda20232112.freedns.site"
+        },
+        "transport": {
+          "path": "/freevpn",
+          "type": "ws",
+          "max_early_data": 4096,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "6584ed53-90b2-45d6-aa78-ff34867c814c",
+        "tag": "ALL+@ΞLiV2RAY (8)",
+        "type": "vless"
+      }
+    ],
   "route": {
       "auto_detect_interface": true,
       "override_android_vpn": true,
       "final": "proxy",
       "geoip": {
-          "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "proxy"
+          "download_url": "https://cdn.jsdelivr.net/gh/chocolate4u/Iran-sing-box-rules@release/geoip-lite.db",
+          "download_detour": "direct"
+
       },
       "geosite": {
-          "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "proxy"
+          "download_url": "https://cdn.jsdelivr.net/gh/chocolate4u/Iran-sing-box-rules@release/geosite-lite.db",
+          "download_detour": "direct"
+
       },
       "rules": [
         {
@@ -220,8 +489,7 @@
     "experimental": {
       "clash_api": {
         "external_controller": "127.0.0.1:9090",
-        "external_ui": "ui",
-        "store_selected": true
+        "external_ui": "ui"
       }
     }
   }
