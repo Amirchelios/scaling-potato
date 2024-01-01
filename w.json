@@ -97,45 +97,65 @@
           "type": "selector",
           "outbounds": [
               "URL-TEST",
-              "🇳🇱NL-109.201.152.181-0946",
-              "🇬🇧GB-52.142.146.57-2087",
-              "🏁RELAY-172.67.197.82-10799",
-              "🏁RELAY-104.21.91.254-0184",
-              "🏁RELAY-172.67.183.110-4492",
-              "🏁RELAY-188.114.96.2-4522",
-              "🏁RELAY-104.21.53.12-4503",
-              "SHΞЯVIN™_1",
-              "SHΞЯVIN™_2",
-              "🔒+VL-GRPC-TLS+🇺🇸+US-172.64.80.1:443+📡+PING-001.78-MS",
-              "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.17.239.159:2087+📡+PING-001.90-MS",
-              "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.16.68.38:2053+📡+PING-001.60-MS",
-              "ALL+@ΞLiV2RAY (20)",
-              "ALL+@ΞLiV2RAY_1",
-              "ALL+@ΞLiV2RAY_2",
-              "ALL+@ΞLiV2RAY (8)"
-            ]
+              "🏁RELAY-162.159.13.8-2042",
+              "🇩🇪DE-168.119.124.17-1117",
+              "🇳🇱NL-185.246.153.12-4567",
+              "🏁RELAY-172.67.204.19-2056",
+              "🏁RELAY-104.19.154.92-1987",
+              "🏁RELAY-188.114.96.58-0252",
+              "🏁RELAY-172.67.207.114-4428",
+              "🏁RELAY-104.21.27.139-4458",
+              "@v2ray_outlineir|🚩|2.7",
+              "🇳🇱 Netherlands 11",
+              "🇺🇲 United States 346",
+              "ALL+@ΞLiV2RAY",
+              "4FreeIran-4590",
+              "4FreeIran-521",
+              "美国_122918326",
+              "英国_122918022",
+              "🇺🇸 美国 CloudFlare节点",
+              "🇬🇧 英国威尔士加的夫Microsoft公司 12",
+              "🇬🇧 英国威尔士加的夫Microsoft公司 79",
+              "🇸🇬 github.com/freefq - 新加坡Microsoft数据中心 3",
+              "1|_US__15",
+              "10|新加坡Microsoft数据中心 3",
+              "0,2,3,4,6,10,11,12|🇺🇸_US_美国 #68",
+              "10|美国 CloudFlare节点 #1",
+              "12|🇸🇬 Singapore 1",
+              "10|美国 CloudFlare节点 #10"
+                  ]
       },
       {
           "tag": "URL-TEST",
           "type": "urltest",
           "outbounds": [
-            "🇳🇱NL-109.201.152.181-0946",
-            "🇬🇧GB-52.142.146.57-2087",
-            "🏁RELAY-172.67.197.82-10799",
-            "🏁RELAY-104.21.91.254-0184",
-            "🏁RELAY-172.67.183.110-4492",
-            "🏁RELAY-188.114.96.2-4522",
-            "🏁RELAY-104.21.53.12-4503",
-            "SHΞЯVIN™_1",
-            "SHΞЯVIN™_2",
-            "🔒+VL-GRPC-TLS+🇺🇸+US-172.64.80.1:443+📡+PING-001.78-MS",
-            "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.17.239.159:2087+📡+PING-001.90-MS",
-            "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.16.68.38:2053+📡+PING-001.60-MS",
-            "ALL+@ΞLiV2RAY (20)",
-            "ALL+@ΞLiV2RAY_1",
-            "ALL+@ΞLiV2RAY_2",
-            "ALL+@ΞLiV2RAY (8)"    
-          ],
+            "🏁RELAY-162.159.13.8-2042",
+            "🇩🇪DE-168.119.124.17-1117",
+            "🇳🇱NL-185.246.153.12-4567",
+            "🏁RELAY-172.67.204.19-2056",
+            "🏁RELAY-104.19.154.92-1987",
+            "🏁RELAY-188.114.96.58-0252",
+            "🏁RELAY-172.67.207.114-4428",
+            "🏁RELAY-104.21.27.139-4458",
+            "@v2ray_outlineir|🚩|2.7",
+            "🇳🇱 Netherlands 11",
+            "🇺🇲 United States 346",
+            "ALL+@ΞLiV2RAY",
+            "4FreeIran-4590",
+            "4FreeIran-521",
+            "美国_122918326",
+            "英国_122918022",
+            "🇺🇸 美国 CloudFlare节点",
+            "🇬🇧 英国威尔士加的夫Microsoft公司 12",
+            "🇬🇧 英国威尔士加的夫Microsoft公司 79",
+            "🇸🇬 github.com/freefq - 新加坡Microsoft数据中心 3",
+            "1|_US__15",
+            "10|新加坡Microsoft数据中心 3",
+            "0,2,3,4,6,10,11,12|🇺🇸_US_美国 #68",
+            "10|美国 CloudFlare节点 #1",
+            "12|🇸🇬 Singapore 1",
+            "10|美国 CloudFlare节点 #10"
+              ],
           "url": "https://www.google.com/",
           "interval": "1m",
           "tolerance": 50
@@ -156,82 +176,83 @@
           "type": "dns"
       },
       {
-        "server": "109.201.152.181",
+        "server": "162.159.13.8",
         "server_port": 443,
-        "password": "shadowsocks",
-        "method": "aes-128-cfb",
-        "tag": "🇳🇱NL-109.201.152.181-0946",
-        "type": "shadowsocks"
+        "tls": {
+          "enabled": true,
+          "server_name": "Kansas.gafn.online"
+        },
+        "transport": {
+          "path": "/speedtest",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "1F7C900A-6AD7-41CF-A37E-85873E566C40",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🏁RELAY-162.159.13.8-2042",
+        "type": "vmess"
       },
       {
-        "server": "52.142.146.57",
-        "server_port": 50395,
-        "password": "zpgPBiYXEhOwgwpCTaoTui",
+        "server": "masting.xyz",
+        "server_port": 8080,
+        "password": "XlUFgoOqDlVqlZFD3Js0YA",
         "method": "chacha20-ietf-poly1305",
-        "tag": "🇬🇧GB-52.142.146.57-2087",
+        "tag": "🇩🇪DE-168.119.124.17-1117",
         "type": "shadowsocks"
       },
       {
-        "server": "172.67.197.82",
-        "server_port": 443,
-        "tls": {
-          "enabled": true
-        },
-        "transport": {
-          "path": "linkvws",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 1,
-        "tag": "🏁RELAY-172.67.197.82-10799",
-        "type": "vmess"
+        "server": "185.246.153.12",
+        "server_port": 51348,
+        "password": "verRi65HGFTh76sGesh",
+        "method": "chacha20-ietf-poly1305",
+        "tag": "🇳🇱NL-185.246.153.12-4567",
+        "type": "shadowsocks"
       },
       {
-        "server": "104.21.91.254",
+        "server": "172.67.204.19",
         "server_port": 443,
         "tls": {
           "enabled": true,
-          "server_name": "waynn.makeup"
+          "server_name": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top"
         },
         "transport": {
-          "path": "linkvws",
+          "path": "/azumase.ren",
           "type": "ws",
           "max_early_data": 2048,
           "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
         "packet_encoding": "xudp",
         "security": "auto",
         "alter_id": 0,
-        "tag": "🏁RELAY-104.21.91.254-0184",
+        "tag": "🏁RELAY-172.67.204.19-2056",
         "type": "vmess"
       },
       {
-        "server": "172.67.183.110",
-        "server_port": 443,
+        "server": "104.19.154.92",
+        "server_port": 2083,
         "tls": {
           "enabled": true,
-          "server_name": "waynn.makeup"
+          "server_name": "PAneljadid.mookoMEilz.homes"
         },
         "transport": {
-          "path": "linkvws",
+          "path": "/snsk",
           "type": "ws",
           "max_early_data": 2048,
           "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
         "packet_encoding": "xudp",
         "security": "auto",
         "alter_id": 0,
-        "tag": "🏁RELAY-172.67.183.110-4492",
+        "tag": "🏁RELAY-104.19.154.92-1987",
         "type": "vmess"
       },
       {
-        "server": "188.114.96.2",
+        "server": "188.114.96.58",
         "server_port": 443,
         "tls": {
           "enabled": true,
@@ -247,11 +268,11 @@
         "packet_encoding": "xudp",
         "security": "auto",
         "alter_id": 1,
-        "tag": "🏁RELAY-188.114.96.2-4522",
+        "tag": "🏁RELAY-188.114.96.58-0252",
         "type": "vmess"
       },
       {
-        "server": "104.21.53.12",
+        "server": "172.67.207.114",
         "server_port": 443,
         "tls": {
           "enabled": true,
@@ -267,105 +288,84 @@
         "packet_encoding": "xudp",
         "security": "auto",
         "alter_id": 1,
-        "tag": "🏁RELAY-104.21.53.12-4503",
+        "tag": "🏁RELAY-172.67.207.114-4428",
         "type": "vmess"
       },
       {
-        "server": "84.32.230.81",
+        "server": "104.21.27.139",
         "server_port": 443,
         "tls": {
           "enabled": true,
-          "server_name": "sourceforge.net",
-          "utls": {
-            "enabled": true,
-            "fingerprint": "chrome"
-          },
-          "reality": {
-            "enabled": true,
-            "public_key": "eSq2viks3QTjVd77cFKfenQfxAL2JBxoJX9xxblcsno",
-            "short_id": "7b6e4dd3"
-          }
+          "server_name": "edeen.makeup"
         },
         "transport": {
-          "type": "grpc",
-          "service_name": "Dr.Phone"
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "ff20725a-e351-42e5-9bc4-838b10cc2531",
-        "tag": "SHΞЯVIN™_1",
-        "type": "vless"
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🏁RELAY-104.21.27.139-4458",
+        "type": "vmess"
       },
       {
-        "server": "84.32.230.81",
+        "server": "188.114.96.3",
         "server_port": 443,
         "tls": {
           "enabled": true,
-          "server_name": "sourceforge.net",
-          "utls": {
-            "enabled": true,
-            "fingerprint": "chrome"
-          },
-          "reality": {
-            "enabled": true,
-            "public_key": "eSq2viks3QTjVd77cFKfenQfxAL2JBxoJX9xxblcsno",
-            "short_id": "7b6e4dd3"
-          }
+          "server_name": "ophelia.mom"
         },
         "transport": {
-          "type": "grpc",
-          "service_name": "Dr.Phone"
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "ff20725a-e351-42e5-9bc4-838b10cc2531",
-        "tag": "SHΞЯVIN™_2",
-        "type": "vless"
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 1,
+        "tag": "@v2ray_outlineir|🚩|2.7",
+        "type": "vmess"
       },
       {
-        "server": "172.64.80.1",
+        "server": "188.114.98.0",
         "server_port": 443,
         "tls": {
           "enabled": true,
-          "server_name": "ph.XsV2ray.cfd",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
+          "server_name": "odelia.autos"
         },
         "transport": {
-          "type": "grpc",
-          "service_name": "@MxV2ray،@MxV2ray،@MxV2ray"
+          "path": "linkvws",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "269ba10a-8196-4b0b-8c74-99394b022a20",
-        "tag": "🔒+VL-GRPC-TLS+🇺🇸+US-172.64.80.1:443+📡+PING-001.78-MS",
-        "type": "vless"
+        "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🇳🇱 Netherlands 11",
+        "type": "vmess"
       },
       {
-        "server": "104.17.239.159",
-        "server_port": 2087,
-        "tls": {
-          "enabled": true,
-          "server_name": "ch.RxV2ray.space"
-        },
+        "server": "muran-kr.qrfly.me",
+        "server_port": 20254,
         "transport": {
-          "type": "grpc",
-          "service_name": "@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@RxV2ray,@R"
+          "path": "/",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "166b6bca-ff9a-41bf-e9b9-76a77a5e018e",
-        "tag": "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.17.239.159:2087+📡+PING-001.90-MS",
-        "type": "vless"
-      },
-      {
-        "server": "104.16.68.38",
-        "server_port": 2053,
-        "tls": {
-          "enabled": true,
-          "server_name": "vip.lockey-vip.xyz"
-        },
-        "transport": {
-          "type": "grpc",
-          "service_name": "@vbox_speed-@vbox_speed"
-        },
-        "uuid": "1e4b8e38-9aed-4d99-9358-a1237425d60a",
-        "tag": "🔒+VL-GRPC-TLS+🏴‍☠️+NA-104.16.68.38:2053+📡+PING-001.60-MS",
-        "type": "vless"
+        "uuid": "007be9ad-8db6-4164-fc49-49989bbcba96",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🇺🇲 United States 346",
+        "type": "vmess"
       },
       {
         "server": "172.67.166.36",
@@ -381,63 +381,207 @@
           "early_data_header_name": "Sec-WebSocket-Protocol"
         },
         "uuid": "1507cae5-19e8-46aa-ab46-80518f9d0c16",
-        "tag": "ALL+@ΞLiV2RAY (20)",
+        "tag": "ALL+@ΞLiV2RAY",
         "type": "vless"
       },
       {
-        "server": "188.114.97.1",
-        "server_port": 2053,
-        "tls": {
-          "enabled": true,
-          "server_name": "ir.XsV2ray.cfd",
-          "utls": {
-            "enabled": true,
-            "fingerprint": "safari"
-          },
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "transport": {
-          "type": "grpc"
-        },
-        "uuid": "69a88fa9-8775-41be-b17d-12264f17609e",
-        "tag": "ALL+@ΞLiV2RAY_1",
-        "type": "vless"
-      },
-      {
-        "server": "104.17.205.170",
-        "server_port": 443,
-        "tls": {
-          "enabled": true,
-          "server_name": "space.nonoal.xyz"
-        },
-        "transport": {
-          "type": "grpc"
-        },
-        "uuid": "f1d4a5f8-826f-4a01-826e-517e698af6fa",
-        "tag": "ALL+@ΞLiV2RAY_2",
-        "type": "vless"
-      },
-      {
-        "server": "www.speedtest.net",
+        "server": "172.67.229.179",
         "server_port": 80,
         "tls": {
           "enabled": true,
-          "server_name": "yalda20232112.freedns.site"
+          "server_name": "ys9llX.BLackmASTER.org"
         },
         "transport": {
-          "path": "/freevpn",
+          "path": "/backup",
           "type": "ws",
           "max_early_data": 4096,
           "early_data_header_name": "Sec-WebSocket-Protocol"
         },
-        "uuid": "6584ed53-90b2-45d6-aa78-ff34867c814c",
-        "tag": "ALL+@ΞLiV2RAY (8)",
+        "uuid": "135f588d-3fa1-4088-97f1-c43ba6fd5c1a",
+        "tag": "4FreeIran-4590",
         "type": "vless"
+      },
+      {
+        "server": "51.141.101.197",
+        "server_port": 65167,
+        "password": "mpbNXygSyEFjShgMh7tWHX",
+        "method": "chacha20-ietf-poly1305",
+        "tag": "4FreeIran-521",
+        "type": "shadowsocks"
+      },
+      {
+        "server": "3aryrqo3jhw.servecounterstrike.com",
+        "server_port": 2087,
+        "tls": {
+          "enabled": true,
+          "server_name": "pAnel159.moOkomeILz.homes"
+        },
+        "transport": {
+          "path": "/@FreeVPNHomes@FreeVPNHomes",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "8fada9c0-c348-4465-aade-ff0311454178",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "美国_122918326",
+        "type": "vmess"
+      },
+      {
+        "server": "51.141.100.85",
+        "server_port": 28521,
+        "password": "NK4KTpH4GbWznkJywV7VmA",
+        "method": "chacha20-ietf-poly1305",
+        "tag": "英国_122918022",
+        "type": "shadowsocks"
+      },
+      {
+        "server": "mehdi8.forwardv2raytelegramchannel.site",
+        "server_port": 2082,
+        "transport": {
+          "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "75a6bbc8-458a-4f31-827e-029d89718352",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🇺🇸 美国 CloudFlare节点",
+        "type": "vmess"
+      },
+      {
+        "server": "51.141.101.197",
+        "server_port": 65167,
+        "password": "mpbNXygSyEFjShgMh7tWHX",
+        "method": "chacha20-ietf-poly1305",
+        "tag": "🇬🇧 英国威尔士加的夫Microsoft公司 12",
+        "type": "shadowsocks"
+      },
+      {
+        "server": "51.141.100.85",
+        "server_port": 28521,
+        "password": "NK4KTpH4GbWznkJywV7VmA",
+        "method": "chacha20-ietf-poly1305",
+        "tag": "🇬🇧 英国威尔士加的夫Microsoft公司 79",
+        "type": "shadowsocks"
+      },
+      {
+        "server": "20.188.112.173",
+        "server_port": 8080,
+        "transport": {
+          "path": "/",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "55ffbabb-ae7b-4d9a-80a0-99ac071ec6e0",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "🇸🇬 github.com/freefq - 新加坡Microsoft数据中心 3",
+        "type": "vmess"
+      },
+      {
+        "server": "lt2-vmess.sshmax.xyz",
+        "server_port": 80,
+        "transport": {
+          "path": "/vmess",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "ea2928cb-f9cc-4747-ab60-d23abe3ba1e6",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "1|_US__15",
+        "type": "vmess"
+      },
+      {
+        "server": "20.188.112.173",
+        "server_port": 8080,
+        "transport": {
+          "path": "/",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "55ffbabb-ae7b-4d9a-80a0-99ac071ec6e0",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "10|新加坡Microsoft数据中心 3",
+        "type": "vmess"
+      },
+      {
+        "server": "lt2-vmess.sshmax.xyz",
+        "server_port": 80,
+        "transport": {
+          "path": "/vmess",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "ea2928cb-f9cc-4747-ab60-d23abe3ba1e6",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "0,2,3,4,6,10,11,12|🇺🇸_US_美国 #68",
+        "type": "vmess"
+      },
+      {
+        "server": "xyz1.goodbyefiltering.link",
+        "server_port": 2086,
+        "transport": {
+          "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "75a6bbc8-458a-4f31-827e-029d89718352",
+        "packet_encoding": "xudp",
+        "security": "chacha20-poly1305",
+        "alter_id": 0,
+        "tag": "10|美国 CloudFlare节点 #1",
+        "type": "vmess"
+      },
+      {
+        "server": "192.46.227.59",
+        "server_port": 80,
+        "transport": {
+          "path": "/ht4gvpn.com",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "2b69324d-5fe2-48c2-923f-049c3093cd56",
+        "packet_encoding": "xudp",
+        "security": "auto",
+        "alter_id": 0,
+        "tag": "12|🇸🇬 Singapore 1",
+        "type": "vmess"
+      },
+      {
+        "server": "xyz1.goodbyefiltering.link",
+        "server_port": 2095,
+        "transport": {
+          "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
+          "type": "ws",
+          "max_early_data": 2048,
+          "early_data_header_name": "Sec-WebSocket-Protocol"
+        },
+        "uuid": "75a6bbc8-458a-4f31-827e-029d89718352",
+        "packet_encoding": "xudp",
+        "security": "chacha20-poly1305",
+        "alter_id": 0,
+        "tag": "10|美国 CloudFlare节点 #10",
+        "type": "vmess"
       }
-    ],
+      ],
   "route": {
       "auto_detect_interface": true,
       "override_android_vpn": true,
