@@ -1,5 +1,3 @@
-//profile-title: HAMRAHAVALL
-//profile-update-interval: 1
 {
   "log": {
     "disabled": true,
@@ -9,18 +7,18 @@
   "dns": {
     "servers": [
       {
-        "address": "tcp://8.8.8.8",
-        "address_resolver": "dns-direct",
-        "strategy": "ipv4_only",
-        "tag": "dns-remote"
-    },
-    {
-        "address": "8.8.8.8",
-        "address_resolver": "dns-local",
-        "detour": "proxy",
-        "strategy": "ipv4_only",
-        "tag": "dns-direct"
-    },
+          "address": "tcp://1.1.1.1",
+          "address_resolver": "dns-direct",
+          "strategy": "ipv4_only",
+          "tag": "dns-remote"
+      },
+      {
+          "address": "tcp://1.1.1.1",
+          "address_resolver": "dns-local",
+          "detour": "direct",
+          "strategy": "ipv4_only",
+          "tag": "dns-direct"
+      },
       {
           "address": "local",
           "detour": "direct",
@@ -31,29 +29,29 @@
           "tag": "dns-block"
       }
     ],
-      "rules": [
-          {
-              "domain_suffix": [
-                  ".ir"
-              ],
-              "server": "dns-direct"
-          },
-          {
-              "outbound": "direct",
-              "server": "dns-direct",
-              "rewrite_ttl": 20
-          },
-          {
-              "outbound": "any",
-              "server": "dns-direct",
-              "rewrite_ttl": 20
-          }
-      ],
-      "reverse_mapping": true,
-      "strategy": "ipv4_only",
-      "independent_cache": true
-  },
-  "inbounds": [
+    "rules": [
+      {
+          "domain_suffix": [
+              ".ir"
+          ],
+          "server": "dns-direct"
+      },
+      {
+          "outbound": "direct",
+          "server": "dns-direct",
+          "rewrite_ttl": 50
+      },
+      {
+          "outbound": "any",
+          "server": "dns-direct",
+          "rewrite_ttl": 50
+      }
+  ],
+  "reverse_mapping": true,
+  "strategy": "ipv4_only",
+  "independent_cache": true
+},
+"inbounds": [
     {
       "sniff": true,
       "type": "mixed",
@@ -78,261 +76,87 @@
     }
   ],
   "outbounds": [
-      {
-          "tag": "proxy",
-          "type": "selector",
-          "outbounds": [
-              "URL-TEST",
-              "🏁RELAY-104.21.30.195-0335",
-              "🇺🇲 United States 246",
-              "🏁RELAY-172.67.189.60-1990",
-              "🏁RELAY-172.66.44.58-1742",
-              "🏁RELAY-104.19.154.92-1987",
-              "🇺🇲 United States 256",
-              "🇩🇪 Germany 5",
-              "🇻🇳VN-103.90.228.61-5688",
-              "🇻🇳VN-103.237.87.239-5696"
-                  ]
-      },
-      {
-          "tag": "URL-TEST",
-          "type": "urltest",
-          "outbounds": [
-            "🏁RELAY-104.21.30.195-0335",
-            "🇺🇲 United States 246",
-            "🏁RELAY-172.67.189.60-1990",
-            "🏁RELAY-172.66.44.58-1742",
-            "🏁RELAY-104.19.154.92-1987",
-            "🇺🇲 United States 256",
-            "🇩🇪 Germany 5",
-            "🇻🇳VN-103.90.228.61-5688",
-            "🇻🇳VN-103.237.87.239-5696"    
-          ],
-          "url": "https:\/\/www.gstatic.com\/generate_204",
-          "interval": "3m",
-          "tolerance": 50
-      },
-      
-      {
-          "tag": "direct",
-          "type": "direct"
-      },
-      {
-          "tag": "bypass",
-          "type": "direct"
-      },
-      {
-          "tag": "block",
-          "type": "block"
-      },
-      {
-          "tag": "dns-out",
-          "type": "dns"
-      },
-      {
-        "server": "104.21.30.195",
-        "server_port": 2083,
-        "tls": {
-          "enabled": true,
-          "server_name": "PAneljadid.mookoMEilz.homes"
-        },
-        "transport": {
-          "path": "/snsk",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-104.21.30.195-0335",
-        "type": "vmess"
-      },
-      {
-        "server": "104.21.30.195",
-        "server_port": 2083,
-        "tls": {
-          "enabled": true,
-          "server_name": "PAneljadid.mookoMEilz.homes"
-        },
-        "transport": {
-          "path": "/snsk",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇺🇲 United States 246",
-        "type": "vmess"
-      },
-      {
-        "server": "172.67.189.60",
-        "server_port": 80,
-        "transport": {
-          "path": "/skincare",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "892ebb75-7055-3007-8d16-356e65c6a49a",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-172.67.189.60-1990",
-        "type": "vmess"
-      },
-      {
-        "server": "172.66.44.58",
-        "server_port": 8080,
-        "transport": {
-          "path": "/g0ZuKeAebhpN",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "bebc425e-8388-4084-9685-03962519d0e8",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-172.66.44.58-1742",
-        "type": "vmess"
-      },
-      {
-        "server": "104.19.154.92",
-        "server_port": 2083,
-        "tls": {
-          "enabled": true,
-          "server_name": "PAneljadid.mookoMEilz.homes"
-        },
-        "transport": {
-          "path": "/snsk",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🏁RELAY-104.19.154.92-1987",
-        "type": "vmess"
-      },
-      {
-        "server": "2bbiozh7wbc.servecounterstrike.com",
-        "server_port": 2083,
-        "tls": {
-          "enabled": true,
-          "server_name": "PAneljadid.mookoMEilz.homes"
-        },
-        "transport": {
-          "path": "/snsk",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇺🇲 United States 256",
-        "type": "vmess"
-      },
-      {
-        "server": "passconf.xyz",
-        "server_port": 8080,
-        "password": "qGjmI8WQlF0tfhDbkLqGdN",
-        "method": "chacha20-ietf-poly1305",
-        "tag": "🇩🇪 Germany 5",
-        "type": "shadowsocks"
-      },
-      {
-        "server": "103.90.228.61",
-        "server_port": 80,
-        "transport": {
-          "path": "/vpngiare.net",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "70e8f236-d08d-4c93-a2f6-7a18034d10e9",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇻🇳VN-103.90.228.61-5688",
-        "type": "vmess"
-      },
-      {
-        "server": "vn.xpro.5gdatavip.dichvutop1.pro.vn",
-        "server_port": 80,
-        "transport": {
-          "path": "/5gdatavipDVTop1",
-          "type": "ws",
-          "max_early_data": 2048,
-          "early_data_header_name": "Sec-WebSocket-Protocol"
-        },
-        "uuid": "e20c501a-ccc0-47cc-b38a-91684f842dd1",
-        "packet_encoding": "xudp",
-        "security": "auto",
-        "alter_id": 0,
-        "tag": "🇻🇳VN-103.237.87.239-5696",
-        "type": "vmess"
-      }
-  
-  ],
-  "route": {
-      "auto_detect_interface": true,
-      "override_android_vpn": true,
-      "final": "proxy",
-      "geoip": {
-          "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
-          "download_detour": "proxy"
-      },
-      "geosite": {
-          "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
-          "download_detour": "proxy"
-      },
-      "rules": [
-        {
-          "protocol": "dns",
-          "outbound": "dns-out"
-        },
-        {
-          "geosite": [
-            "youtube"
-          ],
-          "geoip":[
-            "yourube"
-          ],
-          "outbound": "direct"
-        },
-        {
-          "geosite": [
-            "telegram"
-          ],
-          "geoip": [
-            "telegram"
-          ],
-          "outbound": "direct"
-        },
-        {
-          "geosite": [
-            "facebook"
-          ],
-          "geoip": [
-            "facebook"
-          ],
-          "outbound": "direct"
-        }
+    {
+      "tag": "select",
+      "type": "selector",
+      "outbounds": [
+        "شارژ مجدد",
+        "dns-direct"   
       ]
     },
-    "experimental": {
-      "clash_api": {
-        "external_controller": "127.0.0.1:9090",
-        "external_ui": "ui"
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "server": "127.0.0.1",
+      "server_port": 1080,
+      "uuid": "76397e9f-d968-4bb1-976f-1df01dd9b8a4",
+      "packet_encoding": "xudp",
+      "security": "aes-128-gcm",
+      "alter_id": 0,
+      "tag": "شارژ مجدد",
+      "type": "vmess"
+    }
+  ],
+  "route": {
+    "geoip": {
+      "download_url": "https:\/\/github.com\/MiSaturo\/sing-box-geoip-ir\/releases\/latest\/download\/geoip.db",
+      "download_detour": "select"
+    },
+    "geosite": {
+      "download_url": "https:\/\/github.com\/MasterKia\/iran-hosted-domains\/releases\/latest\/download\/iran-geosite.db",
+      "download_detour": "select"
+    },
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "geosite": [
+          "youtube"
+        ],
+        "geoip":[
+          "yourube"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "telegram"
+        ],
+        "geoip": [
+          "telegram"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "facebook"
+        ],
+        "geoip": [
+          "facebook"
+        ],
+        "outbound": "direct"
       }
+    ],
+    "auto_detect_interface": true,
+    "final": "select"
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "store_selected": true
     }
   }
+}

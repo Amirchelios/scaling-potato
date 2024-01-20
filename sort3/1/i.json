@@ -1,0 +1,1833 @@
+{
+  "server": "beeconf.xyz",
+  "server_port": 8080,
+  "password": "ezesBXesf3RKBCp1vqKuIx",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇮🇹IT-172.232.208.231-1141",
+  "type": "shadowsocks"
+},
+{
+  "server": "beacomf.xyz",
+  "server_port": 8080,
+  "password": "T1pb7XxxrolvPSb0u2xSOA",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇮🇹IT-172.232.208.224-1143",
+  "type": "shadowsocks"
+},
+{
+  "server": "beeconf.xyz",
+  "server_port": 8080,
+  "password": "ezesBXesf3RKBCp1vqKuIx",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇮🇹IT-172.232.208.231-2562",
+  "type": "shadowsocks"
+},
+{
+  "server": "144.24.87.186",
+  "server_port": 46527,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "🇰🇷KR-144.24.87.186-0246",
+  "type": "trojan"
+},
+{
+  "server": "89.221.224.94",
+  "server_port": 80,
+  "tls": {
+    "enabled": true,
+    "server_name": "is2-t.sshmax.xyz",
+    "insecure": true
+  },
+  "password": "28c79056-ccfd-4cc1-93d4-c337cc782e65",
+  "tag": "🇮🇸IS-89.221.224.94-0168",
+  "type": "trojan"
+},
+{
+  "server": "78.47.217.216",
+  "server_port": 1935,
+  "tls": {
+    "enabled": true,
+    "server_name": "www.casperco.online",
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "🇩🇪DE-78.47.217.216-2254",
+  "type": "trojan"
+},
+{
+  "server": "89.221.224.93",
+  "server_port": 80,
+  "tls": {
+    "enabled": true,
+    "server_name": "is1-t.sshmax.xyz",
+    "insecure": true
+  },
+  "password": "9e77b491-73d4-4ea3-985b-cfe3ae583580",
+  "tag": "🇮🇸IS-89.221.224.93-0156",
+  "type": "trojan"
+},
+{
+  "server": "foreign04.lovehjq.xyz",
+  "server_port": 46527,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "🇰🇷KR-144.24.87.186-1181",
+  "type": "trojan"
+},
+{
+  "server": "167.71.216.22",
+  "server_port": 80,
+  "transport": {
+    "path": "/5gsinhvien",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "d3a54af3-c0b5-42ed-8348-387512c51834",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-167.71.216.22-0185_1",
+  "type": "vmess"
+},
+{
+  "server": "91.227.77.70",
+  "server_port": 10100,
+  "transport": {
+    "path": "/",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "75b28ee0-1c81-4130-8206-eb96e2305b03",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇧🇬BG-91.227.77.70-0234_1",
+  "type": "vmess"
+},
+{
+  "server": "94.131.97.10",
+  "server_port": 8080,
+  "transport": {
+    "path": "/vmess",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇨🇿CZ-94.131.97.10-0209_1",
+  "type": "vmess"
+},
+{
+  "server": "172.67.189.60",
+  "server_port": 80,
+  "transport": {
+    "path": "/skincare",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "892ebb75-7055-3007-8d16-356e65c6a49a",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-172.67.189.60-1990",
+  "type": "vmess"
+},
+{
+  "server": "mehdi3.forwardv2raytelegramchannel.site",
+  "server_port": 2052,
+  "transport": {
+    "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "75a6bbc8-458a-4f31-827e-029d89718352",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-104.21.91.93-0312",
+  "type": "vmess"
+},
+{
+  "server": "188.114.96.2",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-188.114.96.2-2125",
+  "type": "vmess"
+},
+{
+  "server": "172.67.142.191",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "edeen.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-172.67.142.191-4438",
+  "type": "vmess"
+},
+{
+  "server": "103.154.62.202",
+  "server_port": 80,
+  "transport": {
+    "path": "/texpn.me?ed=2048",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "21f2a889-7bc4-491f-9f2d-3e72e2f85ae1",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇻🇳VN-103.154.62.202-0263",
+  "type": "vmess"
+},
+{
+  "server": "104.18.202.232",
+  "server_port": 80,
+  "transport": {
+    "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-104.18.202.232-1767",
+  "type": "vmess"
+},
+{
+  "server": "172.67.204.19",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top"
+  },
+  "transport": {
+    "path": "/azumase.ren",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-172.67.204.19-2056",
+  "type": "vmess"
+},
+{
+  "server": "ophelia.mom",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-172.67.207.114-2301",
+  "type": "vmess"
+},
+{
+  "server": "20.188.112.173",
+  "server_port": 8080,
+  "transport": {
+    "path": "/",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "55ffbabb-ae7b-4d9a-80a0-99ac071ec6e0",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-20.188.112.173-0283",
+  "type": "vmess"
+},
+{
+  "server": "vn.xpro.5gdatavip.dichvutop1.pro.vn",
+  "server_port": 80,
+  "transport": {
+    "path": "/5gdatavipDVTop1",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "e20c501a-ccc0-47cc-b38a-91684f842dd1",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇻🇳VN-103.237.87.239-5696",
+  "type": "vmess"
+},
+{
+  "server": "188.114.99.0",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-188.114.99.0-2305",
+  "type": "vmess"
+},
+{
+  "server": "mehdi21.forwardv2raytelegramchannel.site",
+  "server_port": 2086,
+  "transport": {
+    "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "75a6bbc8-458a-4f31-827e-029d89718352",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-172.67.214.233-0238",
+  "type": "vmess"
+},
+{
+  "server": "172.66.44.58",
+  "server_port": 8080,
+  "transport": {
+    "path": "/g0ZuKeAebhpN",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "bebc425e-8388-4084-9685-03962519d0e8",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-172.66.44.58-1742",
+  "type": "vmess"
+},
+{
+  "server": "104.19.154.92",
+  "server_port": 2083,
+  "tls": {
+    "enabled": true,
+    "server_name": "PAneljadid.mookoMEilz.homes"
+  },
+  "transport": {
+    "path": "/snsk",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-104.19.154.92-1987",
+  "type": "vmess"
+},
+{
+  "server": "103.154.63.13",
+  "server_port": 80,
+  "transport": {
+    "path": "/",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "c2036e97-de93-442e-82f3-b6394c72692f",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇻🇳VN-103.154.63.13-0408",
+  "type": "vmess"
+},
+{
+  "server": "91.227.77.70",
+  "server_port": 10100,
+  "transport": {
+    "path": "/",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "75b28ee0-1c81-4130-8206-eb96e2305b03",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇧🇬BG-91.227.77.70-0234_2",
+  "type": "vmess"
+},
+{
+  "server": "94.131.97.10",
+  "server_port": 2082,
+  "transport": {
+    "path": "/vmess",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇨🇿CZ-94.131.97.10-0276",
+  "type": "vmess"
+},
+{
+  "server": "188.114.96.3",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-188.114.96.3-2069",
+  "type": "vmess"
+},
+{
+  "server": "188.114.98.0",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-188.114.98.0-2304",
+  "type": "vmess"
+},
+{
+  "server": "94.131.97.10",
+  "server_port": 8080,
+  "transport": {
+    "path": "/vmess",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇨🇿CZ-94.131.97.10-0209_2",
+  "type": "vmess"
+},
+{
+  "server": "oliv.beauty",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-172.67.131.150-5804",
+  "type": "vmess"
+},
+{
+  "server": "22.vmessprotocol.telegram-vmessprotocol-channel.space",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-188.114.97.1-3773",
+  "type": "vmess"
+},
+{
+  "server": "104.21.30.195",
+  "server_port": 2083,
+  "tls": {
+    "enabled": true,
+    "server_name": "PAneljadid.mookoMEilz.homes"
+  },
+  "transport": {
+    "path": "/snsk",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-104.21.30.195-0335",
+  "type": "vmess"
+},
+{
+  "server": "octavi.cfd",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "octavi.cfd"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-104.21.31.183-1930",
+  "type": "vmess"
+},
+{
+  "server": "sing6.5gsinhvien.com",
+  "server_port": 80,
+  "transport": {
+    "path": "/5gsinhvien",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "9f23f41a-a18b-4b91-bd44-709f663df321",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-167.71.216.22-0261",
+  "type": "vmess"
+},
+{
+  "server": "157.245.52.0",
+  "server_port": 2092,
+  "transport": {
+    "path": "/telegram:@hkaa0",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "26b592f4-b447-4de8-cbef-d517d17dfd76",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-157.245.52.0-0327",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.1",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-188.114.97.1-4419",
+  "type": "vmess"
+},
+{
+  "server": "8.217.93.104",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "sptufp5n3o19imic.iwebsocket.com"
+  },
+  "transport": {
+    "path": "/stream",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "dcd70249-06fa-4fe7-aaed-cbba86ac125b",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇭🇰HK-8.217.93.104-2292",
+  "type": "vmess"
+},
+{
+  "server": "104.21.53.12",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-104.21.53.12-4445",
+  "type": "vmess"
+},
+{
+  "server": "172.67.179.37",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "octavi.cfd"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-172.67.179.37-1982",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.7",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "waynn.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-188.114.97.7-1984",
+  "type": "vmess"
+},
+{
+  "server": "mehdi8.forwardv2raytelegramchannel.site",
+  "server_port": 2082,
+  "transport": {
+    "path": "/forwardv2raytelegramchannel1forwardv2raytelegramchannel4",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "75a6bbc8-458a-4f31-827e-029d89718352",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-104.21.91.93-0213",
+  "type": "vmess"
+},
+{
+  "server": "45.131.209.25",
+  "server_port": 8443,
+  "tls": {
+    "enabled": true,
+    "server_name": "vfffddfh.onlineshop8177.shop"
+  },
+  "transport": {
+    "path": "/",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "9c6aa738-d07d-4b38-9e39-2a9c9ee4c70f",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-45.131.209.25-0178",
+  "type": "vmess"
+},
+{
+  "server": "167.71.216.22",
+  "server_port": 80,
+  "transport": {
+    "path": "/5gsinhvien",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "d3a54af3-c0b5-42ed-8348-387512c51834",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-167.71.216.22-0185_2",
+  "type": "vmess"
+},
+{
+  "server": "103.90.228.61",
+  "server_port": 80,
+  "transport": {
+    "path": "/vpngiare.net",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "70e8f236-d08d-4c93-a2f6-7a18034d10e9",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇻🇳VN-103.90.228.61-5688",
+  "type": "vmess"
+},
+{
+  "server": "103.154.62.232",
+  "server_port": 80,
+  "transport": {
+    "path": "/ht4gvpn.com",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "2b69324d-5fe2-48c2-923f-049c3093cd56",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇻🇳VN-103.154.62.232-2267",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.18",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-188.114.97.18-1985",
+  "type": "vmess"
+},
+{
+  "server": "103.154.62.233",
+  "server_port": 80,
+  "transport": {
+    "path": "/ht4gvpn.com",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "2b69324d-5fe2-48c2-923f-049c3093cd56",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇻🇳VN-103.154.62.233-0370",
+  "type": "vmess"
+},
+{
+  "server": "45.77.245.47",
+  "server_port": 52990,
+  "transport": {
+    "path": "/Dialog zoom",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "370f8dfc-73b2-4d13-a3ea-7330f0333a69",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-45.77.245.47-8215",
+  "type": "vmess"
+},
+{
+  "server": "45.77.245.47",
+  "server_port": 52990,
+  "transport": {
+    "path": "/Dialog zoom",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "370f8dfc-73b2-4d13-a3ea-7330f0333a69",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇸🇬SG-45.77.245.47-2291",
+  "type": "vmess"
+},
+{
+  "server": "172.67.207.114",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🏁RELAY-172.67.207.114-4428",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.3",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🏁RELAY-188.114.97.3-2303",
+  "type": "vmess"
+},
+{
+  "server": "173.245.59.153",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "current.ircp.online",
+    "utls": {
+      "enabled": true,
+      "fingerprint": "chrome"
+    },
+    "alpn": [
+      "http/1.1"
+    ]
+  },
+  "transport": {
+    "path": "/?ed=2048",
+    "type": "ws",
+    "max_early_data": 4096,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
+  "tag": "@DarkVPNpro|🇺🇸|2.09",
+  "type": "vless"
+},
+{
+  "server": "172.64.16.165",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "current.ircp.online",
+    "utls": {
+      "enabled": true,
+      "fingerprint": "chrome"
+    },
+    "alpn": [
+      "http/1.1"
+    ]
+  },
+  "transport": {
+    "path": "/?ed=2048",
+    "type": "ws",
+    "max_early_data": 4096,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
+  "tag": "@DarkVPNpro|🇺🇸|112.08",
+  "type": "vless"
+},
+{
+  "server": "190.93.247.14",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "current.ircp.online",
+    "utls": {
+      "enabled": true,
+      "fingerprint": "chrome"
+    },
+    "alpn": [
+      "http/1.1"
+    ]
+  },
+  "transport": {
+    "path": "/?ed=2048",
+    "type": "ws",
+    "max_early_data": 4096,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
+  "tag": "@DarkVPNpro|🚩|2.06",
+  "type": "vless"
+},
+{
+  "server": "188.114.97.7",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "current.iraniancp.fun",
+    "utls": {
+      "enabled": true,
+      "fingerprint": "chrome"
+    },
+    "alpn": [
+      "http/1.1"
+    ]
+  },
+  "transport": {
+    "path": "/?ed=2048",
+    "type": "ws",
+    "max_early_data": 4096,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
+  "tag": "@ShadowProxy66|🇳🇱|1.67",
+  "type": "vless"
+},
+{
+  "server": "188.114.96.3",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "@v2ray_outlineir|🚩|2.7",
+  "type": "vmess"
+},
+{
+  "server": "188.114.96.7",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "octavi.cfd"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "@oneclickvpnkeys|🚩|2.54",
+  "type": "vmess"
+},
+{
+  "server": "104.21.91.254",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "waynn.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "@vpnfail_v2ray|🚩|2.26",
+  "type": "vmess"
+},
+{
+  "server": "51.178.87.37",
+  "server_port": 810,
+  "password": "G!yBwPWH3Vao",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇫🇷 France 14",
+  "type": "shadowsocks"
+},
+{
+  "server": "51.178.87.37",
+  "server_port": 805,
+  "password": "G!yBwPWH3Vao",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇫🇷 France 92",
+  "type": "shadowsocks"
+},
+{
+  "server": "205.134.180.151",
+  "server_port": 443,
+  "password": "5cp9Z3iWnJZ2",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇺🇲 United States 30",
+  "type": "shadowsocks"
+},
+{
+  "server": "188.114.96.7",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "octavi.cfd"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇳🇱 Netherlands 5",
+  "type": "vmess"
+},
+{
+  "server": "octavi.cfd",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "octavi.cfd"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 247",
+  "type": "vmess"
+},
+{
+  "server": "104.16.91.78",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "Kansas.bobbykotick.rip"
+  },
+  "transport": {
+    "path": "/speedtest",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 259",
+  "type": "vmess"
+},
+{
+  "server": "188.114.96.58",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇳🇱 Netherlands 9",
+  "type": "vmess"
+},
+{
+  "server": "2bbiozh7wbc.servecounterstrike.com",
+  "server_port": 2083,
+  "tls": {
+    "enabled": true,
+    "server_name": "PAneljadid.mookoMEilz.homes"
+  },
+  "transport": {
+    "path": "/snsk",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 256",
+  "type": "vmess"
+},
+{
+  "server": "passconf.xyz",
+  "server_port": 8080,
+  "password": "qGjmI8WQlF0tfhDbkLqGdN",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇩🇪 Germany 5",
+  "type": "shadowsocks"
+},
+{
+  "server": "51.141.127.238",
+  "server_port": 32413,
+  "password": "MK2Qnx66zkwpQQz8yTXVCF",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇬🇧 United Kingdom 20",
+  "type": "shadowsocks"
+},
+{
+  "server": "51.178.87.37",
+  "server_port": 804,
+  "password": "G!yBwPWH3Vao",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇫🇷 France 100",
+  "type": "shadowsocks"
+},
+{
+  "server": "104.21.30.195",
+  "server_port": 2083,
+  "tls": {
+    "enabled": true,
+    "server_name": "PAneljadid.mookoMEilz.homes"
+  },
+  "transport": {
+    "path": "/snsk",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 246",
+  "type": "vmess"
+},
+{
+  "server": "94.131.12.245",
+  "server_port": 37726,
+  "password": "AK4J1sRt2v3dLDUVC2P5lj",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇺🇲 United States 165",
+  "type": "shadowsocks"
+},
+{
+  "server": "188.114.97.18",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇳🇱 Netherlands 4",
+  "type": "vmess"
+},
+{
+  "server": "188.114.96.3",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇳🇱 Netherlands 8",
+  "type": "vmess"
+},
+{
+  "server": "172.67.189.60",
+  "server_port": 80,
+  "transport": {
+    "path": "/skincare",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "892ebb75-7055-3007-8d16-356e65c6a49a",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 271",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.7",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "waynn.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇳🇱 Netherlands 10",
+  "type": "vmess"
+},
+{
+  "server": "edeen.makeup",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "edeen.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 281",
+  "type": "vmess"
+},
+{
+  "server": "51.141.127.238",
+  "server_port": 32413,
+  "password": "MK2Qnx66zkwpQQz8yTXVCF",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "🇬🇧 United Kingdom 9",
+  "type": "shadowsocks"
+},
+{
+  "server": "22.vmessprotocol.telegram-vmessprotocol-channel.space",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇳🇱 Netherlands 7",
+  "type": "vmess"
+},
+{
+  "server": "158.178.227.16",
+  "server_port": 30839,
+  "uuid": "19bf4866-54ce-4fc9-8903-db7e160c5b81",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇬🇧 United Kingdom 22",
+  "type": "vmess"
+},
+{
+  "server": "172.67.207.114",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "ophelia.mom"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇺🇲 United States 285",
+  "type": "vmess"
+},
+{
+  "server": "104.31.16.27",
+  "server_port": 80,
+  "transport": {
+    "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 294",
+  "type": "vmess"
+},
+{
+  "server": "104.21.91.254",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "waynn.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 331",
+  "type": "vmess"
+},
+{
+  "server": "glweidf.cfd",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "glweidf.cfd"
+  },
+  "transport": {
+    "path": "/linkws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 234",
+  "type": "vmess"
+},
+{
+  "server": "104.21.4.29",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 209",
+  "type": "vmess"
+},
+{
+  "server": "104.21.21.88",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 286",
+  "type": "vmess"
+},
+{
+  "server": "172.233.188.217",
+  "server_port": 55579,
+  "uuid": "610f7b76-a4e2-4b5a-c458-96e69cbffb5e",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 268",
+  "type": "vmess"
+},
+{
+  "server": "172.67.229.35",
+  "server_port": 2086,
+  "transport": {
+    "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 208",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.3",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇳🇱 Netherlands 15",
+  "type": "vmess"
+},
+{
+  "server": "172.67.131.150",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "oliv.beauty"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇺🇲 United States 251",
+  "type": "vmess"
+},
+{
+  "server": "172.67.183.110",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "waynn.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 210",
+  "type": "vmess"
+},
+{
+  "server": "waynn.makeup",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "waynn.makeup"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 284",
+  "type": "vmess"
+},
+{
+  "server": "188.114.97.1",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "odelia.autos"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇳🇱 Netherlands 6",
+  "type": "vmess"
+},
+{
+  "server": "172.67.185.26",
+  "server_port": 8880,
+  "transport": {
+    "path": "/9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 244",
+  "type": "vmess"
+},
+{
+  "server": "14.vmessprotocol.telegram-vmessprotocol-channel.space",
+  "server_port": 2086,
+  "transport": {
+    "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 0,
+  "tag": "🇺🇲 United States 289",
+  "type": "vmess"
+},
+{
+  "server": "104.21.31.183",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "octavi.cfd"
+  },
+  "transport": {
+    "path": "linkvws",
+    "type": "ws",
+    "max_early_data": 2048,
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  },
+  "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+  "packet_encoding": "xudp",
+  "security": "auto",
+  "alter_id": 1,
+  "tag": "🇺🇲 United States 302",
+  "type": "vmess"
+},
+{
+  "server": "download2hkt.windowsupdatea.com",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "glc-hkt2.windowsupdatea.com",
+    "insecure": true
+  },
+  "password": "29ea82cf-f956-42b2-a5dc-35feea39e7ff",
+  "tag": "4FreeIran-2934",
+  "type": "trojan"
+},
+{
+  "server": "passconf.xyz",
+  "server_port": 8080,
+  "password": "qGjmI8WQlF0tfhDbkLqGdN",
+  "method": "chacha20-ietf-poly1305",
+  "tag": "4FreeIran-526",
+  "type": "shadowsocks"
+},
+{
+  "server": "download1tw.windowsupdatea.com",
+  "server_port": 443,
+  "tls": {
+    "enabled": true,
+    "server_name": "glc-tw1.windowsupdatea.com",
+    "insecure": true
+  },
+  "password": "29ea82cf-f956-42b2-a5dc-35feea39e7ff",
+  "tag": "4FreeIran-2931",
+  "type": "trojan"
+},
+{
+  "server": "89.221.224.94",
+  "server_port": 80,
+  "tls": {
+    "enabled": true,
+    "server_name": "is2-t.sshmax.xyz",
+    "insecure": true
+  },
+  "password": "28c79056-ccfd-4cc1-93d4-c337cc782e65",
+  "tag": "4FreeIran-2913",
+  "type": "trojan"
+},
+{
+  "server": "www.casperco.online",
+  "server_port": 1935,
+  "tls": {
+    "enabled": true,
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3322",
+  "type": "trojan"
+},
+{
+  "server": "www.casperco.online",
+  "server_port": 1935,
+  "tls": {
+    "enabled": true,
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3325",
+  "type": "trojan"
+},
+{
+  "server": "www.casperco.online",
+  "server_port": 993,
+  "tls": {
+    "enabled": true,
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3329",
+  "type": "trojan"
+},
+{
+  "server": "144.24.87.186",
+  "server_port": 46527,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "4FreeIran-2684",
+  "type": "trojan"
+},
+{
+  "server": "78.47.217.216",
+  "server_port": 1935,
+  "tls": {
+    "enabled": true,
+    "server_name": "www.casperco.online",
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3317",
+  "type": "trojan"
+},
+{
+  "server": "144.24.87.186",
+  "server_port": 46527,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "4FreeIran-2683",
+  "type": "trojan"
+},
+{
+  "server": "78.47.217.216",
+  "server_port": 993,
+  "tls": {
+    "enabled": true,
+    "server_name": "www.casperco.online",
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3320",
+  "type": "trojan"
+},
+{
+  "server": "foreign01.lovehjq.xyz",
+  "server_port": 46521,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "4FreeIran-2687",
+  "type": "trojan"
+},
+{
+  "server": "www.casperco.online",
+  "server_port": 1935,
+  "tls": {
+    "enabled": true,
+    "server_name": "www.casperco.online",
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3323",
+  "type": "trojan"
+},
+{
+  "server": "foreign04.lovehjq.xyz",
+  "server_port": 46527,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "4FreeIran-2689",
+  "type": "trojan"
+},
+{
+  "server": "www.casperco.online",
+  "server_port": 1935,
+  "tls": {
+    "enabled": true,
+    "server_name": "www.casperco.online",
+    "insecure": true
+  },
+  "password": "74811f39-8f69-4334-9e0f-a8a25d7413c1",
+  "tag": "4FreeIran-3326",
+  "type": "trojan"
+},
+{
+  "server": "144.24.87.186",
+  "server_port": 46527,
+  "tls": {
+    "enabled": true,
+    "server_name": "lovehjq.xyz",
+    "insecure": true
+  },
+  "password": "09833a6f-4d46-426e-87fe-7793a5489f84",
+  "tag": "4FreeIran-2685",
+  "type": "trojan"
+}
