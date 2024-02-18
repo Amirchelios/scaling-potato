@@ -1,4 +1,6 @@
 //profile-title: hightec
 //profile-update-interval: 1
 
-warp://188.114.98.154:890/?ifp=5-10
+warp://162.159.195.20:5279/?ifp=5-10
+warp://162.159.192.122:894/?ifp=5-10
+warp://162.159.192.13:934/?ifp=5-10
