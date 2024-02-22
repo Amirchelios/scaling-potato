@@ -1,6 +1,13 @@
 //profile-title: hightec
 //profile-update-interval: 1
 
-warp://162.159.195.20:5279/?ifp=5-10
-warp://162.159.192.122:894/?ifp=5-10
-warp://162.159.192.13:934/?ifp=5-10
+warp://0i9vdx45-29UIM7q8-3gkm7I14@162.159.195.20:5279/?ifp=5-10
+warp://4p5YU76y-3jY20c1m-o47T1RS0@162.159.192.122:894/?ifp=5-10
+warp://R8x245Se-7c5Jad19-3y9qg62T@162.159.192.13:934/?ifp=5-10
+warp://76S95Otq-6z34n9Pa-T31K2fL8@162.159.192.37:8742/?ifp=5-10
+warp://BE738U4c-B90fr3J4-U7QuM034@162.159.192.138:8742/?ifp=5-10
+warp://O5Xx9w38-9u2j8bd6-P4x3YA17@162.159.192.126:908/?ifp=5-10
+warp://1Lgu82I6-iW3c2e48-g046X8Kz@188.114.99.104:1002/?ifp=5-10
+warp://290Sanb3-V2Y7O9I4-762jLub8@188.114.96.2:1002/?ifp=5-10
+warp://7vgJ639m-c402UE6r-ET3W847L@162.159.195.171:7281/?ifp=5-10
+warp://Z8kg214u-i2g1x8W4-1LeUV369@162.159.195.171:7281/?ifp=5-10
