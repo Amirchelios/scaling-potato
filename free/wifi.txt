@@ -1,0 +1,4 @@
+//profile-title: free wifi
+//profile-update-interval: 1
+
+vless://510aedb8-8d0c-41e4-9f50-c8afe4e817f9@23.227.39.42:443?encryption=none&security=tls&sni=i.www-amir82-1006653.woRKeRs.deV&alpn=http%2F1.1&fp=randomized&type=ws&host=i.www-amir82-1006653.woRKeRs.deV&path=vless-ws%2F%3Fed%3D2048#free

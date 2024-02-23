@@ -1,0 +1,4 @@
+//profile-title: free irancell
+//profile-update-interval: 1
+
+vless://ba18d7b7-d716-4014-8914-f5068684f46f@104.20.219.156:443?encryption=none&security=tls&sni=i.jicih19329.WORKERS.Dev&alpn=http%2F1.1&fp=android&type=ws&host=i.jicih19329.WORKERS.Dev&path=vless-ws%2F%3Fed%3D2048#free%20server
