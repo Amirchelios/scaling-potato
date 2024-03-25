@@ -1,0 +1,7 @@
+
+//profile-title: test
+//profile-update-interval: 1
+
+warp://jochelios.eu.org:894/?ifp=5-10
+warp://jochelios.eu.org:928/?ifp=5-10
+warp://jochelios.eu.org:934/?ifp=5-10
