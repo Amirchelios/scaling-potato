@@ -1,6 +1,7 @@
 //profile-title: AMIRVPN
 //profile-update-interval: 1
 
-warp://188.114.98.247:8854/?ifp=5-10
-warp://162.159.195.136:8854/?ifp=5-10
-warp://188.114.99.167:8854/?ifp=5-10
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#1
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#2
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#3
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#4
