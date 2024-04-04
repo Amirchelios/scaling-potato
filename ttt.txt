@@ -2,6 +2,7 @@
 //profile-title: test
 //profile-update-interval: 1
 
-warp://w.jochelios.eu.org:3138/?ifp=5-10
-warp://i.jochelios.eu.org:880/?ifp=5-10
-warp://h.jochelios.eu.org:903/?ifp=5-10
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#1
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#2
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#3
+warp://auto?ifp=1-2&ifps=1-2&ifpd=1-2#4
