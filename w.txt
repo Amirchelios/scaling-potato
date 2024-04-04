@@ -1,6 +1,0 @@
-//profile-title: hightec
-//profile-update-interval: 1
-
-warp://w.jochelios.eu.org:3138/?ifp=1-2&ifps=1-2&ifpd=1-2#wifi
-warp://i.jochelios.eu.org:880/?ifp=1-2&ifps=1-2&ifpd=1-2#irancell
-warp://h.jochelios.eu.org:903/?ifp=1-2&ifps=1-2&ifpd=1-2#hamrah
