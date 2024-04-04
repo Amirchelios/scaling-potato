@@ -1,0 +1,5 @@
+//profile-title: game
+//profile-update-interval: 1
+
+
+warp://i.jochelios.eu.org:880/?ifp=5-10#irancell
