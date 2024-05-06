@@ -1,6 +1,3 @@
-//profile-title: AMIR VPN
-//profile-update-interval: 1
-
 {
   "outbounds": 
   [  
