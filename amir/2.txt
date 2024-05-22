@@ -1,6 +1,5 @@
 //profile-title: AMIRVPN
 //profile-update-interval: 1
 
-warp://162.159.195.171:7281/?ifp=1-2&ifps=1-2&ifpd=1-2#wifi
-warp://188.114.99.104:1002/?ifp=1-2&ifps=1-2&ifpd=1-2#irancell
-warp://162.159.192.13:934/?ifp=1-2&ifps=1-2&ifpd=1-2#hamrah
+ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
+
