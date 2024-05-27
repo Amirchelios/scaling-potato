@@ -1,0 +1,5 @@
+//profile-title: hightec
+//profile-update-interval: 1
+
+
+warp://162.159.192.85:5956/?ifp=5-10&ifps=0-1&ifpd=0-1#IR IP&&detour=warp://162.159.195.188:8886#IP GR
