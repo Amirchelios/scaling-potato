@@ -1,7 +1,5 @@
 //profile-title: AMIRVPN
 //profile-update-interval: 1
 
+ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
 
-warp://162.159.192.85:5956/?ifp=5-10&ifps=0-1&ifpd=0-1#WIFI
-warp://162.159.192.235:968/?ifp=5-10&ifps=0-1&ifpd=0-1#MTN
-warp://162.159.192.171:880/?ifp=5-10&ifps=0-1&ifpd=0-1#MCI

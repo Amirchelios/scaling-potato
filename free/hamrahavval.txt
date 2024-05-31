@@ -1,4 +1,5 @@
-//profile-title: free hamrahavval
+//profile-title: AMIRVPN
 //profile-update-interval: 1
 
-vless://e491aaba-8b32-414c-883c-57b595ec71e4@104.17.73.72:2083?encryption=none&security=tls&sni=i.hecirik828.wOrkERS.dev&alpn=http%2F1.1&fp=chrome&type=ws&host=i.hecirik828.wOrkERS.dev&path=vless-ws%2F%3Fed%3D2048#free%20server
+ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
+
