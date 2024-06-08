@@ -1,0 +1,7 @@
+//profile-title: AMIRVPN
+//profile-update-interval: 1
+
+
+warp://162.159.192.85:5956/?ifp=5-10&ifps=0-1&ifpd=0-1#WIFI
+warp://162.159.192.235:968/?ifp=5-10&ifps=0-1&ifpd=0-1#MTN
+warp://162.159.192.171:880/?ifp=5-10&ifps=0-1&ifpd=0-1#MCI
