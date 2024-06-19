@@ -1,5 +1,8 @@
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval: 24
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=10
+//support-url: https://t.me/hiddify
+//profile-web-page-url: https://hiddify.com
 
-//profile-title: test
-//profile-update-interval: 1
 
 ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
