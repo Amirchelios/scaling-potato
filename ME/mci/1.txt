@@ -1,0 +1,3 @@
+//profile-title: AMIRVPN
+//profile-update-interval: 1
+hysteria2://amir4433@46.226.167.163:443/?insecure=1&obfs=salamander&obfs-password=amir4433&sni=google.com#HI VPN
