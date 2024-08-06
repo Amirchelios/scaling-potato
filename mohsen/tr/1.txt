@@ -1,7 +1,4 @@
-//profile-title: AMIRVPN
+//profile-title: VPN CITY
 //profile-update-interval: 1
 
-
-warp://162.159.192.139:8319/?ifp=5-10&ifps=0-1&ifpd=0-1#WIFI
-warp://162.159.195.217:945/?ifp=5-10&ifps=0-1&ifpd=0-1#MTN
-warp://162.159.192.127:878/?ifp=5-10&ifps=0-1&ifpd=0-1#MCI
+ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
