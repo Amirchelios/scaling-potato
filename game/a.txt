@@ -2,4 +2,4 @@
 //profile-update-interval: 1
 
 
-warp://i.jochelios.eu.org:880/?ifp=5-10#irancell
+warp://162.159.192.164:8319?ifpm=m4#LocalIP&&detour=warp://188.114.97.45:955#ip game✅
