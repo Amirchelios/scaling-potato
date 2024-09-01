@@ -1,4 +1,7 @@
-//profile-title: VPN CITY
+//profile-title: HI VPN
 //profile-update-interval: 1
 
-ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
+
+warp://162.159.192.184:1014/?ifp=2-8&ifps=10-20&ifpd=5-10#WIFI
+warp://162.159.195.56:934/?ifp=2-8&ifps=10-20&ifpd=5-10#MTN
+warp://188.114.96.47:891/?ifp=2-8&ifps=10-20&ifpd=5-10#MCI
