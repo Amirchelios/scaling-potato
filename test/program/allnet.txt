@@ -38,11 +38,6 @@ Expire Date: 1403-07-17
 name: wweq
 Shomare: 09113321322
 
-Number: 2231
-Expire Date: 1403-10-02
-name: amirwwe
-Shomare: 09113321322
-
 Number: 10
 Expire Date: 1403-08-15
 name: fatemeh
