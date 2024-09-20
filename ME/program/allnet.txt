@@ -3,8 +3,3 @@ Expire Date: 1403-07-26
 name: benyamin
 Shomare: 09034726989
 
-Number: 2
-Expire Date: 1403-09-20
-name: amirabbas
-Shomare: 09378295634
-
