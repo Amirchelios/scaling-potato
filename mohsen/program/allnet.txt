@@ -1,8 +1,3 @@
-Number: 2
-Expire Date: 1403-07-25
-name: akbar
-Shomare: 09027916572
-
 Number: 3
 Expire Date: 1403-07-26
 name: reza gorgich
