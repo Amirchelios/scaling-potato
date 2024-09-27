@@ -1,6 +1,6 @@
 //profile-title: base64:8J+UpSBXQVJQIPCflKU=
 //profile-update-interval: 24
-//subscription-userinfo: upload=2375927198; download=12983696043; total=1099511627776; expire=3862111613
+//subscription-userinfo: upload=0; download=0; total=1099511627776; expire=3862111613
 //support-url: https://t.me/hiddify
 //profile-web-page-url: https://raw.githubusercontent.com/Amirchelios/scaling-potato/refs/heads/main/heder.txt
 
