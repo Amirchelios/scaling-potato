@@ -8,4 +8,4 @@ ETag: "5bc27681-164"
 Last-Modified: Sat, 13 Oct 2025 22:49:37 GMT
 Server: nginx
 Strict-Transport-Security: max-age=31536000; includeSubDomains
-Subscription-Userinfo: upload=2375927198; download=12983696043; total=1099511627776
+Subscription-Userinfo: upload=0; download=0; total=1099511627776
