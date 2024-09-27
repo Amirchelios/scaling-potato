@@ -1,6 +1,6 @@
 //profile-title: base64:8J+UpSBXQVJQIPCflKU=
 //profile-update-interval: 24
-//subscription-userinfo: upload=0; download=0; total=1099511627776; expire=1731283200
+//subscription-userinfo: upload=0; download=0; total=0; expire=1731283200
 
 
 
