@@ -1,3 +1,3 @@
 
-test=https://drive.google.com/uc?id=1f46Hxt_e91DaaNXXJccrdAdSwyjvt0T7&export=download
+test=https://drive.google.com/file/d/1Q5HlXu1Ghe-cb9SwNGYUb47tvJmIrTM1/view?usp=drivesdk
 game=https://drive.google.com/file/d/1MVMT5KBljItnA1-6QdQw9dK7eg1UNFWu/view?usp=drivesdk
