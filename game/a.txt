@@ -1,5 +1,0 @@
-//profile-title: game
-//profile-update-interval: 1
-
-
-warp://162.159.192.164:8319?ifpm=m4#LocalIP&&detour=warp://188.114.97.45:955#ip game✅
