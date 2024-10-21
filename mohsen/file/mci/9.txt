@@ -1,5 +1,0 @@
-//profile-title: HI VPN
-//profile-update-interval: 1
-//subscription-userinfo: upload=0; download=0; total=0; expire= 1732048200
-hysteria2://amircodm@91.184.242.112:443/?insecure=1&obfs=salamander&obfs-password=amircodm&sni=google.com#HysteriaV2 IPv4
-hysteria2://soltanamir@94.228.162.236:443/?insecure=1&obfs=salamander&obfs-password=soltanamir&sni=google.com#HysteriaV2 IPv4
