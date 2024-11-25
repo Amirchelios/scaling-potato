@@ -24,10 +24,7 @@ Shomare: 09112231322
 Number: 5
 Expire Date: 1403-10-05
 name: ronaldinho
-Shomare: 09445564655Number: 6
-Expire Date: 1403-10-05
-name: dolberg
-Shomare: 09112231322
+Shomare: 09445564655
 
 Number: 6
 Expire Date: 1403-10-05
