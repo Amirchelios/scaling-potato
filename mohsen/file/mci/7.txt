@@ -1,0 +1,6 @@
+//profile-title: HI VPN
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire= 1745353800
+hysteria2://amircodm@91.184.242.112:443/?insecure=1&obfs=salamander&obfs-password=amircodm&sni=google.com#IP NEDERLAND
+hysteria2://amir112233@79.137.202.64:443/?insecure=1&obfs=salamander&obfs-password=amir112233&sni=google.com#IP GERMANY
+hysteria2://kosnanekhameneii@138.124.101.74:443/?insecure=1&obfs=salamander&obfs-password=kosnanekhameneii&sni=google.com#IP AUSTRIA
