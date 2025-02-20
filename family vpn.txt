@@ -1,5 +1,3 @@
 //profile-title: HI VPN
 //profile-update-interval: 1
-hysteria2://amircodm@91.184.242.112:443/?insecure=1&obfs=salamander&obfs-password=amircodm&sni=google.com#HysteriaV2 IPv4
-hysteria2://amir112233@79.137.202.64:443/?insecure=1&obfs=salamander&obfs-password=amir112233&sni=google.com#HysteriaV2 IPv4
-hysteria2://kosnanekhameneiy@62.60.156.48:443/?insecure=1&obfs=salamander&obfs-password=kosnanekhameneiy&sni=google.com#HysteriaV2 IPv4
+hysteria2://amirchelios@62.60.244.220:888/?insecure=1&obfs=salamander&obfs-password=amirchelios&sni=google.com#HysteriaV2 IPv4
