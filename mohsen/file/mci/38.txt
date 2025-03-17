@@ -1,4 +1,0 @@
-//profile-title: HI VPN
-//profile-update-interval: 1
-//subscription-userinfo: upload=0; download=0; total=0; expire= 1744749000
-hysteria2://amirchelios@62.60.244.220:888/?insecure=1&obfs=salamander&obfs-password=amirchelios&sni=google.com#HysteriaV2 IPv4
