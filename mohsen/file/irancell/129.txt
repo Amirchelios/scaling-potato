@@ -1,0 +1,6 @@
+//profile-title: HI VPN
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire= 1746390600
+warp://188.114.98.24:7152/?ifp=2-8&ifps=10-20&ifpd=5-10#SERVER 1
+warp://188.114.98.157:7152/?ifp=2-8&ifps=10-20&ifpd=5-10#SERVER 2
+warp://188.114.97.215:890/?ifp=2-8&ifps=10-20&ifpd=5-10#SERVER 3
