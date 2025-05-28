@@ -18,11 +18,6 @@ Expire Date: 1403-09-25
 name: hossein kh
 Shomare: 09211748164
 
-Number: 5
-Expire Date: 1403-07-26
-name: bashir
-Shomare: 09016214521
-
 Number: 6
 Expire Date: 1404-02-02
 name: mohammadreza
@@ -92,11 +87,6 @@ Number: 19
 Expire Date: 1403-08-03
 name: mohammadrezasarani
 Shomare: 09360450705
-
-Number: 20
-Expire Date: 1403-08-03
-name: alijahedi
-Shomare: 09113746631
 
 Number: 21
 Expire Date: 1403-08-04
