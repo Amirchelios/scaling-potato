@@ -1,8 +1,37 @@
-vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@205.233.181.186:2096?security=tls&sni=DrOt0Ai1Oq.DeRaKhT.iNfO&type=ws&host=DrOt0Ai1Oq.DeRaKhT.iNfO&path=%2F#🇩🇪[openproxylist.com] vless-DE
-vless://d11fd54a-8fd4-4886-bad2-8264cb317ead@14.102.228.77:2052?security=none&type=ws&host=sPeedtest2.sbs.se.vless.sitespeedtest.net&path=%2Fvless%23%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL%2C%40V2RAY_SPATIAL#🇳🇱[openproxylist.com] vless-NL
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.105:8880?security=none&sni=pqf1v1.fomula1race.shop&type=grpc#🇺🇸[openproxylist.com] vless-US
-vless://588f094b-431b-422c-b80b-007945037072@ru01.abvpn.ru:443?path=%2Fwebsocket&security=tls&encryption=none&host=ru01.abvpn.ru&fp=chrome&type=ws&sni=ru01.abvpn.ru#🇷🇺[openproxylist.com] vless-RU
-vless://f5ff5249-d54a-45ea-82ae-88344a5a4164@186.190.211.121:2053?security=tls&sni=test33.digimento3.ir&type=grpc&fp=chrome&alpn=h2#🇬🇧[openproxylist.com] vless-GB
-vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@205.233.181.205:2096?security=tls&sni=DrOt0Ai1Oq.DeRaKhT.iNfO&type=ws&host=DrOt0Ai1Oq.DeRaKhT.iNfO&path=%2F#🇩🇪[openproxylist.com] vless-DE
-vless://588f094b-431b-422c-b80b-007945037072@103.231.73.214:443?security=tls&sni=lv01.abvpn.ru&type=ws&host=lv01.abvpn.ru&path=/websocket#🇹🇷[openproxylist.com] vless-TR
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@104.17.148.22:8443?security=tls&sni=GxVpOnLl13.pRiMeXaD.OrG&type=ws&host=GxVpOnLl13.pRiMeXaD.OrG&path=%2F#🇳🇱[openproxylist.com] vless-NL
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v23.pronetwork23.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v23.pronetwork23.com&path=/?ed=2048#🌍 Unknown #1 | پینگ: 63.07ms
+
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v15.pronetwork15.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v15.pronetwork15.com&path=/?ed=2048#🇺🇸 United States #1 | پینگ: 63.24ms
+
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v17.pronetwork17.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v17.pronetwork17.com&path=/?ed=2048#🇺🇸 United States #2 | پینگ: 64.00ms
+
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.pronetwork07.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v07.pronetwork07.com&path=/?ed=2048#🇺🇸 United States #3 | پینگ: 64.08ms
+
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.pronetwork20.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v20.pronetwork20.com&path=/?ed=2048#🇺🇸 United States #4 | پینگ: 64.60ms
+
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v12.pronetwork12.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v12.pronetwork12.com&path=/?ed=2048#🇺🇸 United States #5 | پینگ: 65.36ms
+
+vless://2404f667-5969-4883-a71a-ea2e0db2d25b@hajlab.ucdavis.edu:80?allowInsecure=0&sni=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v11.pronetwork11.com&type=ws&host=wWw.SpEeDtEsT.NeT.ZuLa.Ir.IkCoSaLeS.iR.D662599.v11.pronetwork11.com&path=/?ed=2048#🇺🇸 United States #6 | پینگ: 65.40ms
+
+vless://00026cc2-d2a5-41b2-86a0-2c5fb2e5018d@104.17.242.183:443?security=tls&sni=sg.xyxy.dpdns.org&type=ws&host=sg.xyxy.dpdns.org&path=%2F00026cc2#🇺🇸 United States #7 | پینگ: 96.25ms
+
+vmess://eyJhZGQiOiIxMDQuMjEuODAuMSIsInYiOiIyIiwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwicG9ydCI6ODAsImlkIjoiOTBmMzU3ZGQtNzlhYy00N2M2LWIwYjgtOTU4ZTJkMTlkZTA3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6IiIsImhvc3QiOiI1dGdoeXU4Ljk5OTgyMC54eXoiLCJwYXRoIjoiXC8xMFc2U0phSzBGMG9WWGVOVTZTMlJWUlAiLCJ0bHMiOiIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==#🇺🇸 United States #8 | پینگ: 98.23ms
+
+vless://401374e6-df77-41fb-f638-dad8184f175b@103.160.204.160:443?security=tls&sni=pqh36v4.hiddendom.shop&type=grpc&host=pqh36v4.hiddendom.shop&alpn=h2#🌍 Unknown #2 | پینگ: 100.53ms
+
+vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4W29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1VUyIsImFkZCI6IjE3Mi42Ny4yMTQuMzMiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiIyZjgyMTE1Mi1jM2U5LTQwNzQtOTE4NS0yNzkwZTc0MjVmNDIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiXC8iLCJob3N0IjoiY3MuZmxoYS5ydSIsInRscyI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9#🌍 Unknown #3 | پینگ: 101.45ms
+
+vless://ac5b2e52-435b-4461-a99c-1317ab0e2889@172.67.206.152:443?security=tls&sni=cCcVvFfrRRt.FrEevPNATM2025.dpdNS.ORG&type=ws&host=cccvvffrrrt.freevpnatm2025.dpdns.org&path=%2FKMeBwp0RuivA5B99DmZDo0oju2st1&fp=chrome&alpn=http%2F1.1#🇺🇸 United States #9 | پینگ: 103.27ms
+
+vmess://eyJhZGQiOiIxNzIuNjcuMTkzLjUwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJvcnZwczIuaG9yc2VubWEubmV0IiwiaWQiOiI1N2U1OTVlNi1lZjU0LTRlMGQtYjhkZi1lOTZkYjk2MTJiOTkiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2hvcnNlbiIsInBvcnQiOiI4NDQzIiwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2N5IjoiYXV0byIsInNuaSI6Im9ydnBzMi5ob3JzZW5tYS5uZXQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==#🇺🇸 United States #10 | پینگ: 106.32ms
+
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?security=tls&sni=ovhwuxian.pai50288.uk&type=ws&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1&fp=chrome#🇺🇸 United States #11 | پینگ: 106.84ms
+
+vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@45.120.178.115:80?security=none&type=ws&host=reedfree8mahsang2.redorg.ir&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560#🇳🇱 Netherlands #1 | پینگ: 107.80ms
+
+vless://75ecef77-2050-4250-99f7-936d0188edf2@151.101.2.133:80?allowInsecure=1&sni=xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR&type=ws&host=xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR&path=/ws/?ed=2048#🌍 Unknown #4 | پینگ: 111.96ms
+
+vless://cca45b57-0f24-43c8-8911-f8dab5af1e10@172.67.162.36:8880?type=ws&host=0522.yeyefeng.dpdns.org&path=%2F#🇺🇸 United States #12 | پینگ: 119.72ms
+
+vmess://eyJhZGQiOiIxNTcuMTgwLjEyNC44MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI3MTE2NjgxMi00YzZhLTQyNTctYWYwMC1iYzQ0Y2NmZDc3N2QiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjI5MzAxIiwicHMiOiJcdWQ4M2NcdWRkZWJcdWQ4M2NcdWRkZWVbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLUZJIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==#🇫🇮 Finland #1 | پینگ: 128.87ms
+
+vless://7e296434-2d17-48d3-928d-19eaa34aecb1@tr.accesspoints.cloakify.app:28495?security=reality&encryption=none&pbk=KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ&headerType=none&fp=chrome&type=tcp&sni=dl.google.com&sid=0ecc2c1392#🇹🇷 Turkey #1 | پینگ: 138.78ms
