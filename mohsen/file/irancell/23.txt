@@ -1,0 +1,6 @@
+//profile-title: HI VPN
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=1769731200
+
+
+warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#IP IR&&detour=warp://p2@188.114.97.170:894#IP GERMAN
