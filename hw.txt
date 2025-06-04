@@ -1,4 +1,4 @@
 //profile-title: VPN CITY
 //profile-update-interval: 1
 
-ss://bm9uZTpuYW1lIGFtaXI=@😊👍:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
+warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4&&detour=warp://p2@188.114.97.170:894#warp in warp
