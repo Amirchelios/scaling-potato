@@ -1,5 +1,0 @@
-//profile-title: HI VPN
-//profile-update-interval: 1
-//subscription-userinfo: upload=0; download=0; total=0; expire=1761264000
-hysteria2://aybabaheh@@91.108.240.244:443/?insecure=1&obfs=salamander&obfs-password=aybabaheh@&sni=google.com#HysteriaV2 IPv4
-
