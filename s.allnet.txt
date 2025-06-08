@@ -1,4 +1,4 @@
-//profile-title: HI VPN برای آموزش ها به چنل تلگرام ما مراجعه کنید @HVPTR
+//profile-title:@HVPTR :برای آموزش ها به چنل تلگرام ما مراجعه کنید 
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=0; expire=2546249531
 
