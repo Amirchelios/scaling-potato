@@ -1,9 +1,0 @@
-//profile-title: HI VPN
-//profile-update-interval: 1
-tuic://0f7dafee-5939-4c3f-95fb-b8bde24a130b:0f7dafee-5939-4c3f-95fb-b8bde24a130b@5.42.104.200:56702?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#tu5-colossal-dust.aeza.network
-hysteria2://0f7dafee-5939-4c3f-95fb-b8bde24a130b@5.42.104.200:59541?&alpn=h3&insecure=1&mport=59541&sni=www.bing.com#hy2-colossal-dust.aeza.network
-vmess://eyJhZGQiOiI1LjQyLjEwNC4yMDAiLCJhaWQiOiIwIiwiaG9zdCI6Ind3dy5iaW5nLmNvbSIsImlkIjoiMGY3ZGFmZWUtNTkzOS00YzNmLTk1ZmItYjhiZGUyNGExMzBiIiwibmV0Ijoid3MiLCJwYXRoIjoiMGY3ZGFmZWUtNTkzOS00YzNmLTk1ZmItYjhiZGUyNGExMzBiLXZtIiwicG9ydCI6IjIwNTIiLCJwcyI6InZtLXdzLWNvbG9zc2FsLWR1c3QuYWV6YS5uZXR3b3JrIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9Cg==
-vless://0f7dafee-5939-4c3f-95fb-b8bde24a130b@5.42.104.200:10792?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=twZl-kTEc71KI8ZPE6K6cAQc3vk-_Pl6lcd80g-ysDI&sid=df4ec2f0&type=tcp&headerType=none#vl-reality-colossal-dust.aeza.network
-//profile-title: HI VPN
-//profile-update-interval: 1
-hysteria2://amir4433@46.226.167.163:443/?insecure=1&obfs=salamander&obfs-password=amir4433&sni=google.com#ALL NET
