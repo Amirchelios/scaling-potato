@@ -1,0 +1,36 @@
+//profile-title:@HVPTR :برای آموزش ها به چنل تلگرام ما مراجعه کنید 
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=1752006600
+
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpydGlnVndyY3E5Tk5XZ1hCampmemp4@62.60.247.40:52461#🇳🇱 Netherlands #1 | پینگ: 148.49ms
+
+vless://67d1e140-d8c8-4e4c-be1f-9800a1bcad38@51.15.228.68:25481?security=reality&flow=xtls-rprx-vision&sni=www.7-zip.org&type=tcp&fp=chrome&pbk=uF7Fv79MbpkF2x_bDeXezdkMrI-vGS3UDNAwLzIKZTo&sid=d72dc8a0#🇫🇷 France #1 | پینگ: 194.34ms
+
+vless://4537fdda-a781-4955-82a2-9cfbfe63c63d@195.201.29.23:12394?security=none&type=tcp#🇩🇪 Germany #1 | پینگ: 125.45ms
+
+vless://def9f760-61e8-2646-2a24-42973e96c041@51.195.35.2:4768?security=reality&flow=xtls-rprx-vision&sni=yandex.com&type=tcp&fp=chrome&pbk=1juiWgfU1-cGsbu9zxKCly7Vn3WGES5x6S86r90_vwc&sid=b7e284c9b786f709#🇩🇪 Germany #2 | پینگ: 179.36ms
+
+vless://65c71f37-baac-43be-b9dd-6057cd5eb901@104.25.159.246:443?security=tls&sni=mAir-mEnu-mAsr00r.clIents-github.com&type=ws&host=MaIn-MEn2.clIents-githUb.com&path=25750%2Ftemplate-manager&fp=chrome&alpn=http%2F1.1#🇺🇸 United States #1 | پینگ: 128.78ms
+
+vless://33428626-237f-44ce-93c3-efe007db8a7f@108.162.192.181:443?security=tls&sni=qsc0wrja.yandixpartners.com&type=ws&host=qsc0wrja.yandixpartners.com&path=%2Fwss#🇺🇸 United States #2 | پینگ: 146.25ms
+
+vmess://eyJhZGQiOiIxNzIuNjcuMjE0LjMzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJjcy5mbGhhLnJ1IiwiaWQiOiIyZjgyMTE1Mi1jM2U5LTQwNzQtOTE4NS0yNzkwZTc0MjVmNDIiLCJuZXQiOiJ3cyIsInBhdGgiOiJcLyIsInBvcnQiOiIyMDgyIiwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInNraXAtY2VydC12ZXJpZnkiOnRydWV9#🇺🇸 United States #3 | پینگ: 154.97ms
+
+vmess://eyJhZGQiOiIxNzIuNjcuMTkzLjUwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJvcnZwczIuaG9yc2VubWEubmV0IiwiaWQiOiI1N2U1OTVlNi1lZjU0LTRlMGQtYjhkZi1lOTZkYjk2MTJiOTkiLCJuZXQiOiJ3cyIsInBhdGgiOiJcL2hvcnNlbiIsInBvcnQiOiI4NDQzIiwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjhbb3BlbnByb3h5bGlzdC5jb21dIHZtZXNzLVVTIiwic2N5IjoiYXV0byIsInNuaSI6Im9ydnBzMi5ob3JzZW5tYS5uZXQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==#🇺🇸 United States #4 | پینگ: 165.41ms
+
+vless://cca45b57-0f24-43c8-8911-f8dab5af1e10@104.21.10.25:8880?type=ws&host=0522.yeyefeng.dpdns.org&path=%2F#🇺🇸 United States #5 | پینگ: 202.81ms
+
+vless://9835fbea-cfb1-402a-bdc6-16ca140c6788@78.159.131.160:443?security=reality&sni=www.samsung.com&type=tcp&fp=firefox&pbk=gWjVFJOoNc92yFN9zAKErrtFuA1UmS4PI6sLSYBI7VM&sid=e1f576c5#🌍 Albania #1 | پینگ: 135.35ms
+
+vless://7e296434-2d17-48d3-928d-19eaa34aecb1@45.15.170.80:28495?security=reality&sni=dl.google.com&type=tcp&fp=chrome&pbk=KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ&sid=0ecc2c1392#🌍 Albania #2 | پینگ: 178.96ms
+
+vless://def9f760-61e8-2646-2a24-42973e96c041@146.19.143.150:4768?security=reality&flow=xtls-rprx-vision&sni=yandex.com&type=tcp&fp=chrome&pbk=1juiWgfU1-cGsbu9zxKCly7Vn3WGES5x6S86r90_vwc&sid=b7e284c9b786f709#🌍 Estonia #1 | پینگ: 164.52ms
+
+vless://7e296434-2d17-48d3-928d-19eaa34aecb1@77.91.74.189:28495?security=reality&sni=dl.google.com&type=tcp&fp=chrome&pbk=KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ&sid=0ecc2c1392#🌍 Israel #1 | پینگ: 191.08ms
+
+vless://4dc10699-ff48-4688-b7e3-675249f307c3@5.253.41.42:30488?security=reality&sni=dl.google.com&type=tcp&fp=chrome&pbk=oAZiftXfDm4Kue2Zle0lB9QQXEFPRyd24Vf7useQRyY&sid=a7#🇯🇵 Japan #1 | پینگ: 363.40ms
+
+vless://481c5606-b586-44d7-bc2e-d8ef30d67f62@176.120.72.63:38339?security=reality&sni=dl.google.com&type=tcp&fp=chrome&pbk=o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA&sid=e16883e511#🌍 Kazakhstan #1 | پینگ: 232.06ms
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3WkVZckIyNWVMcGlMaEIyN3U3Y3VMRG9STDZqaFpNZkN4cnNyTXZPeGNTMkVNR2J2V2lKZEsyaXRpV1VIQVE9@45.43.137.114:443#🇵🇱 Poland #1 | پینگ: 153.01ms
