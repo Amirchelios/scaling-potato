@@ -1,4 +1,3 @@
 //profile-title: HI VPN
 //profile-update-interval: 1
-hysteria2://amirchelios@62.60.244.220:888/?insecure=1&obfs=salamander&obfs-password=amirchelios&sni=google.com#HysteriaV2 IPv4
-hysteria2://aybabaheh@@91.108.240.244:443/?insecure=1&obfs=salamander&obfs-password=aybabaheh@&sni=google.com#HysteriaV2 IPv4
+vless://06d6f3d6-a96f-4741-969f-9b564397a887@91.108.240.244:33338?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%85%D9%88%D9%82%D8%AA
