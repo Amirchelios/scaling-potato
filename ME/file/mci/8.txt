@@ -1,0 +1,4 @@
+//profile-title:@HVPTR : HI VPN
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=1760745600
+vless://06d6f3d6-a96f-4741-969f-9b564397a887@91.108.240.244:33338?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%20%D9%85%D9%88%D9%82%D8%AA
