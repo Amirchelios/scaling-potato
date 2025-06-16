@@ -1,0 +1,5 @@
+//profile-title: HI VPN
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=1753401600
+vless://c1be11d3-ea4c-4221-d9f3-f784be75379e@185.128.104.50:50626?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#GR-1
+vless://76d19691-6cf8-464b-9bb0-aacf9629f836@77.110.124.161:52788?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#US-1
