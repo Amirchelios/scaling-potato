@@ -1,5 +1,0 @@
-//profile-title: HI VPN
-//profile-update-interval: 1
-warp://162.159.192.184:1014/?ifp=2-8&ifps=10-20&ifpd=5-10#WIFI
-warp://162.159.195.56:934/?ifp=2-8&ifps=10-20&ifpd=5-10#MTN
-warp://188.114.96.47:891/?ifp=2-8&ifps=10-20&ifpd=5-10#MCI
