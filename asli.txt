@@ -1,9 +1,0 @@
-//profile-title: HI VPN
-//profile-update-interval: 1
-warp://162.159.192.184:1014/?ifp=2-8&ifps=10-20&ifpd=5-10#WIFI
-warp://162.159.195.56:934/?ifp=2-8&ifps=10-20&ifpd=5-10#MTN
-warp://188.114.96.47:891/?ifp=2-8&ifps=10-20&ifpd=5-10#MCI
-tuic://aceb91b3-19ee-40fa-a2fc-a0f08c0aefa8:aceb91b3-19ee-40fa-a2fc-a0f08c0aefa8@85.192.41.39:16198?congestion_control=bbr&udp_relay_mode=native&alpn=h3&sni=www.bing.com&allow_insecure=1#tu5-spotty-design.aeza.network
-hysteria2://aceb91b3-19ee-40fa-a2fc-a0f08c0aefa8@85.192.41.39:46900?&alpn=h3&insecure=1&mport=46900&sni=www.bing.com#hy2-spotty-design.aeza.network
-vmess://eyJhZGQiOiI4NS4xOTIuNDEuMzkiLCJhaWQiOiIwIiwiaG9zdCI6Ind3dy5iaW5nLmNvbSIsImlkIjoiYWNlYjkxYjMtMTllZS00MGZhLWEyZmMtYTBmMDhjMGFlZmE4IiwibmV0Ijoid3MiLCJwYXRoIjoiYWNlYjkxYjMtMTllZS00MGZhLWEyZmMtYTBmMDhjMGFlZmE4LXZtIiwicG9ydCI6IjIwODIiLCJwcyI6InZtLXdzLXNwb3R0eS1kZXNpZ24uYWV6YS5uZXR3b3JrIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9Cg==
-vless://aceb91b3-19ee-40fa-a2fc-a0f08c0aefa8@85.192.41.39:20631?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=uNiu7BETbOEMuM7Xf-QaKzs1npdLT-xgfHz0LdC3G3Y&sid=8a07d31d&type=tcp&headerType=none#vl-reality-spotty-design.aeza.network
