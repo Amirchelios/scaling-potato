@@ -1,10 +1,6 @@
 //profile-title: HI VPN
 //profile-update-interval: 1
-
-
-
-
-
-
-//subscription-userinfo: upload=0; download=0; total=0; expire=2546249
-ss://bm9uZTpuYW1lIGFtaXI=@:30#%D8%B4%D8%A7%D8%B1%DA%98%20%D9%85%D8%AC%D8%AF%D8%AF
+//subscription-userinfo: upload=0; download=0; total=0; expire=1753043400
+vless://3e8f4e02-65ea-4fe5-e977-70e8e8cb1bf9@217.144.184.211:10967?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#RU-1
+vless://f2f7f0fd-1619-4044-ab60-ab0503cc3af3@77.105.166.191:45440?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#FR-1
+vless://76d19691-6cf8-464b-9bb0-aacf9629f836@77.110.124.161:52788?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#US-1
