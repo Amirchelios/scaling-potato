@@ -1,0 +1,3 @@
+//profile-title: اشتراک شما به پایان رسیده است
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=2546249
