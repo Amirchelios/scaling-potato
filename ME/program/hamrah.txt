@@ -328,8 +328,3 @@ Expire Date: 1404-05-11
 name: seyed mahdi
 Shomare: 09115361067
 
-Number: 67
-Expire Date: 1404-05-13
-name: dolberginiho
-Shomare: 09504431322
-
