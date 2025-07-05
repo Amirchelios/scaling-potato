@@ -338,8 +338,3 @@ Expire Date: 1404-05-13
 name: amirvv
 Shomare: 09134331324
 
-Number: 69
-Expire Date: 1404-05-13
-name: farest
-Shomare: 09998898866
-
