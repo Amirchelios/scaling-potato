@@ -3,4 +3,3 @@
 //subscription-userinfo: upload=0; download=0; total=0; expire=2546249531
 vless://42ca01a6-9f97-435d-f408-68854fc9c5ab@77.110.115.186:11411?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#%D8%B3%D8%B1%D9%88%D8%B1%20%D8%A7%D8%B5%D9%84%DB%8C
 vless://42e3c5b9-7975-4800-b83f-c3c37af5a786@213.176.95.171:41373?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#%D8%A2%D9%84%D9%85%D8%A7%D9%86
-vless://1982ad35-1c75-4ff1-8db5-207b134d67eb@77.110.125.99:54476?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7
