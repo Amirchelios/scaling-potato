@@ -1,6 +1,6 @@
 //profile-title:@HVPTR : HI VPN
 //profile-update-interval: 1
-//subscription-userinfo: upload=0; download=0; total=0; expire=1752552000
+//subscription-userinfo: upload=0; download=0; total=0; expire=1752525000
 
 vless://8a58094b-d8c9-4629-96e5-d29f77f8e0c0@arvancloud.fr.ir.systemgamingirani.ir:443?security=reality&type=tcp&headerType=&path=&host=&sni=tgju.org&fp=chrome&pbk=tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8&sid=e54b5ad736ae4c38#%F0%9F%87%AB%F0%9F%87%B7%20France%20%231
 
