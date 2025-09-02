@@ -1,0 +1,4 @@
+//profile-title: NexG VPN جهت آموزش و اطلاعات به چنل ما مراجعه کنید
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=1758837600
+vless://d34435da-5fc6-44a4-a111-eb33031f8398@85.192.24.243:14152?type=tcp&path=%2F&host=zara.com&headerType=http&security=none#jvguhwjv
