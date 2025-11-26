@@ -158,11 +158,6 @@ Expire Date: 1404-09-30
 name: majid khani
 Shomare: 09395529864
 
-Number: 33
-Expire Date: 1404-10-04
-name: mahdi khavaran
-Shomare: 09117742805
-
 Number: 34
 Expire Date: 1404-04-25
 name: mamd khavar
