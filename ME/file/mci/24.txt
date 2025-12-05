@@ -1,0 +1,5 @@
+//profile-title: NexG VPN جهت آموزش و اطلاعات به چنل ما مراجعه کنید
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=0; expire=1768953600
+vless://99f06929-4311-489c-91cc-ef1c582e5dfa@77.110.122.205:26946?type=tcp&encryption=none&security=none#afuyu2me
+vless://1de3aefd-4eec-443f-88ff-f7a8d534fa52@89.208.103.95:24762?type=tcp&encryption=none&security=none#jvh9xsd1
